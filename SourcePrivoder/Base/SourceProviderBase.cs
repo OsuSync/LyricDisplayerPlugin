@@ -25,12 +25,13 @@ namespace LyricDisplayerPlugin
         {
             var search_result = Seadrcher.Search(artist, title).Result;
 
-#if DEBUG
-            foreach (var r in search_result)
+            if (Utils.DebugMode)
             {
-                Utils.Debug($"- music_id:{r.ID} artist:{r.Artist} title:{r.Title} time{r.Duration}({Math.Abs(r.Duration - time):F2})");
+                foreach (var r in search_result)
+                {
+                    Utils.Debug($"- music_id:{r.ID} artist:{r.Artist} title:{r.Title} time{r.Duration}({Math.Abs(r.Duration - time):F2})");
+                }
             }
-#endif
 
             search_result.RemoveAll((r) => Math.Abs(r.Duration - time) > DurationThresholdValue);
 
@@ -41,6 +42,14 @@ namespace LyricDisplayerPlugin
             if (search_result.Count == 0)
             {
                 return null;
+            }
+
+            if (Utils.DebugMode)
+            {
+                foreach (var r in search_result)
+                {
+                    Utils.Debug($"+ music_id:{r.ID} artist:{r.Artist} title:{r.Title} time{r.Duration}({Math.Abs(r.Duration - time):F2})");
+                }
             }
 
             var result = search_result.First();

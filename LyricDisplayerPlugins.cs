@@ -22,6 +22,8 @@ namespace LyricDisplayerPlugin
 
         public ConfigurationElement LyricsSentenceOutputPath { get; set; } = @"..\lyric.txt";
 
+        public ConfigurationElement DebugMode { get; set; } = "True";
+
         OsuLiveStatusPanelPlugin olsp_plugin;
 
         private PluginConfigurationManager config_manager;
@@ -104,6 +106,10 @@ namespace LyricDisplayerPlugin
 
         private void Init()
         {
+            Utils.DebugMode = bool.Parse(DebugMode);
+
+            Utils.Debug("调试模式已开启");
+
             switch (((string)LyricsSource).ToLower())
             {
                 case "netease":

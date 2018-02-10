@@ -9,6 +9,8 @@ namespace LyricDisplayerPlugin
 {
     public static class Utils
     {
+        public static bool DebugMode { get; internal set; } = false;
+
         public static void Output(string message, ConsoleColor color, bool new_line = true, bool time = true)
         {
             IO.CurrentIO.WriteColor("[LyricDisplayer]" + message, color, new_line, time);
@@ -16,9 +18,8 @@ namespace LyricDisplayerPlugin
 
         public static void Debug(string message, bool new_line = true, bool time = true)
         {
-#if DEBUG
-            Output(message, ConsoleColor.Cyan, new_line, time);
-#endif
+            if (DebugMode)
+                Output(message, ConsoleColor.Cyan, new_line, time);
         }
 
         //https://www.programcreek.com/2013/12/edit-distance-in-java/
