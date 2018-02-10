@@ -82,6 +82,12 @@ namespace LyricDisplayerPlugin
 
             ortdp_plugin.ListenerManager.OnPlayingTimeChanged += OnCurrentPlayTimeChanged;
             ortdp_plugin.ListenerManager.OnBeatmapChanged += map => current_osu_file_path = map.FilenameFull;
+            ortdp_plugin.ListenerManager.OnStatusChanged += (old, now) => {
+                if (now==OsuRTDataProvider.Listen.OsuListenerManager.OsuStatus.Rank)
+                {
+                    OnClean();
+                }
+            };
 
             Init();
             
@@ -152,6 +158,7 @@ namespace LyricDisplayerPlugin
         private void OnClean()
         {
             current_lyrics = null;
+            OutputLyricSentence(Sentence.Empty);
         }
 
         private void OutputLyricSentence(Sentence sentence)
