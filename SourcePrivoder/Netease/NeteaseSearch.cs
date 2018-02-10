@@ -63,10 +63,11 @@ namespace LyricDisplayerPlugin.SourcePrivoder.Netease
             return Task.Run<List<Song>>(
                 () =>
                 {
-                    Uri url = new Uri($"{API_URL}?s={title}&limit={SEARCH_LIMIT}&type=1&offset=0");
+                    Uri url = new Uri($"{API_URL}?s={artist} {title}&limit={SEARCH_LIMIT}&type=1&offset=0");
 
                     HttpWebRequest request = HttpWebRequest.CreateHttp(url);
                     request.Method = "POST";
+                    request.Timeout = 2000;
                     request.Referer = "http://music.163.com";
                     request.Headers["appver"] = $"2.0.2";
 

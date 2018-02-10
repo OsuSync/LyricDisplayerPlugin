@@ -13,19 +13,22 @@ namespace LyricDisplayerPlugin
         {
             var search_result = NeteaseSearch.Search(artist, title).Result;
 
-            search_result.RemoveAll((r) => Math.Abs(r.duration-time)>time*0.1f);
+#if DEBUG
+            foreach (var r in search_result)
+            {
+                Utils.Debug($"music_id:{r.id} artist:{r.artists.First().name} title:{r.name} time{r.duration}({Math.Abs(r.duration - time):F2})");
+            }
+#endif
+
+            var fuck_value = 1000;
+
+            search_result.RemoveAll((r) => Math.Abs(r.duration-time)> fuck_value);
 
             string check_Str = $"{artist}{title}";
 
             search_result.Sort((a,b)=>_GetEditDistance(a)-_GetEditDistance(b));
 
-#if DEBUG
-            foreach (var r in search_result)
-            {
-                Utils.Debug($"music_id:{r.id} artist:{r.artists.First().name} title:{r.name} time{r.duration}({Math.Abs(r.duration - time) > time * 0.1f :F2})");
-            }
-#endif
-            if (search_result==null)
+            if (search_result.Count==0)
             {
                 return null;
             }
