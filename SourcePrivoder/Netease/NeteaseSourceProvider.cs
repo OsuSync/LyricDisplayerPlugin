@@ -25,6 +25,10 @@ namespace LyricDisplayerPlugin
                 Utils.Debug($"music_id:{r.id} artist:{r.artists.First().name} title:{r.name} time{r.duration}({Math.Abs(r.duration - time) > time * 0.1f :F2})");
             }
 #endif
+            if (search_result==null)
+            {
+                return null;
+            }
 
             var result = search_result.First();
 
