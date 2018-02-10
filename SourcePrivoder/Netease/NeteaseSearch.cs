@@ -82,6 +82,13 @@ namespace LyricDisplayerPlugin.SourcePrivoder.Netease
 
                     JObject json = JObject.Parse(content);
 
+                    var count = json["result"]["songCount"]?.ToObject<int>();
+
+                    if (count==0)
+                    {
+                        return new List<SearchSongResultBase>();
+                    }
+
                     var result = json["result"]["songs"].ToObject<List<Song>>().ToList<SearchSongResultBase>();
 
                     return result;
