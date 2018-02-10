@@ -28,11 +28,11 @@ namespace LyricDisplayerPlugin
 #if DEBUG
             foreach (var r in search_result)
             {
-                Utils.Debug($"- music_id:{r.ID} artist:{r.Artist} title:{r.Title} time{r.Duration * 1000}({Math.Abs(r.Duration * 1000 - time):F2})");
+                Utils.Debug($"- music_id:{r.ID} artist:{r.Artist} title:{r.Title} time{r.Duration}({Math.Abs(r.Duration - time):F2})");
             }
 #endif
 
-            search_result.RemoveAll((r) => Math.Abs(r.Duration * 1000 - time) > DurationThresholdValue);
+            search_result.RemoveAll((r) => Math.Abs(r.Duration - time) > DurationThresholdValue);
 
             string check_Str = $"{artist}{title}";
 
@@ -45,7 +45,7 @@ namespace LyricDisplayerPlugin
 
             var result = search_result.First();
 
-            Utils.Debug($"Picked music_id:{result.ID} artist:{result.Artist} title:{result.Title}");
+            Utils.Debug($"* Picked music_id:{result.ID} artist:{result.Artist} title:{result.Title}");
 
             var lyric_cont = Downloader.DownloadLyric(result);
 

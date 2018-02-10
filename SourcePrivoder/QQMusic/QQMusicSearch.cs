@@ -33,7 +33,7 @@ namespace LyricDisplayerPlugin.SourcePrivoder.QQMusic
         public int interval { get; set; }
         
         public override string Artist { get => singer?.First().name ?? null; }
-        public override int Duration { get => interval; }
+        public override int Duration { get => interval*1000; }
 
         public override string ToString()
         {
