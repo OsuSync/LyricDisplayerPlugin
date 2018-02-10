@@ -23,6 +23,8 @@ namespace LyricDisplayerPlugin
 
         OsuLiveStatusPanelPlugin olsp_plugin;
 
+        private PluginConfigurationManager config_manager;
+
         private string current_osu_file_path;
 
         private SourceProviderBase lyrics_provider;
@@ -62,6 +64,9 @@ namespace LyricDisplayerPlugin
 
         private void FirstInit(PluginEvents.LoadCompleteEvent evt)
         {
+            config_manager = new PluginConfigurationManager(this);
+            config_manager.AddItem(this);
+
             OsuLiveStatusPanelPlugin olsp_plugin = (from plugin in evt.Host.EnumPluings() where plugin is OsuLiveStatusPanelPlugin select plugin).First() as OsuLiveStatusPanelPlugin;
             OsuRTDataProviderPlugin ortdp_plugin = (from plugin in evt.Host.EnumPluings() where plugin is OsuRTDataProviderPlugin select plugin).First() as OsuRTDataProviderPlugin;
 
@@ -96,6 +101,9 @@ namespace LyricDisplayerPlugin
             {
                 case "netease":
                     lyrics_provider = new NeteaseSourceProvider();
+                    break;
+                case "qqmusic":
+                    lyrics_provider = new SourcePrivoder.QQMusic.QQMusicSourceProvider();
                     break;
                 default:
                     Utils.Output("未知歌词源:"+LyricsSource, ConsoleColor.Red);
