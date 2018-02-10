@@ -7,16 +7,11 @@ using System.Threading.Tasks;
 
 namespace LyricDisplayerPlugin.SourcePrivoder.Netease
 {
-    class NeteaseLyricParser
+    public class NeteaseLyricParser:LyricParserBase
     {
         private static Regex lyric_regex = new Regex(@"\[(\d{2}\d*)\:(\d{2})\.(\d*)?\](.*?)(\r)?\n");
 
-        public static int ParseTime(string raw_str)
-        {
-            return 0;
-        }
-
-        public static Lyrics Parse(string content)
+        public override Lyrics Parse(string content)
         {
             List<Sentence> sentence_list = new List<Sentence>();
 

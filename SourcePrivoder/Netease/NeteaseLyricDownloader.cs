@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Newtonsoft.Json.Linq;
+using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
@@ -8,17 +9,13 @@ using System.Threading.Tasks;
 
 namespace LyricDisplayerPlugin.SourcePrivoder.Netease
 {
-    class NeteaseLyricDownloader
+    public class NeteaseLyricDownloader:LyricDownloaderBase
     {
-        public class Result
-        {
-            public string lyric { get; set; }
-        }
         private static readonly string LYRIC_RAW_API_URL = @"http://music.163.com/api/song/media?id=";
 
-        public static string DownloadLyricFromNetease(int music_id)
+        public override string DownloadLyric(SearchSongResultBase song)
         {
-            HttpWebRequest request = HttpWebRequest.CreateHttp(LYRIC_RAW_API_URL + music_id);
+            HttpWebRequest request = HttpWebRequest.CreateHttp(LYRIC_RAW_API_URL + song.ID);
 
             var response = request.GetResponse();
 
@@ -29,7 +26,9 @@ namespace LyricDisplayerPlugin.SourcePrivoder.Netease
                 content = reader.ReadToEnd();
             }
 
-            return Newtonsoft.Json.JsonConvert.DeserializeObject<Result>(content).lyric;
+            JObject json = JObject.Parse(content);
+
+            return json["lyric"].ToString();
         }
     }
 }

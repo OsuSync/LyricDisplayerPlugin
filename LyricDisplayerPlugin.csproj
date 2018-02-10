@@ -60,6 +60,8 @@
     <Compile Include="Lyrics\Lyrics.cs" />
     <Compile Include="Lyrics\Sentence.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SourcePrivoder\LyricDownloaderBase.cs" />
+    <Compile Include="SourcePrivoder\LyricParserBase.cs" />
     <Compile Include="SourcePrivoder\Netease\NeteaseLyricDownloader.cs" />
     <Compile Include="SourcePrivoder\Netease\NeteaseLyricParser.cs" />
     <Compile Include="SourcePrivoder\Netease\NeteaseSearch.cs" />
@@ -68,6 +70,8 @@
     <Compile Include="SourcePrivoder\QQMusic\QQMusicLyricParser.cs" />
     <Compile Include="SourcePrivoder\QQMusic\QQMusicSearch.cs" />
     <Compile Include="SourcePrivoder\QQMusic\QQMusicSourceProvider.cs" />
+    <Compile Include="SourcePrivoder\SongSearchBase.cs" />
+    <Compile Include="SourcePrivoder\SearchSongResultBase.cs" />
     <Compile Include="SourcePrivoder\SourceProviderBase.cs" />
     <Compile Include="Utils.cs" />
   </ItemGroup>

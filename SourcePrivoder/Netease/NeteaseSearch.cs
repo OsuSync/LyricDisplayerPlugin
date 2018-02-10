@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Newtonsoft.Json.Linq;
+using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
@@ -8,7 +9,7 @@ using System.Threading.Tasks;
 
 namespace LyricDisplayerPlugin.SourcePrivoder.Netease
 {
-    public static class NeteaseSearch
+    public class NeteaseSearch:SongSearchBase
     {
         #region Search Result
         public class Artist
@@ -30,7 +31,7 @@ namespace LyricDisplayerPlugin.SourcePrivoder.Netease
             public int size { get; set; }
         }
 
-        public class Song
+        public class Song:SearchSongResultBase
         {
             public Album album { get; set; }
             public int status { get; set; }
@@ -41,16 +42,14 @@ namespace LyricDisplayerPlugin.SourcePrivoder.Netease
             public List<Artist> artists { get; set; }
             public int duration { get; set; }
             public int id { get; set; }
-        }
 
-        public class Result
-        {
-            public List<Song> songs { get; set; }
-        }
+            public override int Duration => duration;
 
-        public class SearchResult
-        {
-            public Result result { get; set; }
+            public override string ID =>id.ToString();
+
+            public override string Title => name;
+
+            public override string Artist =>artists?.First().name;
         }
 
         #endregion
@@ -58,11 +57,12 @@ namespace LyricDisplayerPlugin.SourcePrivoder.Netease
         private static readonly string API_URL = "http://music.163.com/api/search/get/";
         private static readonly int SEARCH_LIMIT = 5;
 
-        public static Task<List<Song>> Search(string title, string artist)
+        public override Task<List<SearchSongResultBase>> Search(params string[] param_arr)
         {
-            return Task.Run<List<Song>>(
+            return Task.Run(
                 () =>
                 {
+                    string title = param_arr[0], artist = param_arr[1];
                     Uri url = new Uri($"{API_URL}?s={artist} {title}&limit={SEARCH_LIMIT}&type=1&offset=0");
 
                     HttpWebRequest request = HttpWebRequest.CreateHttp(url);
@@ -80,9 +80,11 @@ namespace LyricDisplayerPlugin.SourcePrivoder.Netease
                         content = reader.ReadToEnd();
                     }
 
-                    var result = Newtonsoft.Json.JsonConvert.DeserializeObject<SearchResult>(content);
+                    JObject json = JObject.Parse(content);
 
-                    return result.result.songs;
+                    var result = json["result"]["songs"].ToObject<List<Song>>().ToList<SearchSongResultBase>();
+
+                    return result;
                 }
                 );
         }

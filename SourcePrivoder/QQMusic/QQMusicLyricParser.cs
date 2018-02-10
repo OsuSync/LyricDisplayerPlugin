@@ -8,16 +8,11 @@ using System.Threading.Tasks;
 
 namespace LyricDisplayerPlugin.SourcePrivoder.QQMusic
 {
-    public static class QQMusicLyricParser
+    public class QQMusicLyricParser:LyricParserBase
     {
-        private static Regex lyric_regex = new Regex(@"\[(\d{2}\d*)\:(\d{2})\.(\d*)?\](.*)");
+        private Regex lyric_regex = new Regex(@"\[(\d{2}\d*)\:(\d{2})\.(\d*)?\](.*)");
 
-        public static int ParseTime(string raw_str)
-        {
-            return 0;
-        }
-
-        public static Lyrics Parse(string content)
+        public override Lyrics Parse(string content)
         {
             List<Sentence> sentence_list = new List<Sentence>();
 
@@ -36,8 +31,6 @@ namespace LyricDisplayerPlugin.SourcePrivoder.QQMusic
                 string cont = match.Groups[4].Value.ToString().Trim();
 
                 int time = min * 60 * 1000 + sec * 1000 + msec;
-
-                Console.WriteLine($"{time} \t {cont}");
 
                 sentence_list.Add(new Sentence(cont, time));
             }
