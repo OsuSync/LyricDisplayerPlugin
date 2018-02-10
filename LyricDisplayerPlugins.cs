@@ -5,6 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using ATL;
+using LyricDisplayerPlugin.SourcePrivoder.Auto;
 using OsuLiveStatusPanel;
 using OsuRTDataProvider;
 using Sync;
@@ -111,11 +112,16 @@ namespace LyricDisplayerPlugin
                 case "qqmusic":
                     lyrics_provider = new SourcePrivoder.QQMusic.QQMusicSourceProvider();
                     break;
+                case "auto":
+                    lyrics_provider = new AutoSourceProvider();
+                    break;
                 default:
                     Utils.Output("未知歌词源:"+LyricsSource, ConsoleColor.Red);
                     lyrics_provider = null;
-                    break;
+                    return;
             }
+
+            Utils.Output($"已选择歌词源:({LyricsSource}){lyrics_provider.ToString()}", ConsoleColor.Green);
         }
 
         private void OnOLSPOutputInfomationEvent(OutputInfomationEvent evt)
