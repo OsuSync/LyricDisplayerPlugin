@@ -18,7 +18,7 @@ namespace LyricDisplayerPlugin
     [SyncRequirePlugin(typeof(OsuLiveStatusPanelPlugin),typeof(OsuRTDataProviderPlugin))]
     public class LyricDisplayerPlugins : Plugin,IConfigurable
     {
-        public ConfigurationElement LyricsSource { get; set; } = "Netease";
+        public ConfigurationElement LyricsSource { get; set; } = "auto";
 
         public ConfigurationElement LyricsSentenceOutputPath { get; set; } = @"..\lyric.txt";
 
