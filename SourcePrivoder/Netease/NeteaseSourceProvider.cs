@@ -4,10 +4,11 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using static LyricDisplayerPlugin.SourcePrivoder.Netease.NeteaseSearch;
 
 namespace LyricDisplayerPlugin
 {
-    public class NeteaseSourceProvider:SourceProviderBase<NeteaseSearch,NeteaseLyricDownloader,NeteaseLyricParser>
+    public class NeteaseSourceProvider:SourceProviderBase<Song,NeteaseSearch, NeteaseLyricDownloader,NeteaseLyricParser>
     {
 
     }

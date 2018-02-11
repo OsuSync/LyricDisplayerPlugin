@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace LyricDisplayerPlugin.SourcePrivoder.QQMusic
 {
-    public class QQMusicSourceProvider : SourceProviderBase<QQMusicSearch,QQMusicLyricDownloader,QQMusicLyricParser>
+    public class QQMusicSourceProvider : SourceProviderBase<Song,QQMusicSearch, QQMusicLyricDownloader,QQMusicLyricParser>
     {   
 
     }

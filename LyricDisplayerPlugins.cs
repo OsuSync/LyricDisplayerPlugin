@@ -127,7 +127,7 @@ namespace LyricDisplayerPlugin
                     return;
             }
 
-            Utils.Output($"已选择歌词源:({LyricsSource}){lyrics_provider.ToString()}", ConsoleColor.Green);
+            Utils.Output($"已选择歌词源:({LyricsSource}){lyrics_provider.GetType().Name}", ConsoleColor.Green);
         }
 
         private void OnOLSPOutputInfomationEvent(OutputInfomationEvent evt)

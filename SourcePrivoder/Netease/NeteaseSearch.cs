@@ -6,10 +6,11 @@ using System.Linq;
 using System.Net;
 using System.Text;
 using System.Threading.Tasks;
+using static LyricDisplayerPlugin.SourcePrivoder.Netease.NeteaseSearch;
 
 namespace LyricDisplayerPlugin.SourcePrivoder.Netease
 {
-    public class NeteaseSearch:SongSearchBase
+    public class NeteaseSearch:SongSearchBase<Song>
     {
         #region Search Result
         public class Artist
@@ -57,7 +58,7 @@ namespace LyricDisplayerPlugin.SourcePrivoder.Netease
         private static readonly string API_URL = "http://music.163.com/api/search/get/";
         private static readonly int SEARCH_LIMIT = 5;
 
-        public override Task<List<SearchSongResultBase>> Search(params string[] param_arr)
+        public override Task<List<Song>> Search(params string[] param_arr)
         {
             return Task.Run(
                 () =>
@@ -86,10 +87,10 @@ namespace LyricDisplayerPlugin.SourcePrivoder.Netease
 
                     if (count==0)
                     {
-                        return new List<SearchSongResultBase>();
+                        return new List<Song>();
                     }
 
-                    var result = json["result"]["songs"].ToObject<List<Song>>().ToList<SearchSongResultBase>();
+                    var result = json["result"]["songs"].ToObject<List<Song>>();
 
                     return result;
                 }

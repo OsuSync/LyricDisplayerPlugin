@@ -6,8 +6,8 @@ using System.Threading.Tasks;
 
 namespace LyricDisplayerPlugin.SourcePrivoder
 {
-    public abstract class SongSearchBase
+    public abstract class SongSearchBase<T> where T : SearchSongResultBase, new()
     {
-        public abstract Task<List<SearchSongResultBase>> Search(params string[] param_arr);
+        public abstract Task<List<T>> Search(params string[] param_arr);
     }
 }

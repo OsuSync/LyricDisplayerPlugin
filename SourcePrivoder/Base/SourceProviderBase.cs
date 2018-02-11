@@ -13,7 +13,7 @@ namespace LyricDisplayerPlugin
         public abstract Lyrics ProvideLyric(string artist, string title, int time);
     }
 
-    public abstract class SourceProviderBase<SEARCHER,DOWNLOADER,PARSER>:SourceProviderBase where DOWNLOADER:LyricDownloaderBase,new() where PARSER:LyricParserBase,new() where SEARCHER:SongSearchBase,new()
+    public abstract class SourceProviderBase<SEARCHRESULT,SEARCHER,DOWNLOADER,PARSER>:SourceProviderBase where DOWNLOADER:LyricDownloaderBase,new() where PARSER:LyricParserBase,new() where SEARCHER:SongSearchBase<SEARCHRESULT>,new() where SEARCHRESULT:SearchSongResultBase,new()
     {
         public int DurationThresholdValue { get; set; } = 1000;
 
