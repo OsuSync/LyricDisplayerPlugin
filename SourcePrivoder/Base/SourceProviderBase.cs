@@ -25,32 +25,19 @@ namespace LyricDisplayerPlugin
         {
             var search_result = Seadrcher.Search(artist, title).Result;
 
-            if (Utils.DebugMode)
-            {
-                foreach (var r in search_result)
-                {
-                    Utils.Debug($"- music_id:{r.ID} artist:{r.Artist} title:{r.Title} time{r.Duration}({Math.Abs(r.Duration - time):F2})");
-                }
-            }
+            return PickLyric(artist, title, time, search_result);
+        }
 
-            search_result.RemoveAll((r) => Math.Abs(r.Duration - time) > DurationThresholdValue);
+        public virtual Lyrics PickLyric(string artist, string title, int time,List<SEARCHRESULT> search_result)
+        {
+            DumpSearchList("-", time, search_result);
 
-            string check_Str = $"{artist}{title}";
+            FuckSearchFilte(artist, title, time, ref search_result);
 
-            search_result.Sort((a, b) => _GetEditDistance(a) - _GetEditDistance(b));
+            DumpSearchList("+", time, search_result);
 
             if (search_result.Count == 0)
-            {
                 return null;
-            }
-
-            if (Utils.DebugMode)
-            {
-                foreach (var r in search_result)
-                {
-                    Utils.Debug($"+ music_id:{r.ID} artist:{r.Artist} title:{r.Title} time{r.Duration}({Math.Abs(r.Duration - time):F2})");
-                }
-            }
 
             var result = search_result.First();
 
@@ -59,11 +46,34 @@ namespace LyricDisplayerPlugin
             var lyric_cont = Downloader.DownloadLyric(result);
 
             if (string.IsNullOrWhiteSpace(lyric_cont))
-            {
                 return null;
-            }
 
             return Parser.Parse(lyric_cont);
+        }
+
+        private static void DumpSearchList(string prefix,int time,List<SEARCHRESULT> search_list)
+        {
+            if (Utils.DebugMode)
+                foreach (var r in search_list)
+                    Utils.Debug($"{prefix} music_id:{r.ID} artist:{r.Artist} title:{r.Title} time{r.Duration}({Math.Abs(r.Duration - time):F2})");
+        }
+
+        public virtual void FuckSearchFilte(string artist, string title, int time,ref List<SEARCHRESULT> search_result)
+        {
+            //删除长度不对的
+            search_result.RemoveAll((r) => Math.Abs(r.Duration - time) > DurationThresholdValue);
+
+            string check_Str = $"{artist}{title}";
+
+            float threhold_len = check_Str.Length * 0.3f;
+
+            /*
+            //删除看起来不匹配的(超过1/3内容不对就出局)
+            search_result.RemoveAll((r) => _GetEditDistance(r) > threhold_len);
+            */
+
+            //search_result.Sort((a, b) => Math.Abs(a.Duration - time) - Math.Abs(b.Duration - time));
+            search_result.Sort((a, b) => _GetEditDistance(a) - _GetEditDistance(b));
 
             int _GetEditDistance(SearchSongResultBase s) => Utils.EditDistance($"{s.Artist}{s.Title}", check_Str);
         }
