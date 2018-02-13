@@ -180,6 +180,11 @@ namespace LyricDisplayerPlugin
 
         #region Get/Save Lyrics
 
+        private static string GetPath(string title,string artist,int time)
+        {
+            return (artist + title).GetHashCode().ToString() + time.ToString()+".json";
+        }
+
         private string GetAudioFilePath(string osu_file_path)
         {
             var lines = File.ReadAllLines(osu_file_path);
@@ -219,19 +224,29 @@ namespace LyricDisplayerPlugin
 
         private void OutputCache(string title, string artist, int time,Lyrics lyrics)
         {
-            if (lyrics==Lyrics.Empty)
+            if (lyrics==null||lyrics==Lyrics.Empty)
             {
                 return;
             }
 
-            var data = Newtonsoft.Json.JsonConvert.SerializeObject(lyrics, Newtonsoft.Json.Formatting.Indented);
-
-            if (Directory.Exists(@"..\lyric_cache"))
+            if (!Directory.Exists(@"..\lyric_cache"))
             {
-                Directory.CreateDirectory(@"..\lyric_cache");
+                Directory.CreateDirectory(@"..\lyric_cache\");
             }
 
-            File.WriteAllText($@"..\lyric_cache\{artist}-{title}({time}).txt",data);
+            string path = @"..\lyric_cache\"+GetPath(title,artist,time);
+
+            var data = Newtonsoft.Json.JsonConvert.SerializeObject(lyrics);
+            try
+            {
+                File.WriteAllText(path, data, Encoding.UTF8);
+            }
+            catch (Exception e)
+            {
+                Utils.Output("无法写入缓存文件,原因:"+e.Message, ConsoleColor.Red);
+            }
+
+            Utils.Debug("缓存文件到" + path);
         }
 
         private bool TryGetLyricFromCacheFile(string title,string artist,int time,out Lyrics lyrics)
@@ -239,7 +254,7 @@ namespace LyricDisplayerPlugin
             //todo
             lyrics = Lyrics.Empty;
 
-            var file_path = $@"..\lyric_cache\{artist}-{title}({time}).txt";
+            var file_path = @"..\lyric_cache\" + GetPath(title, artist, time);
 
             if (!File.Exists(file_path))
             {
@@ -248,13 +263,24 @@ namespace LyricDisplayerPlugin
 
             try
             {
-                var data = File.ReadAllText(file_path);
+                var data = File.ReadAllText(file_path,Encoding.UTF8).Replace(@"\r\n",string.Empty);
                 lyrics = Newtonsoft.Json.JsonConvert.DeserializeObject<Lyrics>(data);
+                Utils.Debug("读取缓存文件成功"+file_path);
             }
             catch (Exception e)
             {
                 Utils.Output("读取歌词缓存文件失败,原因" + e.Message,ConsoleColor.Yellow);
-                throw;
+
+                if (!Directory.Exists(@"..\lyric_cache\failed\"))
+                    Directory.CreateDirectory(@"..\lyric_cache\failed\");
+
+                string failed_save_path = $@"..\lyric_cache\failed\{artist}-{title}({time}).json";
+
+                if (File.Exists(failed_save_path))
+                    File.Delete(failed_save_path);
+
+                File.Move(file_path,failed_save_path);
+                return false;
             }
 
             return true;
@@ -288,7 +314,7 @@ namespace LyricDisplayerPlugin
             var l = lyrics_provider?.ProvideLyric(artist, title, time);
 
             //缓存
-            OutputCache(title, artist, time, lyrics);
+            OutputCache(title, artist, time, l);
 
             return l;
         }

@@ -23,9 +23,17 @@ namespace LyricDisplayerPlugin
 
         public override Lyrics ProvideLyric(string artist, string title, int time)
         {
-            var search_result = Seadrcher.Search(artist, title).Result;
+            try
+            {
+                var search_result = Seadrcher.Search(artist, title);
 
-            return PickLyric(artist, title, time, search_result);
+                return PickLyric(artist, title, time, search_result);
+            }
+            catch (Exception e)
+            {
+                Utils.Output($"{GetType().Name}获取歌词失败:{e.Message}",ConsoleColor.Red);
+                return null;
+            }
         }
 
         public virtual Lyrics PickLyric(string artist, string title, int time,List<SEARCHRESULT> search_result)

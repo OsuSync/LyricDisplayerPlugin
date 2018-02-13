@@ -10,7 +10,9 @@ namespace LyricDisplayerPlugin
     {
         public static Lyrics Empty { get; private set; } = new Lyrics(new List<Sentence>());
 
-        public List<Sentence> LyricSentencs { get; private set; }
+        public List<Sentence> LyricSentencs { get; set; }
+
+        public Lyrics() => LyricSentencs = new List<Sentence>();
 
         public Lyrics(IEnumerable<Sentence> sentences) => LyricSentencs = new List<Sentence>(sentences);
 

@@ -8,6 +8,6 @@ namespace LyricDisplayerPlugin.SourcePrivoder
 {
     public abstract class SongSearchBase<T> where T : SearchSongResultBase, new()
     {
-        public abstract Task<List<T>> Search(params string[] param_arr);
+        public abstract List<T> Search(params string[] param_arr);
     }
 }

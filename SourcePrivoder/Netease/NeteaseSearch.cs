@@ -58,43 +58,38 @@ namespace LyricDisplayerPlugin.SourcePrivoder.Netease
         private static readonly string API_URL = "http://music.163.com/api/search/get/";
         private static readonly int SEARCH_LIMIT = 5;
 
-        public override Task<List<Song>> Search(params string[] param_arr)
+        public override List<Song> Search(params string[] param_arr)
         {
-            return Task.Run(
-                () =>
-                {
-                    string title = param_arr[0], artist = param_arr[1];
-                    Uri url = new Uri($"{API_URL}?s={artist} {title}&limit={SEARCH_LIMIT}&type=1&offset=0");
+            string title = param_arr[0], artist = param_arr[1];
+            Uri url = new Uri($"{API_URL}?s={artist} {title}&limit={SEARCH_LIMIT}&type=1&offset=0");
 
-                    HttpWebRequest request = HttpWebRequest.CreateHttp(url);
-                    request.Method = "POST";
-                    request.Timeout = 2000;
-                    request.Referer = "http://music.163.com";
-                    request.Headers["appver"] = $"2.0.2";
+            HttpWebRequest request = HttpWebRequest.CreateHttp(url);
+            request.Method = "POST";
+            request.Timeout = 2000;
+            request.Referer = "http://music.163.com";
+            request.Headers["appver"] = $"2.0.2";
 
-                    var response = request.GetResponse();
+            var response = request.GetResponse();
 
-                    string content = string.Empty;
+            string content = string.Empty;
 
-                    using (var reader = new StreamReader(response.GetResponseStream()))
-                    {
-                        content = reader.ReadToEnd();
-                    }
+            using (var reader = new StreamReader(response.GetResponseStream()))
+            {
+                content = reader.ReadToEnd();
+            }
 
-                    JObject json = JObject.Parse(content);
+            JObject json = JObject.Parse(content);
 
-                    var count = json["result"]["songCount"]?.ToObject<int>();
+            var count = json["result"]["songCount"]?.ToObject<int>();
 
-                    if (count==0)
-                    {
-                        return new List<Song>();
-                    }
+            if (count == 0)
+            {
+                return new List<Song>();
+            }
 
-                    var result = json["result"]["songs"].ToObject<List<Song>>();
+            var result = json["result"]["songs"].ToObject<List<Song>>();
 
-                    return result;
-                }
-                );
+            return result;
         }
     }
 }

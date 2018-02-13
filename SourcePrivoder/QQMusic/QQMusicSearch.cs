@@ -47,34 +47,29 @@ namespace LyricDisplayerPlugin.SourcePrivoder.QQMusic
     {
         private static readonly string API_URL = @"http://c.y.qq.com/soso/fcgi-bin/client_search_cp?ct=24&qqmusic_ver=1298&new_json=1&remoteplace=txt.yqq.song&t=0&aggr=1&cr=1&catZhida=1&lossless=0&flag_qc=0&p=1&n=20&w={0} {1}&g_tk=5381&hostUin=0&format=json&inCharset=utf8&outCharset=utf-8&notice=0&platform=yqq&needNewCode=0";
 
-        public override Task<List<Song>> Search(params string[] args)
+        public override List<Song> Search(params string[] args)
         {
-            return Task.Run(
-                () =>
-                {
-                    string title= args[0],artist=args[1];
-                    Uri url = new Uri(string.Format(API_URL, artist, title));
+            string title = args[0], artist = args[1];
+            Uri url = new Uri(string.Format(API_URL, artist, title));
 
-                    HttpWebRequest request = HttpWebRequest.CreateHttp(url);
-                    request.Timeout = 2000;
+            HttpWebRequest request = HttpWebRequest.CreateHttp(url);
+            request.Timeout = 2000;
 
-                    var response = request.GetResponse();
+            var response = request.GetResponse();
 
-                    string content = string.Empty;
+            string content = string.Empty;
 
-                    using (var reader = new StreamReader(response.GetResponseStream()))
-                    {
-                        content = reader.ReadToEnd();
-                    }
+            using (var reader = new StreamReader(response.GetResponseStream()))
+            {
+                content = reader.ReadToEnd();
+            }
 
-                    var json = JObject.Parse(content);
-                    var arr = json["data"]["song"]["list"];
+            var json = JObject.Parse(content);
+            var arr = json["data"]["song"]["list"];
 
-                    var songs = (arr.ToObject<List<Song>>());
+            var songs = (arr.ToObject<List<Song>>());
 
-                    return songs;
-                }
-                );
+            return songs;
         }
     }
 

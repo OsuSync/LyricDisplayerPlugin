@@ -16,13 +16,20 @@ namespace LyricDisplayerPlugin.SourcePrivoder.Auto
 
         public override Lyrics ProvideLyric(string artist, string title, int time)
         {
-            foreach (var provider in search_engines)
-            {
-                Lyrics result = provider.ProvideLyric(artist, title, time);
+            Task<Lyrics>[] tasks = new Task<Lyrics>[search_engines.Length];
 
-                if (result != null)
+            System.Threading.CancellationTokenSource token = new System.Threading.CancellationTokenSource();
+            
+            for (int i = 0; i < search_engines.Length; i++)
+                tasks[i] = Task.Factory.StartNew<Lyrics>((index) => search_engines[(int)index].ProvideLyric(artist, title, time),i,token.Token);
+
+            for (int i = 0; i < search_engines.Length; i++)
+            {
+                var result = tasks[i].Result;
+                if (result!=null)
                 {
-                    Utils.Debug($"Auto select lyric from {provider.ToString()}");
+                    token.Cancel();
+                    Utils.Debug($"Auto select lyric from {search_engines[i].GetType().Name}");
                     return result;
                 }
             }
