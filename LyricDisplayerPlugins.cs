@@ -22,7 +22,7 @@ namespace LyricDisplayerPlugin
 
         public ConfigurationElement LyricsSentenceOutputPath { get; set; } = @"..\lyric.txt";
 
-        public ConfigurationElement DebugMode { get; set; } = "True";
+        public ConfigurationElement DebugMode { get; set; } = "False";
 
         OsuLiveStatusPanelPlugin olsp_plugin;
 
@@ -155,7 +155,7 @@ namespace LyricDisplayerPlugin
 
             if (prev_index!=sentence_query.Item2)
             {
-                Utils.Debug($"[cur:{time} now:{sentence_query.Item1.StartTime}]{sentence_query.Item1.Content}");
+                //Utils.Debug($"[cur:{time} now:{sentence_query.Item1.StartTime}]{sentence_query.Item1.Content}");
                 prev_index = sentence_query.Item2;
             }
 
