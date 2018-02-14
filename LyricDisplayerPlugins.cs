@@ -14,8 +14,7 @@ using Sync.Tools;
 
 namespace LyricDisplayerPlugin
 {
-
-    [SyncRequirePlugin(typeof(OsuLiveStatusPanelPlugin),typeof(OsuRTDataProviderPlugin))]
+    [SyncRequirePlugin(typeof(OsuLiveStatusPanelPlugin), typeof(OsuRTDataProviderPlugin))]
     public class LyricDisplayerPlugins : Plugin,IConfigurable
     {
         public ConfigurationElement LyricsSource { get; set; } = "auto";
@@ -294,8 +293,8 @@ namespace LyricDisplayerPlugin
             }
 
             //获取基本数据
-            string artist = olsp_plugin.GetData("artist_avaliable");
-            string title = olsp_plugin.GetData("title_avaliable");
+            string artist = olsp_plugin.GetData("artist_avaliable").ToString();
+            string title = olsp_plugin.GetData("title_avaliable").ToString();
             int time = GetDurationTime(current_osu_file_path);
 
             Utils.Debug($"artist:{artist} title:{title} time:{time}");
