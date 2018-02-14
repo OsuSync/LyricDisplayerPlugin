@@ -6,6 +6,7 @@ using System.Text;
 using System.Threading.Tasks;
 using ATL;
 using LyricDisplayerPlugin.SourcePrivoder.Auto;
+using LyricDisplayerPlugin.SourcePrivoder.Kugou;
 using OsuLiveStatusPanel;
 using OsuRTDataProvider;
 using Sync;
@@ -116,6 +117,9 @@ namespace LyricDisplayerPlugin
                     break;
                 case "qqmusic":
                     lyrics_provider = new SourcePrivoder.QQMusic.QQMusicSourceProvider();
+                    break;
+                case "kugou":
+                    lyrics_provider = new KugouSourceProvider();
                     break;
                 case "auto":
                     lyrics_provider = new AutoSourceProvider();

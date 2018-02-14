@@ -1,4 +1,5 @@
-﻿using LyricDisplayerPlugin.SourcePrivoder.QQMusic;
+﻿using LyricDisplayerPlugin.SourcePrivoder.Kugou;
+using LyricDisplayerPlugin.SourcePrivoder.QQMusic;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -11,7 +12,8 @@ namespace LyricDisplayerPlugin.SourcePrivoder.Auto
     {
         public SourceProviderBase[] search_engines = new SourceProviderBase[]{
             new NeteaseSourceProvider(),
-            new QQMusicSourceProvider()
+            new QQMusicSourceProvider(),
+            new KugouSourceProvider()
         };
 
         public override Lyrics ProvideLyric(string artist, string title, int time)

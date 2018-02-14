@@ -61,8 +61,12 @@
     <Compile Include="Lyrics\Sentence.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="SourcePrivoder\Auto\AutoSourceProvider.cs" />
+    <Compile Include="SourcePrivoder\Kugou\KugouLyricsParser.cs" />
+    <Compile Include="SourcePrivoder\Kugou\KugouSearcher.cs" />
+    <Compile Include="SourcePrivoder\Kugou\KugouLyricDownloader.cs" />
     <Compile Include="SourcePrivoder\Base\LyricDownloaderBase.cs" />
     <Compile Include="SourcePrivoder\Base\LyricParserBase.cs" />
+    <Compile Include="SourcePrivoder\Kugou\KugouSourceProvider.cs" />
     <Compile Include="SourcePrivoder\Netease\NeteaseLyricDownloader.cs" />
     <Compile Include="SourcePrivoder\Netease\NeteaseLyricParser.cs" />
     <Compile Include="SourcePrivoder\Netease\NeteaseSearch.cs" />
