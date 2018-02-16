@@ -6,6 +6,7 @@ using System.Linq;
 using System.Net;
 using System.Text;
 using System.Threading.Tasks;
+using System.Web.Caching;
 
 namespace LyricDisplayerPlugin.SourcePrivoder.Kugou
 {
@@ -36,7 +37,11 @@ namespace LyricDisplayerPlugin.SourcePrivoder.Kugou
             string title = param_arr[0], artist = param_arr[1];
             Uri url = new Uri(string.Format(API_URL, artist, title));
 
+            //这纸张酷狗有时候response不回来,但用浏览器就可以.先留校观察
             HttpWebRequest request = HttpWebRequest.CreateHttp(url);
+            request.Method = "GET";
+            request.CachePolicy = new System.Net.Cache.RequestCachePolicy(System.Net.Cache.RequestCacheLevel.NoCacheNoStore);
+            request.UserAgent = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.140 Safari/537.36";
             request.Timeout = 2000;
 
             var response = request.GetResponse();
