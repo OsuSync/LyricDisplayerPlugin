@@ -11,6 +11,8 @@ namespace LyricDisplayerPlugin
     {
         public static bool DebugMode { get; internal set; } = false;
 
+        public static bool EnableOutputSearchResult { get; internal set; } = false;
+
         public static void Output(string message, ConsoleColor color, bool new_line = true, bool time = true)
         {
             IO.CurrentIO.WriteColor("[LyricDisplayer]" + message, color, new_line, time);

@@ -2,6 +2,7 @@
 using LyricDisplayerPlugin.SourcePrivoder.QQMusic;
 using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -27,7 +28,20 @@ namespace LyricDisplayerPlugin
             {
                 var search_result = Seadrcher.Search(artist, title);
 
-                return PickLyric(artist, title, time, search_result);
+                var lyrics= PickLyric(artist, title, time, search_result,out SEARCHRESULT picked_result);
+
+                if (lyrics!=null&&Utils.EnableOutputSearchResult)
+                {
+                    //output lyrics search result
+                    var content_obj = new { DateTime=DateTime.Now,picked_result.ID,picked_result.Artist,picked_result.Title,picked_result.Duration,Raw_Title=title,Raw_Artist=artist,Raw_Duration=time };
+                    string json = Newtonsoft.Json.JsonConvert.SerializeObject(content_obj,Newtonsoft.Json.Formatting.None);
+                    if (!Directory.Exists(@"..\lyric_cache"))
+                        Directory.CreateDirectory(@"..\lyric_cache");
+                    string file_path = $@"..\lyric_cache\{this.GetType().Name}.txt";
+                    File.AppendAllText(file_path, json+Environment.NewLine, Encoding.UTF8);
+                }
+
+                return lyrics;
             }
             catch (Exception e)
             {
@@ -36,8 +50,10 @@ namespace LyricDisplayerPlugin
             }
         }
 
-        public virtual Lyrics PickLyric(string artist, string title, int time,List<SEARCHRESULT> search_result)
+        public virtual Lyrics PickLyric(string artist, string title, int time,List<SEARCHRESULT> search_result,out SEARCHRESULT picked_result)
         {
+            picked_result = null;
+
             DumpSearchList("-", time, search_result);
 
             FuckSearchFilte(artist, title, time, ref search_result);
@@ -55,6 +71,8 @@ namespace LyricDisplayerPlugin
 
             if (string.IsNullOrWhiteSpace(lyric_cont))
                 return null;
+
+            picked_result = result;
 
             return Parser.Parse(lyric_cont);
         }

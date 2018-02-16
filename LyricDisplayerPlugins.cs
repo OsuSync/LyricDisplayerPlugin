@@ -20,6 +20,8 @@ namespace LyricDisplayerPlugin
     {
         public ConfigurationElement LyricsSource { get; set; } = "auto";
 
+        public ConfigurationElement EnableOutputSearchResult { get; set; } = "False";
+
         public ConfigurationElement LyricsSentenceOutputPath { get; set; } = @"..\lyric.txt";
 
         public ConfigurationElement DebugMode { get; set; } = "False";
@@ -107,6 +109,7 @@ namespace LyricDisplayerPlugin
         private void Init()
         {
             Utils.DebugMode = bool.Parse(DebugMode);
+            Utils.EnableOutputSearchResult = bool.Parse(EnableOutputSearchResult);
 
             Utils.Debug("调试模式已开启");
 
