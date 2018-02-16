@@ -31,7 +31,7 @@ namespace LyricDisplayerPlugin
                 var lyrics= PickLyric(artist, title, time, search_result,out SEARCHRESULT picked_result);
 
                 //过滤没有实质歌词内容的玩意,比如没有时间轴的歌词文本
-                if (lyrics.LyricSentencs.Count==0)
+                if (lyrics?.LyricSentencs?.Count==0)
                     return null;
 
                 if (lyrics!=null&&Utils.EnableOutputSearchResult)
