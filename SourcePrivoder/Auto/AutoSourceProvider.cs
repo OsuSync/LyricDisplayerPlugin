@@ -25,18 +25,22 @@ namespace LyricDisplayerPlugin.SourcePrivoder.Auto
             for (int i = 0; i < search_engines.Length; i++)
                 tasks[i] = Task.Factory.StartNew<Lyrics>((index) => search_engines[(int)index].ProvideLyric(artist, title, time),i,token.Token);
 
+            Lyrics lyrics = null;
+
             for (int i = 0; i < search_engines.Length; i++)
             {
-                var result = tasks[i].Result;
-                if (result!=null)
+                lyrics = tasks[i].Result;
+
+                //如果是刚好是要相同版本的歌词那可以直接返回了,否则就等一下其他源是不是还能拿到合适的版本
+                if (lyrics?.IsTranslatedLyrics==Utils.PreferTranslateLyrics)
                 {
                     token.Cancel();
-                    Utils.Debug($"Auto select lyric from {search_engines[i].GetType().Name}");
-                    return result;
+                    Utils.Debug($"Quick select lyric from {search_engines[i].GetType().Name}");
+                    break;
                 }
             }
 
-            return null;
+            return lyrics;
         }
     }
 }

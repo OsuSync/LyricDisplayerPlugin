@@ -71,18 +71,53 @@ namespace LyricDisplayerPlugin
 
             Utils.Debug($"* Picked music_id:{result.ID} artist:{result.Artist} title:{result.Title}");
 
-            var lyric_cont = Downloader.DownloadLyric(result,Utils.PreferTranslateLyrics);
+            bool is_trans = Utils.PreferTranslateLyrics;
+
+            var lyric_cont = Downloader.DownloadLyric(result, is_trans);
 
             //优先翻译歌词没有的话再找原版歌词
-            if (string.IsNullOrWhiteSpace(lyric_cont)&&Utils.PreferTranslateLyrics)
-                lyric_cont=Downloader.DownloadLyric(result,false);
+            if (string.IsNullOrWhiteSpace(lyric_cont) && is_trans)
+            {
+                lyric_cont = Downloader.DownloadLyric(result, false);
+                is_trans = false;
+            }
 
             if (string.IsNullOrWhiteSpace(lyric_cont))
                 return null;
 
             picked_result = result;
 
-            return Parser.Parse(lyric_cont);
+            var lyrics = Parser.Parse(lyric_cont);
+
+            WrapInfo(lyrics);
+
+            return lyrics;
+
+            #region Wrap Methods
+
+            //封装信息
+            void WrapInfo(Lyrics l)
+            {
+                if (l == null)
+                    return;
+
+                Info raw_info = new Info()
+                {
+                    Artist = artist,
+                    Title = title
+                }, query_info = new Info()
+                {
+                    Artist = result.Artist,
+                    Title=result.Title,
+                    ID=result.ID
+                };
+
+                l.RawInfo = raw_info;
+                l.QueryInfo = query_info;
+                l.IsTranslatedLyrics = is_trans;
+            }
+
+            #endregion
         }
 
         private static void DumpSearchList(string prefix,int time,List<SEARCHRESULT> search_list)

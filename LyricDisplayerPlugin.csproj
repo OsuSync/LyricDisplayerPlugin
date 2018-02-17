@@ -57,6 +57,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="LyricDisplayerPlugins.cs" />
+    <Compile Include="Lyrics\Info.cs" />
     <Compile Include="Lyrics\Lyrics.cs" />
     <Compile Include="Lyrics\Sentence.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

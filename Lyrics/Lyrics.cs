@@ -12,9 +12,25 @@ namespace LyricDisplayerPlugin
 
         public List<Sentence> LyricSentencs { get; set; }
 
-        public Lyrics() => LyricSentencs = new List<Sentence>();
+        public bool IsTranslatedLyrics { get; set; }
 
-        public Lyrics(IEnumerable<Sentence> sentences) => LyricSentencs = new List<Sentence>(sentences);
+        /// <summary>
+        /// 指要搜寻的内容的歌曲信息
+        /// </summary>
+        public Info RawInfo { get; set; }
+
+        /// <summary>
+        /// 指要搜寻的内容的歌曲信息
+        /// </summary>
+        public Info QueryInfo { get; set; }
+
+        public Lyrics() : this(new List<Sentence>()) { }
+
+        public Lyrics(IEnumerable<Sentence> sentences, bool is_trans_lyrics = false)
+        {
+            LyricSentencs = new List<Sentence>(sentences);
+            IsTranslatedLyrics = is_trans_lyrics;
+        }
 
         public (Sentence, int) GetCurrentSentence(int time)
         {

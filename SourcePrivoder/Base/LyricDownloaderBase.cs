@@ -8,6 +8,6 @@ namespace LyricDisplayerPlugin.SourcePrivoder
 {
     public abstract class LyricDownloaderBase
     {
-        public abstract string DownloadLyric(SearchSongResultBase song,bool request_trans_lyrics=false);
+        public abstract string DownloadLyric(SearchSongResultBase song,out bool response_is_trans_lyrics,bool request_trans_lyrics=false);
     }
 }
