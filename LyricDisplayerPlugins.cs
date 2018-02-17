@@ -177,6 +177,9 @@ namespace LyricDisplayerPlugin
         private void OnPlay()
         {
             current_lyrics = GetLyric();
+
+            if (current_lyrics != null)
+                Utils.Debug("选择的歌词是" + (current_lyrics.IsTranslatedLyrics?"翻译歌词":"原版歌词"));
         }
 
         private void OnClean()
@@ -192,9 +195,9 @@ namespace LyricDisplayerPlugin
 
         #region Get/Save Lyrics
 
-        private static string GetPath(string title,string artist,int time)
+        private static string GetPath(string title,string artist,int time,bool is_trans)
         {
-            return (artist + title).GetHashCode().ToString() + time.ToString()+".json";
+            return (artist + title).GetHashCode().ToString() + time.ToString()+(is_trans?"_t":"_r")+".json";
         }
 
         private string GetAudioFilePath(string osu_file_path)
@@ -246,7 +249,7 @@ namespace LyricDisplayerPlugin
                 Directory.CreateDirectory(@"..\lyric_cache\");
             }
 
-            string path = @"..\lyric_cache\"+GetPath(title,artist,time);
+            string path = @"..\lyric_cache\"+GetPath(title,artist,time,lyrics.IsTranslatedLyrics);
 
             var data = Newtonsoft.Json.JsonConvert.SerializeObject(lyrics);
             try
@@ -261,16 +264,16 @@ namespace LyricDisplayerPlugin
             Utils.Debug("缓存文件到" + path);
         }
 
-        private bool TryGetLyricFromCacheFile(string title,string artist,int time,out Lyrics lyrics)
+        private bool TryGetLyricFromCacheFile(string title,string artist,int time,bool is_trans,out Lyrics lyrics)
         {
             //todo
             lyrics = Lyrics.Empty;
 
-            var file_path = @"..\lyric_cache\" + GetPath(title, artist, time);
+            var file_path = @"..\lyric_cache\" + GetPath(title, artist, time, is_trans);
 
             if (!File.Exists(file_path))
             {
-                return false;
+                return is_trans ? TryGetLyricFromCacheFile(title, artist, time, false,out lyrics):false;
             }
 
             try
@@ -286,7 +289,7 @@ namespace LyricDisplayerPlugin
                 if (!Directory.Exists(@"..\lyric_cache\failed\"))
                     Directory.CreateDirectory(@"..\lyric_cache\failed\");
 
-                string failed_save_path = $@"..\lyric_cache\failed\{artist}-{title}({time}).json";
+                string failed_save_path = $@"..\lyric_cache\failed\{GetPath(title, artist, time, is_trans)}";
 
                 if (File.Exists(failed_save_path))
                     File.Delete(failed_save_path);
@@ -318,7 +321,7 @@ namespace LyricDisplayerPlugin
             }
 
             //尝试从缓存文件中拿出歌词
-            if (TryGetLyricFromCacheFile(title,artist,time,out Lyrics lyrics))
+            if (TryGetLyricFromCacheFile(title,artist,time,Utils.PreferTranslateLyrics,out Lyrics lyrics))
             {
                 return lyrics;
             }

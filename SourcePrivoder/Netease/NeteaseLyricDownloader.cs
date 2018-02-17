@@ -15,10 +15,8 @@ namespace LyricDisplayerPlugin.SourcePrivoder.Netease
         //lv=1 是源版本歌词
         private static readonly string LYRIC_API_URL = "https://music.163.com/api/song/lyric?id={0}&{1}";
 
-        public override string DownloadLyric(SearchSongResultBase song, out bool response_is_trans_lyrics, bool request_trans_lyrics)
+        public override string DownloadLyric(SearchSongResultBase song, bool request_trans_lyrics)
         {
-            response_is_trans_lyrics = request_trans_lyrics;
-
             HttpWebRequest request = HttpWebRequest.CreateHttp(string.Format(LYRIC_API_URL,song.ID, request_trans_lyrics ? "tv=-1":"lv=1"));
 
             var response = request.GetResponse();
@@ -32,14 +30,7 @@ namespace LyricDisplayerPlugin.SourcePrivoder.Netease
 
             JObject json = JObject.Parse(content);
 
-            var lyrics_content= json?[request_trans_lyrics ? "tlyric": "lrc"]?["lyric"]?.ToString();
-
-            if (string.IsNullOrWhiteSpace(lyrics_content)&&request_trans_lyrics)
-            {
-                return DownloadLyric(song, out response_is_trans_lyrics, false);
-            }
-
-            return lyrics_content;
+            return json[request_trans_lyrics ? "tlyric": "lrc"]["lyric"].ToString();
         }
     }
 }
