@@ -71,7 +71,11 @@ namespace LyricDisplayerPlugin
 
             Utils.Debug($"* Picked music_id:{result.ID} artist:{result.Artist} title:{result.Title}");
 
-            var lyric_cont = Downloader.DownloadLyric(result);
+            var lyric_cont = Downloader.DownloadLyric(result,Utils.PreferTranslateLyrics);
+
+            //优先翻译歌词没有的话再找原版歌词
+            if (string.IsNullOrWhiteSpace(lyric_cont)&&Utils.PreferTranslateLyrics)
+                lyric_cont=Downloader.DownloadLyric(result,false);
 
             if (string.IsNullOrWhiteSpace(lyric_cont))
                 return null;

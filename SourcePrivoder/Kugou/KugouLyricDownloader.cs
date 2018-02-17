@@ -14,7 +14,7 @@ namespace LyricDisplayerPlugin.SourcePrivoder.Kugou
     {
         public static readonly string API_URL = @"http://www.kugou.com/yy/index.php?r=play/getdata&hash={0}";
 
-        public override string DownloadLyric(SearchSongResultBase song)
+        public override string DownloadLyric(SearchSongResultBase song, bool request_trans_lyrics)
         {
             Uri url = new Uri(string.Format(API_URL, song.ID));
 

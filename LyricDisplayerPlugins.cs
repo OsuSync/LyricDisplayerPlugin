@@ -26,6 +26,8 @@ namespace LyricDisplayerPlugin
 
         public ConfigurationElement DebugMode { get; set; } = "False";
 
+        public ConfigurationElement PreferTranslateLyrics { get; set; } = "False";
+
         OsuLiveStatusPanelPlugin olsp_plugin;
 
         private PluginConfigurationManager config_manager;
@@ -110,6 +112,10 @@ namespace LyricDisplayerPlugin
         {
             Utils.DebugMode = bool.Parse(DebugMode);
             Utils.EnableOutputSearchResult = bool.Parse(EnableOutputSearchResult);
+            Utils.PreferTranslateLyrics = bool.Parse(PreferTranslateLyrics);
+
+            if (Utils.PreferTranslateLyrics)
+                Utils.Output("优先选择翻译歌词",ConsoleColor.Green);
 
             Utils.Debug("调试模式已开启");
 

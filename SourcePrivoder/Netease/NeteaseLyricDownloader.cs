@@ -11,11 +11,13 @@ namespace LyricDisplayerPlugin.SourcePrivoder.Netease
 {
     public class NeteaseLyricDownloader:LyricDownloaderBase
     {
-        private static readonly string LYRIC_RAW_API_URL = @"http://music.163.com/api/song/media?id=";
+        //tv=-1 是翻译版本的歌词
+        //lv=1 是源版本歌词
+        private static readonly string LYRIC_API_URL = "https://music.163.com/api/song/lyric?id={0}&{1}";
 
-        public override string DownloadLyric(SearchSongResultBase song)
+        public override string DownloadLyric(SearchSongResultBase song, bool request_trans_lyrics)
         {
-            HttpWebRequest request = HttpWebRequest.CreateHttp(LYRIC_RAW_API_URL + song.ID);
+            HttpWebRequest request = HttpWebRequest.CreateHttp(string.Format(LYRIC_API_URL,song.ID, request_trans_lyrics ? "tv=-1":"lv=1"));
 
             var response = request.GetResponse();
 
@@ -28,7 +30,7 @@ namespace LyricDisplayerPlugin.SourcePrivoder.Netease
 
             JObject json = JObject.Parse(content);
 
-            return json["lyric"].ToString();
+            return json[request_trans_lyrics ? "tlyric": "lrc"]["lyric"].ToString();
         }
     }
 }
