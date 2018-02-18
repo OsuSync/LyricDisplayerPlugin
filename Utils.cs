@@ -9,10 +9,28 @@ namespace LyricDisplayerPlugin
 {
     public static class Utils
     {
-        public static void Output(string message, ConsoleColor color, bool new_line = true, bool time = true)
+        private static void OutputToSyncIO(string message, ConsoleColor color, bool new_line = true, bool time = true)
         {
             IO.CurrentIO.WriteColor("[LyricDisplayer]" + message, color, new_line, time);
         }
+
+        private static void OutputToLocalConsole(string message, ConsoleColor color, bool new_line = true, bool time = true)
+        {
+            Console.ForegroundColor = color;
+            Console.Write((time ? "[" + DateTime.Now.ToLongTimeString() + "] " : string.Empty)
+               + message
+               + (new_line ? Environment.NewLine : string.Empty));
+            Console.ResetColor();
+        }
+
+        public static void Output(string message, ConsoleColor color, bool new_line = true, bool time = true)
+        {
+            if (Setting.IsUsedByPlugin)
+                OutputToSyncIO(message, color, new_line, time);
+            else
+                OutputToLocalConsole(message, color, new_line, time);
+        }
+        
 
         public static void Debug(string message, bool new_line = true, bool time = true)
         {
