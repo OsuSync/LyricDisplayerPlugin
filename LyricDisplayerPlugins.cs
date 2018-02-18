@@ -110,11 +110,14 @@ namespace LyricDisplayerPlugin
 
         private void Init()
         {
-            Utils.DebugMode = bool.Parse(DebugMode);
-            Utils.EnableOutputSearchResult = bool.Parse(EnableOutputSearchResult);
-            Utils.PreferTranslateLyrics = bool.Parse(PreferTranslateLyrics);
+            Setting.IsUsedByPlugin = true;
+            Setting.DebugMode = bool.Parse(DebugMode);
+            Setting.EnableOutputSearchResult = bool.Parse(EnableOutputSearchResult);
+            Setting.PreferTranslateLyrics = bool.Parse(PreferTranslateLyrics);
+            Setting.LyricsSource = LyricsSource;
+            Setting.LyricsSentenceOutputPath = LyricsSentenceOutputPath;
 
-            if (Utils.PreferTranslateLyrics)
+            if (Setting.PreferTranslateLyrics)
                 Utils.Output("优先选择翻译歌词",ConsoleColor.Green);
 
             Utils.Debug("调试模式已开启");
@@ -321,7 +324,7 @@ namespace LyricDisplayerPlugin
             }
 
             //尝试从缓存文件中拿出歌词
-            if (TryGetLyricFromCacheFile(title,artist,time,Utils.PreferTranslateLyrics,out Lyrics lyrics))
+            if (TryGetLyricFromCacheFile(title,artist,time, Setting.PreferTranslateLyrics,out Lyrics lyrics))
             {
                 return lyrics;
             }

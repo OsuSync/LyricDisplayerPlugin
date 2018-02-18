@@ -32,7 +32,7 @@ namespace LyricDisplayerPlugin.SourcePrivoder.Auto
                 lyrics = tasks[i].Result;
 
                 //如果是刚好是要相同版本的歌词那可以直接返回了,否则就等一下其他源是不是还能拿到合适的版本
-                if (lyrics?.IsTranslatedLyrics==Utils.PreferTranslateLyrics)
+                if (lyrics?.IsTranslatedLyrics== Setting.PreferTranslateLyrics)
                 {
                     token.Cancel();
                     Utils.Debug($"Quick select lyric from {search_engines[i].GetType().Name}");

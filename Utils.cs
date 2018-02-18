@@ -9,12 +9,6 @@ namespace LyricDisplayerPlugin
 {
     public static class Utils
     {
-        public static bool DebugMode { get; internal set; } = false;
-
-        public static bool EnableOutputSearchResult { get; internal set; } = false;
-
-        public static bool PreferTranslateLyrics { get; internal set; } = false;
-
         public static void Output(string message, ConsoleColor color, bool new_line = true, bool time = true)
         {
             IO.CurrentIO.WriteColor("[LyricDisplayer]" + message, color, new_line, time);
@@ -22,7 +16,7 @@ namespace LyricDisplayerPlugin
 
         public static void Debug(string message, bool new_line = true, bool time = true)
         {
-            if (DebugMode)
+            if (Setting.DebugMode)
                 Output(message, ConsoleColor.Cyan, new_line, time);
         }
 

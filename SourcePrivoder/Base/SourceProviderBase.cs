@@ -34,7 +34,7 @@ namespace LyricDisplayerPlugin
                 if (lyrics?.LyricSentencs?.Count==0)
                     return null;
 
-                if (lyrics!=null&&Utils.EnableOutputSearchResult)
+                if (lyrics!=null&& Setting.EnableOutputSearchResult)
                 {
                     //output lyrics search result
                     var content_obj = new { DateTime=DateTime.Now,picked_result.ID,picked_result.Artist,picked_result.Title,picked_result.Duration,Raw_Title=title,Raw_Artist=artist,Raw_Duration=time };
@@ -71,7 +71,7 @@ namespace LyricDisplayerPlugin
 
             Utils.Debug($"* Picked music_id:{result.ID} artist:{result.Artist} title:{result.Title}");
 
-            bool is_trans = Utils.PreferTranslateLyrics;
+            bool is_trans = Setting.PreferTranslateLyrics;
 
             var lyric_cont = Downloader.DownloadLyric(result, is_trans);
 
@@ -122,7 +122,7 @@ namespace LyricDisplayerPlugin
 
         private static void DumpSearchList(string prefix,int time,List<SEARCHRESULT> search_list)
         {
-            if (Utils.DebugMode)
+            if (Setting.DebugMode)
                 foreach (var r in search_list)
                     Utils.Debug($"{prefix} music_id:{r.ID} artist:{r.Artist} title:{r.Title} time{r.Duration}({Math.Abs(r.Duration - time):F2})");
         }
