@@ -29,9 +29,19 @@ namespace LyricDisplayerPlugin
             return StartTime - other.StartTime;
         }
 
+        //1:07:224 67224
+        public static string GetTimeline(int time)
+        {
+            int min = time / 60000;
+            int sec = (time % 60000) / 1000;
+            int msec = time - min * 60000 - sec * 1000;
+
+            return $"[{min}:{sec}:{msec}]";
+        }
+
         public override string ToString()
         {
-            return $"{StartTime} {Content}";
+            return $"{GetTimeline(StartTime)}{Content}";
         }
     }
 }
