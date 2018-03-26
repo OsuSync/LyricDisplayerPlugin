@@ -30,10 +30,6 @@ namespace LyricDisplayerPlugin
 
                 var lyrics= PickLyric(artist, title, time, search_result,request_trans_lyrics, out SEARCHRESULT picked_result);
 
-                //过滤没有实质歌词内容的玩意,比如没有时间轴的歌词文本
-                if (lyrics?.LyricSentencs?.Count==0)
-                    return null;
-
                 if (lyrics!=null&& Setting.EnableOutputSearchResult)
                 {
                     //output lyrics search result
@@ -68,23 +64,36 @@ namespace LyricDisplayerPlugin
 
             if (search_result.Count == 0)
                 return null;
+            
+            Lyrics lyric_cont = null;
+            SEARCHRESULT cur_result=null;
 
-            var result = search_result.First();
+            foreach (var result in search_result)
+            {
+                var content = Downloader.DownloadLyric(result, request_trans_lyrics);
+                cur_result = result;
 
-            Utils.Debug($"* Picked music_id:{result.ID} artist:{result.Artist} title:{result.Title}");
+                if (string.IsNullOrWhiteSpace(content))
+                    continue;
 
-            var lyric_cont = Downloader.DownloadLyric(result, request_trans_lyrics);
+                lyric_cont = Parser.Parse(content);
 
-            if (string.IsNullOrWhiteSpace(lyric_cont))
+                //过滤没有实质歌词内容的玩意,比如没有时间轴的歌词文本
+                if (lyric_cont?.LyricSentencs?.Count == 0)
+                    continue;
+                
+                Utils.Debug($"* Picked music_id:{result.ID} artist:{result.Artist} title:{result.Title}");
+                break;
+            }
+
+            if (lyric_cont==null)
                 return null;
 
-            picked_result = result;
+            picked_result = cur_result;
+            
+            WrapInfo(lyric_cont);
 
-            var lyrics = Parser.Parse(lyric_cont);
-
-            WrapInfo(lyrics);
-
-            return lyrics;
+            return lyric_cont;
 
             #region Wrap Methods
 
@@ -100,9 +109,9 @@ namespace LyricDisplayerPlugin
                     Title = title
                 }, query_info = new Info()
                 {
-                    Artist = result.Artist,
-                    Title=result.Title,
-                    ID=result.ID
+                    Artist = cur_result.Artist,
+                    Title= cur_result.Title,
+                    ID= cur_result.ID
                 };
 
                 l.RawInfo = raw_info;

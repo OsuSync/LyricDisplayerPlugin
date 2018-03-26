@@ -23,7 +23,7 @@ namespace LyricDisplayerPlugin.SourcePrivoder.QQMusic
 
         public override string Title { get => title; }
         public string title { get; set; }
-        public int id { get; set; }
+        //public int id { get; set; }
         public string mid { get; set; }
         public override string ID { get => /*id.ToString();*/mid; }
 
@@ -38,7 +38,7 @@ namespace LyricDisplayerPlugin.SourcePrivoder.QQMusic
 
         public override string ToString()
         {
-            return $"({id}){Artist} - {title} ({interval / 60}:{interval % 60})";
+            return $"({ID}){Artist} - {title} ({interval / 60}:{interval % 60})";
         }
     }
 
