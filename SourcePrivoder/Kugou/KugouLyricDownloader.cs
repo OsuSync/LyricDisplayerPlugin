@@ -23,7 +23,7 @@ namespace LyricDisplayerPlugin.SourcePrivoder.Kugou
             Uri url = new Uri(string.Format(API_URL, song.ID));
 
             HttpWebRequest request = HttpWebRequest.CreateHttp(url);
-            request.Timeout = 2000;
+            request.Timeout = Setting.SearchAndDownloadTimeout;
 
             var response = request.GetResponse();
 

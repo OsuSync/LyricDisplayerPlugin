@@ -22,7 +22,7 @@ namespace LyricDisplayerPlugin.SourcePrivoder.QQMusic
 
             HttpWebRequest request = HttpWebRequest.CreateHttp(url);
 
-            request.Timeout = 2000;
+            request.Timeout = Setting.SearchAndDownloadTimeout;
             request.Referer = "https://y.qq.com/portal/player.html";
             request.Headers.Add("Cookie", "skey=@LVJPZmJUX; p");
 

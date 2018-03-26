@@ -65,7 +65,7 @@ namespace LyricDisplayerPlugin.SourcePrivoder.Netease
 
             HttpWebRequest request = HttpWebRequest.CreateHttp(url);
             request.Method = "POST";
-            request.Timeout = 2000;
+            request.Timeout = Setting.SearchAndDownloadTimeout;
             request.Referer = "http://music.163.com";
             request.Headers["appver"] = $"2.0.2";
 

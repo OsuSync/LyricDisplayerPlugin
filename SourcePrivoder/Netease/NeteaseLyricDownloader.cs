@@ -18,6 +18,7 @@ namespace LyricDisplayerPlugin.SourcePrivoder.Netease
         public override string DownloadLyric(SearchSongResultBase song, bool request_trans_lyrics)
         {
             HttpWebRequest request = HttpWebRequest.CreateHttp(string.Format(LYRIC_API_URL,song.ID, request_trans_lyrics ? "tv=-1":"lv=1"));
+            request.Timeout = Setting.SearchAndDownloadTimeout;
 
             var response = request.GetResponse();
 

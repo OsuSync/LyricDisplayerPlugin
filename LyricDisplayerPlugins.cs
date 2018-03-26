@@ -30,6 +30,8 @@ namespace LyricDisplayerPlugin
 
         public ConfigurationElement PreferTranslateLyrics { get; set; } = "False";
 
+        public ConfigurationElement SearchAndDownloadTimeout { get; set; } = "2000";
+
         OsuLiveStatusPanelPlugin olsp_plugin;
 
         private PluginConfigurationManager config_manager;
@@ -119,6 +121,7 @@ namespace LyricDisplayerPlugin
             Setting.PreferTranslateLyrics = bool.Parse(PreferTranslateLyrics);
             Setting.LyricsSource = LyricsSource;
             Setting.LyricsSentenceOutputPath = LyricsSentenceOutputPath;
+            Setting.SearchAndDownloadTimeout = int.Parse(SearchAndDownloadTimeout);
 
             if (Setting.PreferTranslateLyrics)
                 Utils.Output("优先选择翻译歌词",ConsoleColor.Green);
