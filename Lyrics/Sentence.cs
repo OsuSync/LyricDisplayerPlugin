@@ -43,5 +43,13 @@ namespace LyricDisplayerPlugin
         {
             return $"{GetTimeline(StartTime)}{Content}";
         }
+
+        public static Sentence operator +(Sentence a,Sentence b)
+        {
+            if (a.StartTime!=b.StartTime)
+                throw new Exception("无法让不同时间的歌词合成");
+
+            return new Sentence(a.Content + Environment.NewLine + b.Content, a.StartTime);
+        }
     }
 }

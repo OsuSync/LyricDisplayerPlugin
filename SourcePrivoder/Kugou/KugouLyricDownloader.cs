@@ -16,6 +16,10 @@ namespace LyricDisplayerPlugin.SourcePrivoder.Kugou
 
         public override string DownloadLyric(SearchSongResultBase song, bool request_trans_lyrics)
         {
+            //没支持翻译歌词的
+            if (request_trans_lyrics)
+                return string.Empty;
+
             Uri url = new Uri(string.Format(API_URL, song.ID));
 
             HttpWebRequest request = HttpWebRequest.CreateHttp(url);

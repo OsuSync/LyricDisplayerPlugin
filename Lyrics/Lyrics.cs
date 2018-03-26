@@ -38,5 +38,52 @@ namespace LyricDisplayerPlugin
 
             return (index < 0 ? Sentence.Empty : LyricSentencs[index], index);
         }
+
+        public static Lyrics operator +(Lyrics a, Lyrics b)
+        {
+            if (a == null)
+                return b;
+            if (b == null)
+                return a;
+
+            if (a.IsTranslatedLyrics==b.IsTranslatedLyrics)
+            {
+                return a;
+            }
+
+            Dictionary<int, Sentence> combime_dic = new Dictionary<int, Sentence>();
+
+            foreach (var lyrics in a.LyricSentencs)
+            {
+                if (combime_dic.ContainsKey(lyrics.StartTime))
+                {
+                    var exsit = combime_dic[lyrics.StartTime];
+
+                    combime_dic[lyrics.StartTime] = exsit + lyrics;
+                }
+                else
+                {
+                    combime_dic[lyrics.StartTime] = lyrics;
+                }
+            }
+
+            foreach (var lyrics in b.LyricSentencs)
+            {
+                if (combime_dic.ContainsKey(lyrics.StartTime))
+                {
+                    var exsit = combime_dic[lyrics.StartTime];
+
+                    combime_dic[lyrics.StartTime] = exsit + lyrics;
+                }
+                else
+                {
+                    combime_dic[lyrics.StartTime] = lyrics;
+                }
+            }
+
+            var sentences = combime_dic.Values.ToList();
+            sentences.Sort();
+            return new Lyrics(sentences);
+        }
     }
 }

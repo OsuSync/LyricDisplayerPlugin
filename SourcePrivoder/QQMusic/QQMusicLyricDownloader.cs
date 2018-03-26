@@ -12,15 +12,19 @@ namespace LyricDisplayerPlugin.SourcePrivoder.QQMusic
 
     public class QQMusicLyricDownloader:LyricDownloaderBase
     {
-        public static readonly string API_URL = @"http://c.y.qq.com/lyric/fcgi-bin/fcg_query_lyric.fcg?nobase64=1&musicid={0}&callback=json&g_tk=5381&loginUin=0&hostUin=0&format=json&inCharset=utf-8&outCharset=utf-8&notice=0&platform=yqq&needNewCode=0";
+        //public static readonly string API_URL = @"http://c.y.qq.com/lyric/fcgi-bin/fcg_query_lyric.fcg?nobase64=1&musicid={0}&callback=json&g_tk=5381&loginUin=0&hostUin=0&format=json&inCharset=utf-8&outCharset=utf-8&notice=0&platform=yqq&needNewCode=0";
+
+        public static readonly string NEW_API_URL = @"https://c.y.qq.com/lyric/fcgi-bin/fcg_query_lyric_new.fcg?g_tk=753738303&songmid={0}&callback=json";
 
         public override string DownloadLyric(SearchSongResultBase song, bool request_trans_lyrics)
         {
-            Uri url = new Uri(string.Format(API_URL, song.ID));
+            Uri url = new Uri(string.Format(NEW_API_URL,song.ID));
 
             HttpWebRequest request = HttpWebRequest.CreateHttp(url);
+
             request.Timeout = 2000;
-            request.Referer = "https://y.qq.com/";
+            request.Referer = "https://y.qq.com/portal/player.html";
+            request.Headers.Add("Cookie", "skey=@LVJPZmJUX; p");
 
             var response = request.GetResponse();
 
@@ -42,10 +46,15 @@ namespace LyricDisplayerPlugin.SourcePrivoder.QQMusic
             }
 
             content = System.Web.HttpUtility.HtmlDecode(content);
-
             JObject json = JObject.Parse(content);
 
-            return json["lyric"].ToString();
+            content = json[request_trans_lyrics?"trans": "lyric"]?.ToString();
+            if (string.IsNullOrWhiteSpace(content))
+                return null;
+
+            content = Utils.Base64Decode(content);
+
+            return content;
         }
     }
 }

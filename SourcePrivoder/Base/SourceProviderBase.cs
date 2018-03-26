@@ -11,7 +11,7 @@ namespace LyricDisplayerPlugin
 {
     public abstract class SourceProviderBase
     {
-        public abstract Lyrics ProvideLyric(string artist, string title, int time);
+        public abstract Lyrics ProvideLyric(string artist, string title, int time,bool request_trans_lyrics);
     }
 
     public abstract class SourceProviderBase<SEARCHRESULT,SEARCHER,DOWNLOADER,PARSER>:SourceProviderBase where DOWNLOADER:LyricDownloaderBase,new() where PARSER:LyricParserBase,new() where SEARCHER:SongSearchBase<SEARCHRESULT>,new() where SEARCHRESULT:SearchSongResultBase,new()
@@ -22,13 +22,13 @@ namespace LyricDisplayerPlugin
         public SEARCHER Seadrcher { get; } = new SEARCHER();
         public PARSER Parser { get; } = new PARSER();
 
-        public override Lyrics ProvideLyric(string artist, string title, int time)
+        public override Lyrics ProvideLyric(string artist, string title, int time, bool request_trans_lyrics)
         {
             try
             {
                 var search_result = Seadrcher.Search(artist, title);
 
-                var lyrics= PickLyric(artist, title, time, search_result,out SEARCHRESULT picked_result);
+                var lyrics= PickLyric(artist, title, time, search_result,request_trans_lyrics, out SEARCHRESULT picked_result);
 
                 //过滤没有实质歌词内容的玩意,比如没有时间轴的歌词文本
                 if (lyrics?.LyricSentencs?.Count==0)
@@ -43,6 +43,8 @@ namespace LyricDisplayerPlugin
                         Directory.CreateDirectory(@"..\lyric_cache");
                     string file_path = $@"..\lyric_cache\{this.GetType().Name}.txt";
                     File.AppendAllText(file_path, json+Environment.NewLine, Encoding.UTF8);
+                    
+                    Utils.Output($"-> 从{this.GetType().Name}获取到 {(lyrics.IsTranslatedLyrics ? "翻译歌词" : "原歌词")}", ConsoleColor.Green);
                 }
 
                 return lyrics;
@@ -54,7 +56,7 @@ namespace LyricDisplayerPlugin
             }
         }
 
-        public virtual Lyrics PickLyric(string artist, string title, int time,List<SEARCHRESULT> search_result,out SEARCHRESULT picked_result)
+        public virtual Lyrics PickLyric(string artist, string title, int time, List<SEARCHRESULT> search_result,bool request_trans_lyrics, out SEARCHRESULT picked_result)
         {
             picked_result = null;
 
@@ -71,16 +73,7 @@ namespace LyricDisplayerPlugin
 
             Utils.Debug($"* Picked music_id:{result.ID} artist:{result.Artist} title:{result.Title}");
 
-            bool is_trans = Setting.PreferTranslateLyrics;
-
-            var lyric_cont = Downloader.DownloadLyric(result, is_trans);
-
-            //优先翻译歌词没有的话再找原版歌词
-            if (string.IsNullOrWhiteSpace(lyric_cont) && is_trans)
-            {
-                lyric_cont = Downloader.DownloadLyric(result, false);
-                is_trans = false;
-            }
+            var lyric_cont = Downloader.DownloadLyric(result, request_trans_lyrics);
 
             if (string.IsNullOrWhiteSpace(lyric_cont))
                 return null;
@@ -114,7 +107,7 @@ namespace LyricDisplayerPlugin
 
                 l.RawInfo = raw_info;
                 l.QueryInfo = query_info;
-                l.IsTranslatedLyrics = is_trans;
+                l.IsTranslatedLyrics = request_trans_lyrics;
             }
 
             #endregion

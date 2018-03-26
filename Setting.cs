@@ -19,5 +19,7 @@ namespace LyricDisplayerPlugin
         public static string LyricsSentenceOutputPath { get; set; } = @"..\lyric.txt";
 
         public static bool IsUsedByPlugin { get;internal set; } = false;
+
+        public static bool BothLyrics { get; internal set; } = true;
     }
 }

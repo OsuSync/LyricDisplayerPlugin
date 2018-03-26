@@ -24,7 +24,8 @@ namespace LyricDisplayerPlugin.SourcePrivoder.QQMusic
         public override string Title { get => title; }
         public string title { get; set; }
         public int id { get; set; }
-        public override string ID { get => id.ToString(); }
+        public string mid { get; set; }
+        public override string ID { get => /*id.ToString();*/mid; }
 
         //建议qq音乐那边声明这个玩意的人跟我一起重学英语,谢谢
         /// <summary>

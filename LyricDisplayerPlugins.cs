@@ -15,7 +15,7 @@ using Sync.Tools;
 
 namespace LyricDisplayerPlugin
 {
-    [SyncRequirePlugin(typeof(OsuLiveStatusPanelPlugin), typeof(OsuRTDataProviderPlugin))]
+    [SyncRequirePlugin(typeof(OsuLiveStatusPanelPlugin),typeof(OsuRTDataProviderPlugin))]
     public class LyricDisplayerPlugins : Plugin,IConfigurable
     {
         public ConfigurationElement LyricsSource { get; set; } = "auto";
@@ -25,6 +25,8 @@ namespace LyricDisplayerPlugin
         public ConfigurationElement LyricsSentenceOutputPath { get; set; } = @"..\lyric.txt";
 
         public ConfigurationElement DebugMode { get; set; } = "False";
+
+        public ConfigurationElement BothLyrics { get; set; } = "True";
 
         public ConfigurationElement PreferTranslateLyrics { get; set; } = "False";
 
@@ -112,6 +114,7 @@ namespace LyricDisplayerPlugin
         {
             Setting.IsUsedByPlugin = true;
             Setting.DebugMode = bool.Parse(DebugMode);
+            Setting.BothLyrics = bool.Parse(BothLyrics);
             Setting.EnableOutputSearchResult = bool.Parse(EnableOutputSearchResult);
             Setting.PreferTranslateLyrics = bool.Parse(PreferTranslateLyrics);
             Setting.LyricsSource = LyricsSource;
@@ -182,7 +185,7 @@ namespace LyricDisplayerPlugin
             current_lyrics = GetLyric();
 
             if (current_lyrics != null)
-                Utils.Debug("选择的歌词是" + (current_lyrics.IsTranslatedLyrics?"翻译歌词":"原版歌词"));
+                Utils.Debug("选择的歌词是" + (Setting.BothLyrics?"混合歌词":current_lyrics.IsTranslatedLyrics?"翻译歌词":"原版歌词"));
         }
 
         private void OnClean()
@@ -270,13 +273,13 @@ namespace LyricDisplayerPlugin
         private bool TryGetLyricFromCacheFile(string title,string artist,int time,bool is_trans,out Lyrics lyrics)
         {
             //todo
-            lyrics = Lyrics.Empty;
+            lyrics = null;
 
             var file_path = @"..\lyric_cache\" + GetPath(title, artist, time, is_trans);
 
             if (!File.Exists(file_path))
             {
-                return is_trans ? TryGetLyricFromCacheFile(title, artist, time, false,out lyrics):false;
+                return false;
             }
 
             try
@@ -323,15 +326,38 @@ namespace LyricDisplayerPlugin
                 return null;
             }
 
-            //尝试从缓存文件中拿出歌词
-            if (TryGetLyricFromCacheFile(title,artist,time, Setting.PreferTranslateLyrics,out Lyrics lyrics))
+            Lyrics lyrics = null;
+
+            if (Setting.BothLyrics)
+            {
+                var trans_lyrics = GetLyrics(title, artist, time, true);
+                var raw_lyrics = GetLyrics(title, artist, time, false);
+
+                Utils.Output($"翻译歌词:{trans_lyrics != null} 原歌词:{raw_lyrics != null}",ConsoleColor.Green);
+                lyrics = raw_lyrics + trans_lyrics;
+            }
+            else
+            {
+                lyrics = GetLyrics(title, artist, time, Setting.PreferTranslateLyrics);
+
+                if (Setting.PreferTranslateLyrics==true&&lyrics==null)
+                {
+                    lyrics= GetLyrics(title, artist, time, !Setting.PreferTranslateLyrics);
+                }
+            }
+
+            return lyrics;
+        }
+
+        public Lyrics GetLyrics(string title,string artist,int time,bool request_trans_lyrics)
+        {
+            if (TryGetLyricFromCacheFile(title, artist, time, request_trans_lyrics, out Lyrics lyrics))
             {
                 return lyrics;
             }
 
-            var l = lyrics_provider?.ProvideLyric(artist, title, time);
+            var l = lyrics_provider?.ProvideLyric(artist, title, time, request_trans_lyrics);
 
-            //缓存
             OutputCache(title, artist, time, l);
 
             return l;
