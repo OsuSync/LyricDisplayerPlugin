@@ -1,3 +1,5 @@
+[中文文档](./README.MD)
+
 Decription
 ---
 This is a osu!sync plugin which able to output real-time lyrics to file when you are playing,it's depend on others osu!sync plugins named "ORTDP" and "OsuLiveStatusPanel".
