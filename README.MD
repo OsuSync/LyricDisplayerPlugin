@@ -7,11 +7,10 @@
 使用前提
 ---
 * [Sync](https://github.com/OsuSync/Sync)
-<br>
+
 **插件依赖**:
-<br>
-* [ORTDP](https://github.com/KedamaOvO/OsuRTDataProvider-Release)
-* [OsuLiveStatusPanel](https://github.com/MikiraSora/OsuLiveStatusPanel)
+* [ORTDP](https://github.com/KedamaOvO/OsuRTDataProvider-Release)  
+* [OsuLiveStatusPanel](https://github.com/MikiraSora/OsuLiveStatusPanel)  
 
 使用
 ---
