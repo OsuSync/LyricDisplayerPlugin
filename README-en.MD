@@ -7,9 +7,8 @@ This is a osu!sync plugin which able to output real-time lyrics to file when you
 Requirement 
 ---
 * [Sync](https://github.com/OsuSync/Sync)
-<br>
+
 **Dependence Plugins**:
-<br>
 * [ORTDP](https://github.com/KedamaOvO/OsuRTDataProvider-Release)
 * [OsuLiveStatusPanel](https://github.com/MikiraSora/OsuLiveStatusPanel)
 
