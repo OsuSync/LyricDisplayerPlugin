@@ -10,8 +10,8 @@ namespace LyricDisplayerPlugin
     {
         public static Sentence Empty { get; private set; } = new Sentence(string.Empty, -1);
 
-        public int StartTime { get; set; } 
-        public string Content { get; set; } 
+        public int StartTime { get; set; }
+        public string Content { get; set; }
         
         public Sentence(string content, int start_time)
         {

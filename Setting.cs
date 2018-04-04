@@ -23,5 +23,9 @@ namespace LyricDisplayerPlugin
         public static bool BothLyrics { get; internal set; } = true;
 
         public static int SearchAndDownloadTimeout { get; internal set; } = 2000;
+
+        public static int GobalTimeOffset { get; internal set; } = 0;
+
+        public static uint ForceKeepTime { get; internal set; } = 0;
     }
 }

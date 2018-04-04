@@ -32,6 +32,10 @@ namespace LyricDisplayerPlugin
 
         public ConfigurationElement SearchAndDownloadTimeout { get; set; } = "2000";
 
+        public ConfigurationElement GobalTimeOffset { get; set; } = "0";
+
+        public ConfigurationElement ForceKeepTime { get; internal set; } = "0";
+
         OsuLiveStatusPanelPlugin olsp_plugin;
 
         private PluginConfigurationManager config_manager;
@@ -122,6 +126,8 @@ namespace LyricDisplayerPlugin
             Setting.LyricsSource = LyricsSource;
             Setting.LyricsSentenceOutputPath = LyricsSentenceOutputPath;
             Setting.SearchAndDownloadTimeout = int.Parse(SearchAndDownloadTimeout);
+            Setting.GobalTimeOffset = int.Parse(GobalTimeOffset);
+            Setting.ForceKeepTime = uint.Parse(ForceKeepTime);
 
             if (Setting.PreferTranslateLyrics)
                 Utils.Output("优先选择翻译歌词",ConsoleColor.Green);
@@ -172,15 +178,25 @@ namespace LyricDisplayerPlugin
                 return;
             }
 
+            time += Setting.GobalTimeOffset;
+
             var sentence_query = current_lyrics.GetCurrentSentence(time);
+            var sentence = sentence_query.Item1;
 
             if (prev_index!=sentence_query.Item2)
             {
-                //Utils.Debug($"[cur:{time} now:{sentence_query.Item1.StartTime}]{sentence_query.Item1.Content}");
+                Utils.Debug($"[cur:{time} now:{sentence_query.Item1.StartTime}]{sentence_query.Item1.Content}");
                 prev_index = sentence_query.Item2;
             }
+            else
+            {
+                if (Setting.ForceKeepTime!=0&&time-sentence.StartTime>Setting.ForceKeepTime)
+                {
+                    sentence = Sentence.Empty;
+                }
+            }
 
-            OutputLyricSentence(sentence_query.Item1);
+            OutputLyricSentence(sentence);
         }
 
         private void OnPlay()
