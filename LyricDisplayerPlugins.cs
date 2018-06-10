@@ -7,6 +7,7 @@ using System.Threading.Tasks;
 using ATL;
 using LyricDisplayerPlugin.SourcePrivoder.Auto;
 using LyricDisplayerPlugin.SourcePrivoder.Kugou;
+using Newtonsoft.Json.Linq;
 using OsuLiveStatusPanel;
 using OsuRTDataProvider;
 using Sync;
@@ -35,6 +36,8 @@ namespace LyricDisplayerPlugin
         public ConfigurationElement GobalTimeOffset { get; set; } = "0";
 
         public ConfigurationElement ForceKeepTime { get; internal set; } = "0";
+
+        public ConfigurationElement StrictMatch { get; internal set; } = "true";
 
         OsuLiveStatusPanelPlugin olsp_plugin;
 
@@ -128,6 +131,7 @@ namespace LyricDisplayerPlugin
             Setting.SearchAndDownloadTimeout = int.Parse(SearchAndDownloadTimeout);
             Setting.GobalTimeOffset = int.Parse(GobalTimeOffset);
             Setting.ForceKeepTime = uint.Parse(ForceKeepTime);
+            Setting.StrictMatch = bool.Parse(StrictMatch);
 
             if (Setting.PreferTranslateLyrics)
                 Utils.Output("优先选择翻译歌词",ConsoleColor.Green);
@@ -217,6 +221,24 @@ namespace LyricDisplayerPlugin
         {
             File.WriteAllText(LyricsSentenceOutputPath, sentence.Content);
         }
+
+        #region ODDR supports
+
+        /// <summary>
+        /// 获取当前整个歌词文件
+        /// </summary>
+        /// <returns>如果没有则null</returns>
+        public Lyrics GetAllLyrics()
+        {
+            return current_lyrics;
+        }
+
+        public Sentence GetLyricsSentence(int time)
+        {
+            return current_lyrics?.GetCurrentSentence(time).Item1??Sentence.Empty;
+        }
+
+        #endregion
 
         #region Get/Save Lyrics
 

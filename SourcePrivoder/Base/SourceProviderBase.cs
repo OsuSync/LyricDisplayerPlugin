@@ -134,22 +134,24 @@ namespace LyricDisplayerPlugin
             //删除长度不对的
             search_result.RemoveAll((r) => Math.Abs(r.Duration - time) > DurationThresholdValue);
 
-            string check_Str = $"{artist}{title}";
-            
-            /*
-            //删除看起来不匹配的(超过1/4内容不对就出局)
-            float threhold_length = check_Str.Length * (1.0f/4);
-            search_result.RemoveAll((r) => {
-                var distance = _GetEditDistance(r);
-                return distance > threhold_length;
+            string check_Str = $"{title}";
+
+            if (Setting.StrictMatch)
+            {
+                //删除标题看起来不匹配的(超过1/3内容不对就出局)
+                float threhold_length = check_Str.Length * (1.0f / 3);
+                search_result.RemoveAll((r) =>
+                {
+                    var distance = _GetEditDistance(r);
+                    return distance > threhold_length;
                 }
-            );
-            */
+                );
+            }
 
             //search_result.Sort((a, b) => Math.Abs(a.Duration - time) - Math.Abs(b.Duration - time));
             search_result.Sort((a, b) => _GetEditDistance(a) - _GetEditDistance(b));
 
-            int _GetEditDistance(SearchSongResultBase s) => Utils.EditDistance($"{s.Artist}{s.Title}", check_Str);
+            int _GetEditDistance(SearchSongResultBase s) => Utils.EditDistance($"{s.Title}", check_Str);
         }
     }
 }
