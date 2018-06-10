@@ -134,14 +134,18 @@ namespace LyricDisplayerPlugin
             //删除长度不对的
             search_result.RemoveAll((r) => Math.Abs(r.Duration - time) > DurationThresholdValue);
 
-            string check_Str = $"{title}";
+            string check_Str = $"{title.Trim()}";
 
             if (Setting.StrictMatch)
             {
-                //删除标题看起来不匹配的(超过1/3内容不对就出局)
+                //删除标题看起来不匹配的(超过1/3内容不对就出局)，当然开头相同除外
                 float threhold_length = check_Str.Length * (1.0f / 3);
                 search_result.RemoveAll((r) =>
                 {
+                    //XXXX和XXXXX(Full version)这种情况可以跳过
+                    if (r.Title.Trim().StartsWith(check_Str))
+                        return false;//不用删除，通过
+
                     var distance = _GetEditDistance(r);
                     return distance > threhold_length;
                 }
