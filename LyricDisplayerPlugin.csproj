@@ -56,6 +56,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Language.cs" />
     <Compile Include="LyricDisplayerPlugins.cs" />
     <Compile Include="Lyrics\Info.cs" />
     <Compile Include="Lyrics\Lyrics.cs" />

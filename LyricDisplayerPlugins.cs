@@ -13,30 +13,43 @@ using OsuRTDataProvider;
 using Sync;
 using Sync.Plugins;
 using Sync.Tools;
+using Sync.Tools.ConfigGUI;
 
 namespace LyricDisplayerPlugin
 {
     [SyncRequirePlugin(typeof(OsuLiveStatusPanelPlugin),typeof(OsuRTDataProviderPlugin))]
     public class LyricDisplayerPlugins : Plugin,IConfigurable
     {
+        [List(ValueList = new[]
+           {"auto","netease","qqmusic","kugou"}
+           , IgnoreCase = true)]
         public ConfigurationElement LyricsSource { get; set; } = "auto";
 
+        [Bool]
         public ConfigurationElement EnableOutputSearchResult { get; set; } = "False";
 
+        [Path]
         public ConfigurationElement LyricsSentenceOutputPath { get; set; } = @"..\lyric.txt";
 
+        [Bool]
         public ConfigurationElement DebugMode { get; set; } = "False";
 
+        [Bool]
         public ConfigurationElement BothLyrics { get; set; } = "True";
 
+        [Bool]
         public ConfigurationElement PreferTranslateLyrics { get; set; } = "False";
 
+        [Integer]
         public ConfigurationElement SearchAndDownloadTimeout { get; set; } = "2000";
 
+        [Integer]
         public ConfigurationElement GobalTimeOffset { get; set; } = "0";
 
+        [Integer]
         public ConfigurationElement ForceKeepTime { get; internal set; } = "0";
 
+        [Bool]
         public ConfigurationElement StrictMatch { get; internal set; } = "true";
 
         OsuLiveStatusPanelPlugin olsp_plugin;
@@ -51,7 +64,7 @@ namespace LyricDisplayerPlugin
 
         public LyricDisplayerPlugins() : base("LyricDisplayerPlugin", "DarkProjector")
         {
-
+            I18n.Instance.ApplyLanguage(new Language());
         }
 
         #region Implements
