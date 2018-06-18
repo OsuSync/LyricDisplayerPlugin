@@ -27,6 +27,12 @@ namespace LyricDisplayerPlugin.SourcePrivoder.QQMusic
         public string mid { get; set; }
         public override string ID { get => /*id.ToString();*/mid; }
 
+        /// <summary>
+        /// 如果没有这个，一些歌的ID会下载到其他歌的歌词，比如 Ooi (Game edit)
+        /// 获取歌词的时候的querystring是"songtype={type}"
+        /// </summary>
+        public string type { get; set; }
+
         //建议qq音乐那边声明这个玩意的人跟我一起重学英语,谢谢
         /// <summary>
         /// duration
