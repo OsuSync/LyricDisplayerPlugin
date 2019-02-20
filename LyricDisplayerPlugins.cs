@@ -8,8 +8,8 @@ using ATL;
 using LyricDisplayerPlugin.SourcePrivoder.Auto;
 using LyricDisplayerPlugin.SourcePrivoder.Kugou;
 using Newtonsoft.Json.Linq;
-using OsuLiveStatusPanel;
 using OsuRTDataProvider;
+using OsuRTDataProvider.BeatmapInfo;
 using Sync;
 using Sync.Plugins;
 using Sync.Tools;
@@ -17,7 +17,8 @@ using Sync.Tools.ConfigurationAttribute;
 
 namespace LyricDisplayerPlugin
 {
-    [SyncRequirePlugin(typeof(OsuLiveStatusPanelPlugin),typeof(OsuRTDataProviderPlugin))]
+    [SyncRequirePlugin(typeof(OsuRTDataProviderPlugin))]
+    [SyncPluginID("90e149dd-4184-4895-87e1-3691daff7890","0,7,5")]
     public class LyricDisplayerPlugins : Plugin,IConfigurable
     {
         [List(ValueList = new[]
@@ -51,12 +52,10 @@ namespace LyricDisplayerPlugin
 
         [Bool]
         public ConfigurationElement StrictMatch { get; internal set; } = "true";
-
-        OsuLiveStatusPanelPlugin olsp_plugin;
-
+        
         private PluginConfigurationManager config_manager;
 
-        private string current_osu_file_path;
+        private Beatmap current_beatmap;
 
         private SourceProviderBase lyrics_provider;
 
@@ -98,23 +97,22 @@ namespace LyricDisplayerPlugin
             config_manager = new PluginConfigurationManager(this);
             config_manager.AddItem(this);
 
-            OsuLiveStatusPanelPlugin olsp_plugin = (from plugin in evt.Host.EnumPluings() where plugin is OsuLiveStatusPanelPlugin select plugin).First() as OsuLiveStatusPanelPlugin;
             OsuRTDataProviderPlugin ortdp_plugin = (from plugin in evt.Host.EnumPluings() where plugin is OsuRTDataProviderPlugin select plugin).First() as OsuRTDataProviderPlugin;
 
-            if (olsp_plugin==null||ortdp_plugin==null)
+            if (ortdp_plugin==null)
             {
-                Utils.Output("未找到OLSP或者ortdp插件,初始化失败", ConsoleColor.Red);
+                Utils.Output("未找到ortdp插件,初始化失败", ConsoleColor.Red);
                 return;
             }
 
-            this.olsp_plugin = olsp_plugin;
-
-            EventBus.BindEvent<OutputInfomationEvent>(OnOLSPOutputInfomationEvent);
-
             ortdp_plugin.ListenerManager.OnPlayingTimeChanged += OnCurrentPlayTimeChanged;
-            ortdp_plugin.ListenerManager.OnBeatmapChanged += map => current_osu_file_path = map.FilenameFull;
+            ortdp_plugin.ListenerManager.OnBeatmapChanged += map => current_beatmap = map;
             ortdp_plugin.ListenerManager.OnStatusChanged += (old, now) => {
-                if (now==OsuRTDataProvider.Listen.OsuListenerManager.OsuStatus.Rank)
+                if (now==OsuRTDataProvider.Listen.OsuListenerManager.OsuStatus.Playing)
+                {
+                    OnPlay();
+                }
+                else
                 {
                     OnClean();
                 }
@@ -174,18 +172,6 @@ namespace LyricDisplayerPlugin
             Utils.Output($"已选择歌词源:({LyricsSource}){lyrics_provider.GetType().Name}", ConsoleColor.Green);
         }
 
-        private void OnOLSPOutputInfomationEvent(OutputInfomationEvent evt)
-        {
-            if (evt.CurrentOutputType==OutputType.Listen)
-            {
-                OnClean();
-            }
-            else
-            {
-                OnPlay();
-            }
-        }
-
         int prev_index = -2;
 
         private void OnCurrentPlayTimeChanged(int time)
@@ -220,7 +206,7 @@ namespace LyricDisplayerPlugin
         {
             current_lyrics = GetLyric();
 
-            if (current_lyrics != null)
+            if ((current_lyrics?.LyricSentencs?.Count??0)!=0)
                 Utils.Debug("选择的歌词是" + (Setting.BothLyrics?"混合歌词":current_lyrics.IsTranslatedLyrics?"翻译歌词":"原版歌词"));
         }
 
@@ -363,15 +349,15 @@ namespace LyricDisplayerPlugin
 
         private Lyrics GetLyric()
         {
-            if (string.IsNullOrWhiteSpace(current_osu_file_path))
+            if (string.IsNullOrWhiteSpace(current_beatmap.FilenameFull))
             {
                 return null;
             }
 
             //获取基本数据
-            string artist = olsp_plugin.GetData("artist_avaliable").ToString();
-            string title = olsp_plugin.GetData("title_avaliable").ToString();
-            int time = GetDurationTime(current_osu_file_path);
+            string artist = _GetArtist();
+            string title = _GetTitle();
+            int time = GetDurationTime(current_beatmap.FilenameFull);
 
             Utils.Debug($"artist:{artist} title:{title} time:{time}");
 
@@ -401,6 +387,9 @@ namespace LyricDisplayerPlugin
             }
 
             return lyrics;
+
+            string _GetArtist() => string.IsNullOrWhiteSpace(current_beatmap.ArtistUnicode) ? current_beatmap.Artist : current_beatmap.ArtistUnicode;
+            string _GetTitle() => string.IsNullOrWhiteSpace(current_beatmap.TitleUnicode) ? current_beatmap.Title : current_beatmap.TitleUnicode;
         }
 
         public Lyrics GetLyrics(string title,string artist,int time,bool request_trans_lyrics)
