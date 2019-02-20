@@ -1,10 +1,12 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Diagnostics;
 using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using ATL;
+using LyricDisplayerPlugin.Output;
 using LyricDisplayerPlugin.SourcePrivoder.Auto;
 using LyricDisplayerPlugin.SourcePrivoder.Kugou;
 using Newtonsoft.Json.Linq;
@@ -58,6 +60,8 @@ namespace LyricDisplayerPlugin
         private Beatmap current_beatmap;
 
         private SourceProviderBase lyrics_provider;
+
+        private OutputBase output;
 
         private Lyrics current_lyrics;
 
@@ -170,6 +174,10 @@ namespace LyricDisplayerPlugin
             }
 
             Utils.Output($"已选择歌词源:({LyricsSource}){lyrics_provider.GetType().Name}", ConsoleColor.Green);
+
+            output=OutputBase.Create(LyricsSentenceOutputPath);
+            if (output is MemoryMappedFileOutput mmf)
+                Utils.Output($"歌词文本将输出到内存映射文件:{mmf.FilePath.Replace(MemoryMappedFileOutput.MMF_FORMAT,"")}",ConsoleColor.Green);
         }
 
         int prev_index = -2;
@@ -218,7 +226,8 @@ namespace LyricDisplayerPlugin
 
         private void OutputLyricSentence(Sentence sentence)
         {
-            File.WriteAllText(LyricsSentenceOutputPath, sentence.Content);
+            Debug.Assert(output!=null);
+            output.Output(sentence.Content);
         }
 
         #region ODDR supports
