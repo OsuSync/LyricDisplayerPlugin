@@ -32,7 +32,7 @@ namespace LyricDisplayerPlugin
             IsTranslatedLyrics = is_trans_lyrics;
         }
 
-        public (Sentence, int) GetCurrentSentence(int time)
+        public virtual (Sentence, int) GetCurrentSentence(int time)
         {
             var index = LyricSentencs.FindLastIndex((s) => s.StartTime <= time);
 

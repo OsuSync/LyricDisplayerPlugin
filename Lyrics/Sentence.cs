@@ -46,10 +46,7 @@ namespace LyricDisplayerPlugin
 
         public static Sentence operator +(Sentence a,Sentence b)
         {
-            if (a.StartTime!=b.StartTime)
-                throw new Exception("无法让不同时间的歌词合成");
-
-            return new Sentence(a.Content + Environment.NewLine + b.Content, a.StartTime);
+            return new Sentence(a.Content + Environment.NewLine + b.Content, (a.StartTime<0?b.StartTime:a.StartTime+b.StartTime<0?a.StartTime:b.StartTime)/2); 
         }
     }
 }

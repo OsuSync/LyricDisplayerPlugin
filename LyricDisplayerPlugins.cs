@@ -374,7 +374,7 @@ namespace LyricDisplayerPlugin
                 var raw_lyrics = GetLyrics(title, artist, time, false);
 
                 Utils.Output($"翻译歌词:{trans_lyrics != null} 原歌词:{raw_lyrics != null}",ConsoleColor.Green);
-                lyrics = raw_lyrics + trans_lyrics;
+                lyrics=new MultiLyrics(raw_lyrics, trans_lyrics);
             }
             else
             {
