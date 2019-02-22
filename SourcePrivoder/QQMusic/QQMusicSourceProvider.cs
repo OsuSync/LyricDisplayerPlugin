@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 
 namespace LyricDisplayerPlugin.SourcePrivoder.QQMusic
 {
+    [SourceProviderName("qqmusic", "DarkProjector")]
     public class QQMusicSourceProvider : SourceProviderBase<Song,QQMusicSearch, QQMusicLyricDownloader,QQMusicLyricParser>
     {
         public override Lyrics PickLyric(string artist, string title, int time, List<Song> search_result, bool request_trans_lyrics, out Song picked_result)

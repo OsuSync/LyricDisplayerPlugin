@@ -7,6 +7,7 @@ using System.Text;
 using System.Threading.Tasks;
 using ATL;
 using LyricDisplayerPlugin.Output;
+using LyricDisplayerPlugin.SourcePrivoder;
 using LyricDisplayerPlugin.SourcePrivoder.Auto;
 using LyricDisplayerPlugin.SourcePrivoder.Kugou;
 using Newtonsoft.Json.Linq;
@@ -71,6 +72,8 @@ namespace LyricDisplayerPlugin
         public LyricDisplayerPlugins() : base("LyricDisplayerPlugin", "DarkProjector")
         {
             I18n.Instance.ApplyLanguage(new Language());
+            
+            EventBus.BindEvent<PluginEvents.LoadCompleteEvent>(FirstInit);
         }
 
         #region Implements
@@ -88,13 +91,6 @@ namespace LyricDisplayerPlugin
         public void onConfigurationReload()
         {
             Init();
-        }
-
-        public override void OnEnable()
-        {
-            base.OnEnable();
-
-            EventBus.BindEvent<PluginEvents.LoadCompleteEvent>(FirstInit);
         }
 
         #endregion
@@ -157,25 +153,12 @@ namespace LyricDisplayerPlugin
 
             Utils.Debug("调试模式已开启");
 
-            switch (((string)LyricsSource).ToLower())
-            {
-                case "netease":
-                    lyrics_provider = new NeteaseSourceProvider();
-                    break;
-                case "qqmusic":
-                    lyrics_provider = new SourcePrivoder.QQMusic.QQMusicSourceProvider();
-                    break;
-                case "kugou":
-                    lyrics_provider = new KugouSourceProvider();
-                    break;
-                case "auto":
-                    lyrics_provider = new AutoSourceProvider();
-                    break;
-                default:
-                    Utils.Output("未知歌词源:"+LyricsSource, ConsoleColor.Red);
-                    lyrics_provider = null;
-                    return;
-            }
+            SourceProviderManager.ScanAvaliableLyricsSourceProvider();
+
+            lyrics_provider=SourceProviderManager.GetOrCreateSourceProvier(LyricsSource);
+
+            if (lyrics_provider==null)
+                Utils.Output("未知歌词源:"+LyricsSource, ConsoleColor.Red);
 
             Utils.Output($"已选择歌词源:({LyricsSource}){lyrics_provider.GetType().Name}", ConsoleColor.Green);
 

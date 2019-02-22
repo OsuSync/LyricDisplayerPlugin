@@ -85,6 +85,8 @@
     <Compile Include="SourcePrivoder\Base\SongSearchBase.cs" />
     <Compile Include="SourcePrivoder\Base\SearchSongResultBase.cs" />
     <Compile Include="SourcePrivoder\Base\SourceProviderBase.cs" />
+    <Compile Include="SourcePrivoder\SourceProviderManager.cs" />
+    <Compile Include="SourcePrivoder\SourceProviderNameAttribute.cs" />
     <Compile Include="Utils.cs" />
   </ItemGroup>
   <ItemGroup>

@@ -3,18 +3,26 @@ using LyricDisplayerPlugin.SourcePrivoder.QQMusic;
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Reflection;
 using System.Text;
 using System.Threading.Tasks;
 
 namespace LyricDisplayerPlugin.SourcePrivoder.Auto
 {
+    [SourceProviderName("auto","DarkProjector")]
     public class AutoSourceProvider : SourceProviderBase
     {
-        public SourceProviderBase[] search_engines = new SourceProviderBase[]{
-            new NeteaseSourceProvider(),
-            new QQMusicSourceProvider(),
-            new KugouSourceProvider()
-        };
+        public SourceProviderBase[] search_engines;
+
+        public AutoSourceProvider()
+        {
+            search_engines=SourceProviderManager.LyricsSourceProvidersType
+                .Select(x => x.GetCustomAttribute<SourceProviderNameAttribute>())
+                .OfType<SourceProviderNameAttribute>()
+                .Where(x => !x.Name.Equals("auto", StringComparison.InvariantCultureIgnoreCase))
+                .Select(x => SourceProviderManager.GetOrCreateSourceProvier(x.Name))
+                .ToArray();
+        }
 
         public override Lyrics ProvideLyric(string artist, string title, int time,bool request_trans_lyrics)
         {
