@@ -54,7 +54,10 @@ namespace LyricDisplayerPlugin
 
         [Bool]
         public ConfigurationElement StrictMatch { get; internal set; } = "true";
-        
+
+        [Bool]
+        public ConfigurationElement UseStaticLyricsCombine { get; internal set; } = "false";
+
         private PluginConfigurationManager config_manager;
 
         private Beatmap current_beatmap;
@@ -147,6 +150,7 @@ namespace LyricDisplayerPlugin
             Setting.GobalTimeOffset = int.Parse(GobalTimeOffset);
             Setting.ForceKeepTime = uint.Parse(ForceKeepTime);
             Setting.StrictMatch = bool.Parse(StrictMatch);
+            Setting.UseStaticLyricsCombine=bool.Parse(UseStaticLyricsCombine);
 
             if (Setting.PreferTranslateLyrics)
                 Utils.Output("优先选择翻译歌词",ConsoleColor.Green);
@@ -383,7 +387,11 @@ namespace LyricDisplayerPlugin
                 var raw_lyrics = GetLyrics(title, artist, time, false);
 
                 Utils.Output($"翻译歌词:{trans_lyrics != null} 原歌词:{raw_lyrics != null}",ConsoleColor.Green);
-                lyrics=new MultiLyrics(raw_lyrics, trans_lyrics);
+
+                if (Setting.UseStaticLyricsCombine)
+                    lyrics=raw_lyrics+trans_lyrics;
+                else
+                    lyrics=new MultiLyrics(raw_lyrics, trans_lyrics);
             }
             else
             {

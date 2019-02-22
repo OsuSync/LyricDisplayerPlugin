@@ -21,5 +21,10 @@ namespace LyricDisplayerPlugin
         public static int GobalTimeOffset { get; internal set; } = 0;
         public static uint ForceKeepTime { get; internal set; } = 0;
         public static bool StrictMatch { get; internal set; } = true;
+
+        /// <summary>
+        /// 下一版本会钦定用动态形式的(如果那个没问题的话)
+        /// </summary>
+        public static bool UseStaticLyricsCombine { get; internal set; } = false;
     }
 }

@@ -31,6 +31,9 @@ namespace LyricDisplayerPlugin
                 min_index=Math.Min(min_index, result.Item2);
             }
 
+            //trim newline in sentence content
+            sentence.Content=sentence.Content.Trim('\n', '\r');
+
             return (sentence,min_index);
         }
     }
