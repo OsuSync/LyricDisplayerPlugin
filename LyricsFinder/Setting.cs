@@ -7,11 +7,11 @@
         public static bool PreferTranslateLyrics { get; set; } = false;
         public static string LyricsSource { get; set; } = "auto";
         public static string LyricsSentenceOutputPath { get; set; } = @"..\lyric.txt";
-        
-        public static bool BothLyrics { get; set; } = true;
-        public static int SearchAndDownloadTimeout { get; set; } = 2000;
-        public static int GobalTimeOffset { get; set; } = 0;
         public static uint ForceKeepTime { get; set; } = 0;
+        public static bool BothLyrics { get; set; } = true;
+        public static int GobalTimeOffset { get; set; } = 0;
+
+        public static int SearchAndDownloadTimeout { get; set; } = 2000;
         public static bool StrictMatch { get; set; } = true;
 
         /// <summary>

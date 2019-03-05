@@ -131,7 +131,7 @@ namespace LyricsFinder
             //删除长度不对的
             search_result.RemoveAll((r) => Math.Abs(r.Duration-time)>DurationThresholdValue);
 
-            string check_Str = $"{title.Trim()}";
+            string check_Str = $"{title.Trim()}".ToLower();
 
             if (Setting.StrictMatch)
             {
@@ -140,7 +140,7 @@ namespace LyricsFinder
                 search_result.RemoveAll((r) =>
                 {
                     //XXXX和XXXXX(Full version)这种情况可以跳过
-                    if (r.Title.Trim().StartsWith(check_Str))
+                    if (r.Title.Trim().ToLower().StartsWith(check_Str))
                         return false;//不用删除，通过
 
                     var distance = _GetEditDistance(r);
@@ -152,7 +152,7 @@ namespace LyricsFinder
             //search_result.Sort((a, b) => Math.Abs(a.Duration - time) - Math.Abs(b.Duration - time));
             search_result.Sort((a, b) => _GetEditDistance(a)-_GetEditDistance(b));
 
-            int _GetEditDistance(SearchSongResultBase s) => Utils.EditDistance($"{s.Title}", check_Str);
+            int _GetEditDistance(SearchSongResultBase s) => Utils.EditDistance($"{s.Title}".ToLowerInvariant(), check_Str.ToLowerInvariant());
         }
     }
 }
