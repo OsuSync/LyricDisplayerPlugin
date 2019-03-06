@@ -1,0 +1,753 @@
+﻿{"DateTime":"2018-06-18T20:38:52.5029614+08:00","ID":"26102179","Artist":"Rita","Title":"dorchadas","Duration":279853,"Raw_Title":"dorchadas","Raw_Artist":"Rita","Raw_Duration":280000}
+{"DateTime":"2018-06-18T20:38:52.8357812+08:00","ID":"26102179","Artist":"Rita","Title":"dorchadas","Duration":279853,"Raw_Title":"dorchadas","Raw_Artist":"Rita","Raw_Duration":280000}
+{"DateTime":"2018-06-18T20:48:07.8876985+08:00","ID":"570086044","Artist":"Roselia","Title":"六兆年と一夜物語","Duration":103872,"Raw_Title":"六兆年と一夜物語","Raw_Artist":"Roselia","Raw_Duration":104000}
+{"DateTime":"2018-06-18T21:13:11.3110676+08:00","ID":"28941648","Artist":"凋叶棕","Title":"幽明境を分かつこと","Duration":337600,"Raw_Title":"幽明境を分かつこと","Raw_Artist":"凋叶棕 feat. Φ串Φ","Raw_Duration":338000}
+{"DateTime":"2018-06-18T21:13:11.4926121+08:00","ID":"28941648","Artist":"凋叶棕","Title":"幽明境を分かつこと","Duration":337600,"Raw_Title":"幽明境を分かつこと","Raw_Artist":"凋叶棕 feat. Φ串Φ","Raw_Duration":338000}
+{"DateTime":"2018-06-18T21:35:18.415259+08:00","ID":"461301612","Artist":"悠木碧","Title":"Los! Los! Los!","Duration":217746,"Raw_Title":"Los! Los! Los!","Raw_Artist":"ターニャ・デグレチャフ (CV: 悠木碧)","Raw_Duration":218000}
+{"DateTime":"2018-06-18T21:35:18.5392598+08:00","ID":"461301612","Artist":"悠木碧","Title":"Los! Los! Los!","Duration":217746,"Raw_Title":"Los! Los! Los!","Raw_Artist":"ターニャ・デグレチャフ (CV: 悠木碧)","Raw_Duration":218000}
+{"DateTime":"2018-06-18T22:18:45.5615876+08:00","ID":"446875490","Artist":"GARNiDELiA","Title":"極楽浄土","Duration":218920,"Raw_Title":"極楽浄土","Raw_Artist":"GARNiDELiA","Raw_Duration":219000}
+{"DateTime":"2018-06-18T22:18:45.9866487+08:00","ID":"446875490","Artist":"GARNiDELiA","Title":"極楽浄土","Duration":218920,"Raw_Title":"極楽浄土","Raw_Artist":"GARNiDELiA","Raw_Duration":219000}
+{"DateTime":"2018-06-18T22:36:29.9876281+08:00","ID":"32166613","Artist":"yuiko","Title":"Awake","Duration":224000,"Raw_Title":"Awake","Raw_Artist":"Primary","Raw_Duration":224000}
+{"DateTime":"2018-06-18T22:36:30.5001271+08:00","ID":"32166613","Artist":"yuiko","Title":"Awake","Duration":224000,"Raw_Title":"Awake","Raw_Artist":"Primary","Raw_Duration":224000}
+{"DateTime":"2018-06-18T22:43:59.0340594+08:00","ID":"34040224","Artist":"あやぽんず*","Title":"すーぱーぬこわーるど (あやぽんず*&ゆいこんぬ)","Duration":219428,"Raw_Title":"すーぱーぬこわーるど","Raw_Artist":"ゆいこんぬ ＆ あやぽんず＊","Raw_Duration":220000}
+{"DateTime":"2018-06-18T22:43:59.4225609+08:00","ID":"34040224","Artist":"あやぽんず*","Title":"すーぱーぬこわーるど (あやぽんず*&ゆいこんぬ)","Duration":219428,"Raw_Title":"すーぱーぬこわーるど","Raw_Artist":"ゆいこんぬ ＆ あやぽんず＊","Raw_Duration":220000}
+{"DateTime":"2018-06-20T00:11:07.4263229+08:00","ID":"409872507","Artist":"Aimer","Title":"ninelie (TV size)","Duration":92960,"Raw_Title":"ninelie (TV size)","Raw_Artist":"Aimer with chelly (EGOIST)","Raw_Duration":93000}
+{"DateTime":"2018-06-20T00:11:08.431375+08:00","ID":"409872507","Artist":"Aimer","Title":"ninelie (TV size)","Duration":92960,"Raw_Title":"ninelie (TV size)","Raw_Artist":"Aimer with chelly (EGOIST)","Raw_Duration":93000}
+{"DateTime":"2018-06-20T22:08:22.2787887+08:00","ID":"410446425","Artist":"やなぎなぎ","Title":"ユキトキ","Duration":275266,"Raw_Title":"ユキトキ","Raw_Artist":"やなぎなぎ","Raw_Duration":275000}
+{"DateTime":"2018-06-20T22:08:22.9962887+08:00","ID":"410446425","Artist":"やなぎなぎ","Title":"ユキトキ","Duration":275266,"Raw_Title":"ユキトキ","Raw_Artist":"やなぎなぎ","Raw_Duration":275000}
+{"DateTime":"2018-06-20T22:26:57.8800745+08:00","ID":"494330539","Artist":"yuiko","Title":"petit bonheur (Full Ver.)","Duration":254040,"Raw_Title":"petit bonheur","Raw_Artist":"yuiko","Raw_Duration":254000}
+{"DateTime":"2018-06-20T22:26:58.6270739+08:00","ID":"494330539","Artist":"yuiko","Title":"petit bonheur (Full Ver.)","Duration":254040,"Raw_Title":"petit bonheur","Raw_Artist":"yuiko","Raw_Duration":254000}
+{"DateTime":"2018-06-20T22:37:36.5326472+08:00","ID":"28593206","Artist":"みみめめMIMI","Title":"サヨナラ嘘ツキ","Duration":257358,"Raw_Title":"サヨナラ嘘ツキ","Raw_Artist":"みみめめMIMI","Raw_Duration":257000}
+{"DateTime":"2018-06-20T22:37:37.3021473+08:00","ID":"28593206","Artist":"みみめめMIMI","Title":"サヨナラ嘘ツキ","Duration":257358,"Raw_Title":"サヨナラ嘘ツキ","Raw_Artist":"みみめめMIMI","Raw_Duration":257000}
+{"DateTime":"2018-06-20T22:58:02.8375193+08:00","ID":"28189639","Artist":"ゆいこんぬ","Title":"かくしごと","Duration":239360,"Raw_Title":"かくしごと","Raw_Artist":"ゆいこんぬ","Raw_Duration":240000}
+{"DateTime":"2018-06-21T21:25:59.9959642+08:00","ID":"493623320","Artist":"Rings Of Saturn","Title":"Servant of This Sentience","Duration":256600,"Raw_Title":"Servant of This Sentience","Raw_Artist":"Rings Of Saturn","Raw_Duration":257000}
+{"DateTime":"2018-06-21T21:26:07.1848183+08:00","ID":"31185113","Artist":"佐藤直之","Title":"chrono diver -fragment-","Duration":123000,"Raw_Title":"chrono diver -fragment-","Raw_Artist":"猫叉Master feat.三澤秋","Raw_Duration":123000}
+{"DateTime":"2018-06-21T21:26:07.5924493+08:00","ID":"31185113","Artist":"佐藤直之","Title":"chrono diver -fragment-","Duration":123000,"Raw_Title":"chrono diver -fragment-","Raw_Artist":"猫叉Master feat.三澤秋","Raw_Duration":123000}
+{"DateTime":"2018-06-21T21:32:33.8296498+08:00","ID":"464797836","Artist":"三森すずこ","Title":"希望リフレイン","Duration":233626,"Raw_Title":"希望リフレイン","Raw_Artist":"青島萌香 (CV: 三森すずこ)","Raw_Duration":234000}
+{"DateTime":"2018-06-21T21:32:34.473541+08:00","ID":"464797836","Artist":"三森すずこ","Title":"希望リフレイン","Duration":233626,"Raw_Title":"希望リフレイン","Raw_Artist":"青島萌香 (CV: 三森すずこ)","Raw_Duration":234000}
+{"DateTime":"2018-06-21T21:48:46.382868+08:00","ID":"444058014","Artist":"Aqours","Title":"青空Jumping Heart (TVサイズ)","Duration":92107,"Raw_Title":"青空Jumping Heart","Raw_Artist":"Aqours","Raw_Duration":92000}
+{"DateTime":"2018-06-21T21:48:46.8163694+08:00","ID":"444058014","Artist":"Aqours","Title":"青空Jumping Heart (TVサイズ)","Duration":92107,"Raw_Title":"青空Jumping Heart","Raw_Artist":"Aqours","Raw_Duration":92000}
+{"DateTime":"2018-06-21T22:01:47.126223+08:00","ID":"33233729","Artist":"薬師るり","Title":"瑠璃色","Duration":262000,"Raw_Title":"瑠璃色","Raw_Artist":"薬師るり","Raw_Duration":262000}
+{"DateTime":"2018-06-21T22:01:47.928724+08:00","ID":"33233729","Artist":"薬師るり","Title":"瑠璃色","Duration":262000,"Raw_Title":"瑠璃色","Raw_Artist":"薬師るり","Raw_Duration":262000}
+{"DateTime":"2018-06-21T22:17:46.8928642+08:00","ID":"428642839","Artist":"ゆある","Title":"アスノヨゾラ哨戒班","Duration":176822,"Raw_Title":"アスノヨゾラ哨戒班","Raw_Artist":"ゆある","Raw_Duration":177000}
+{"DateTime":"2018-06-21T22:17:47.4763769+08:00","ID":"428642839","Artist":"ゆある","Title":"アスノヨゾラ哨戒班","Duration":176822,"Raw_Title":"アスノヨゾラ哨戒班","Raw_Artist":"ゆある","Raw_Duration":177000}
+{"DateTime":"2018-06-21T22:24:53.6477848+08:00","ID":"408277795","Artist":"沙野カモメ","Title":"A Day in the S.I.O.U.","Duration":339804,"Raw_Title":"A Day in the S.I.O.U.","Raw_Artist":"kamome sano","Raw_Duration":340000}
+{"DateTime":"2018-06-21T22:35:02.5024135+08:00","ID":"22808859","Artist":"Halozy","Title":"源流懐古","Duration":308746,"Raw_Title":"源流懐古","Raw_Artist":"Halozy","Raw_Duration":308000}
+{"DateTime":"2018-06-21T22:35:03.1779156+08:00","ID":"22808859","Artist":"Halozy","Title":"源流懐古","Duration":308746,"Raw_Title":"源流懐古","Raw_Artist":"Halozy","Raw_Duration":308000}
+{"DateTime":"2018-06-21T23:00:18.2510894+08:00","ID":"26505691","Artist":"marina","Title":"永久より永遠に","Duration":332426,"Raw_Title":"永久より永遠に","Raw_Artist":"marina","Raw_Duration":332000}
+{"DateTime":"2018-06-21T23:00:18.8490888+08:00","ID":"26505691","Artist":"marina","Title":"永久より永遠に","Duration":332426,"Raw_Title":"永久より永遠に","Raw_Artist":"marina","Raw_Duration":332000}
+{"DateTime":"2018-06-21T23:02:02.0764642+08:00","ID":"573577421","Artist":"XX:me","Title":"ダーリン(TV size)","Duration":93051,"Raw_Title":"ダーリン","Raw_Artist":"XX:me","Raw_Duration":93000}
+{"DateTime":"2018-06-21T23:10:03.3577283+08:00","ID":"405079769","Artist":"Silent Siren","Title":"milk boy","Duration":238190,"Raw_Title":"milk boy","Raw_Artist":"サイレントサイレン","Raw_Duration":238000}
+{"DateTime":"2018-06-21T23:10:03.7342267+08:00","ID":"405079769","Artist":"Silent Siren","Title":"milk boy","Duration":238190,"Raw_Title":"milk boy","Raw_Artist":"サイレントサイレン","Raw_Duration":238000}
+{"DateTime":"2018-06-22T21:00:48.9266809+08:00","ID":"29583955","Artist":"楠田亜衣奈","Title":"もしもからきっと","Duration":317152,"Raw_Title":"もしもからきっと","Raw_Artist":"Sharlo","Raw_Duration":318000}
+{"DateTime":"2018-06-22T21:00:49.3732734+08:00","ID":"458509866","Artist":"夏萝","Title":"もしもからきっと","Duration":318302,"Raw_Title":"もしもからきっと","Raw_Artist":"Sharlo","Raw_Duration":318000}
+{"DateTime":"2018-06-22T21:00:59.6878263+08:00","ID":"665601","Artist":"分島花音","Title":"読书家姫君","Duration":227813,"Raw_Title":"読書家姫君","Raw_Artist":"分島花音","Raw_Duration":228000}
+{"DateTime":"2018-06-22T21:01:00.3763731+08:00","ID":"665601","Artist":"分島花音","Title":"読书家姫君","Duration":227813,"Raw_Title":"読書家姫君","Raw_Artist":"分島花音","Raw_Duration":228000}
+{"DateTime":"2018-06-22T21:32:36.8951919+08:00","ID":"608335","Artist":"LiSA","Title":"EGOiSTiC SHOOTER","Duration":184333,"Raw_Title":"EGOiSTiC SHOOTER","Raw_Artist":"LiSA","Raw_Duration":184000}
+{"DateTime":"2018-06-22T21:32:37.2748048+08:00","ID":"608335","Artist":"LiSA","Title":"EGOiSTiC SHOOTER","Duration":184333,"Raw_Title":"EGOiSTiC SHOOTER","Raw_Artist":"LiSA","Raw_Duration":184000}
+{"DateTime":"2018-06-22T21:35:50.0929831+08:00","ID":"492834361","Artist":"Omoi","Title":"テオ","Duration":210076,"Raw_Title":"テオ","Raw_Artist":"Omoi","Raw_Duration":210000}
+{"DateTime":"2018-06-22T21:35:50.4179836+08:00","ID":"492834361","Artist":"Omoi","Title":"テオ","Duration":210076,"Raw_Title":"テオ","Raw_Artist":"Omoi","Raw_Duration":210000}
+{"DateTime":"2018-06-22T21:41:31.5129701+08:00","ID":"28934954","Artist":"Dragonforce","Title":"Defenders","Duration":347324,"Raw_Title":"Defenders","Raw_Artist":"DragonForce","Raw_Duration":347000}
+{"DateTime":"2018-06-22T22:08:27.7095036+08:00","ID":"525122016","Artist":"まふまふ","Title":"ヒバナ","Duration":203352,"Raw_Title":"ヒバナ","Raw_Artist":"そらる×まふまふ","Raw_Duration":203000}
+{"DateTime":"2018-06-22T22:08:28.0290158+08:00","ID":"525122016","Artist":"まふまふ","Title":"ヒバナ","Duration":203352,"Raw_Title":"ヒバナ","Raw_Artist":"そらる×まふまふ","Raw_Duration":203000}
+{"DateTime":"2018-06-22T22:17:45.7674785+08:00","ID":"28828383","Artist":"そらる","Title":"ウミユリ海底譚","Duration":238733,"Raw_Title":"ウミユリ海底譚","Raw_Artist":"ジェム","Raw_Duration":239000}
+{"DateTime":"2018-06-22T22:17:46.2709792+08:00","ID":"28828383","Artist":"そらる","Title":"ウミユリ海底譚","Duration":238733,"Raw_Title":"ウミユリ海底譚","Raw_Artist":"ジェム","Raw_Duration":239000}
+{"DateTime":"2018-06-25T22:22:01.8865175+08:00","ID":"572048","Artist":"福原香織","Title":"寝・逃・げでリセット!","Duration":273528,"Raw_Title":"寝・逃・げでリセット！","Raw_Artist":"Sharlo","Raw_Duration":274000}
+{"DateTime":"2018-06-25T22:22:02.2424374+08:00","ID":"572048","Artist":"福原香織","Title":"寝・逃・げでリセット!","Duration":273528,"Raw_Title":"寝・逃・げでリセット！","Raw_Artist":"Sharlo","Raw_Duration":274000}
+{"DateTime":"2018-06-25T22:28:01.0053027+08:00","ID":"399366434","Artist":"はな","Title":"櫻ノ詩 -Piano Vocal ver-","Duration":238550,"Raw_Title":"櫻ノ詩","Raw_Artist":"はな","Raw_Duration":239000}
+{"DateTime":"2018-06-25T22:28:01.3183389+08:00","ID":"399366434","Artist":"はな","Title":"櫻ノ詩 -Piano Vocal ver-","Duration":238550,"Raw_Title":"櫻ノ詩","Raw_Artist":"はな","Raw_Duration":239000}
+{"DateTime":"2018-06-25T22:39:19.1319247+08:00","ID":"29550257","Artist":"黒沢ともよ","Title":"素晴ラシキFUN!TASY","Duration":263000,"Raw_Title":"素晴ラシキFUN!TASY","Raw_Artist":"BRILLIANT4","Raw_Duration":263000}
+{"DateTime":"2018-06-25T22:39:19.4716911+08:00","ID":"29550257","Artist":"黒沢ともよ","Title":"素晴ラシキFUN!TASY","Duration":263000,"Raw_Title":"素晴ラシキFUN!TASY","Raw_Artist":"BRILLIANT4","Raw_Duration":263000}
+{"DateTime":"2018-06-25T22:40:51.807628+08:00","ID":"33516642","Artist":"Imperial Circus Dead Decadence","Title":"黄泉より聴こゆ、皇国の燈と焔の少女。","Duration":501080,"Raw_Title":"黄泉より聴こゆ、皇国の燈と焔の少女。","Raw_Artist":"Imperial Circus Dead Decadence","Raw_Duration":501000}
+{"DateTime":"2018-06-25T22:40:52.1367352+08:00","ID":"33516642","Artist":"Imperial Circus Dead Decadence","Title":"黄泉より聴こゆ、皇国の燈と焔の少女。","Duration":501080,"Raw_Title":"黄泉より聴こゆ、皇国の燈と焔の少女。","Raw_Artist":"Imperial Circus Dead Decadence","Raw_Duration":501000}
+{"DateTime":"2018-06-25T23:08:17.416208+08:00","ID":"525193046","Artist":"鹿乃","Title":"Daisy Blue","Duration":254346,"Raw_Title":"Daisy Blue","Raw_Artist":"鹿乃","Raw_Duration":254000}
+{"DateTime":"2018-06-25T23:08:17.7584065+08:00","ID":"525193046","Artist":"鹿乃","Title":"Daisy Blue","Duration":254346,"Raw_Title":"Daisy Blue","Raw_Artist":"鹿乃","Raw_Duration":254000}
+{"DateTime":"2018-06-25T23:11:29.6347444+08:00","ID":"3416986","Artist":"Smile. DK","Title":"Koko Soko","Duration":186000,"Raw_Title":"Koko Soko","Raw_Artist":"SMiLE.dk","Raw_Duration":185000}
+{"DateTime":"2018-06-25T23:11:29.9851997+08:00","ID":"3416986","Artist":"Smile. DK","Title":"Koko Soko","Duration":186000,"Raw_Title":"Koko Soko","Raw_Artist":"SMiLE.dk","Raw_Duration":185000}
+{"DateTime":"2018-06-28T21:47:22.9751231+08:00","ID":"28178156","Artist":"葉月ゆら","Title":"少女と黄金竜の物語","Duration":256600,"Raw_Title":"少女と黄金竜の物語","Raw_Artist":"葉月ゆら","Raw_Duration":257000}
+{"DateTime":"2018-06-28T21:47:23.3766232+08:00","ID":"28178156","Artist":"葉月ゆら","Title":"少女と黄金竜の物語","Duration":256600,"Raw_Title":"少女と黄金竜の物語","Raw_Artist":"葉月ゆら","Raw_Duration":257000}
+{"DateTime":"2018-06-28T22:12:35.442367+08:00","ID":"859516","Artist":"ぷりますてら","Title":"恋ゴコロ","Duration":177000,"Raw_Title":"恋ゴコロ","Raw_Artist":"ぷりますてら","Raw_Duration":178000}
+{"DateTime":"2018-06-28T22:12:35.7853675+08:00","ID":"859516","Artist":"ぷりますてら","Title":"恋ゴコロ","Duration":177000,"Raw_Title":"恋ゴコロ","Raw_Artist":"ぷりますてら","Raw_Duration":178000}
+{"DateTime":"2018-06-28T22:26:03.4790624+08:00","ID":"29844579","Artist":"ゆいこんぬ","Title":"地球最後の告白を","Duration":272195,"Raw_Title":"地球最後の告白を","Raw_Artist":"ゆいこんぬ","Raw_Duration":272000}
+{"DateTime":"2018-06-28T22:36:32.7672027+08:00","ID":"451520657","Artist":"紫咲ほたる","Title":"Re:TrymenT","Duration":248555,"Raw_Title":"Re:TrymenT","Raw_Artist":"紫咲ほたる","Raw_Duration":249000}
+{"DateTime":"2018-06-28T22:36:33.1756999+08:00","ID":"451520657","Artist":"紫咲ほたる","Title":"Re:TrymenT","Duration":248555,"Raw_Title":"Re:TrymenT","Raw_Artist":"紫咲ほたる","Raw_Duration":249000}
+{"DateTime":"2018-06-29T21:50:32.7000007+08:00","ID":"654547","Artist":"祭屋","Title":"リモコン","Duration":313000,"Raw_Title":"リモコン","Raw_Artist":"祭屋","Raw_Duration":312000}
+{"DateTime":"2018-06-29T21:50:33.1090008+08:00","ID":"654547","Artist":"祭屋","Title":"リモコン","Duration":313000,"Raw_Title":"リモコン","Raw_Artist":"祭屋","Raw_Duration":312000}
+{"DateTime":"2018-06-29T22:01:40.8167081+08:00","ID":"28185902","Artist":"kors k feat.吉河順央","Title":"7 Colors","Duration":99996,"Raw_Title":"7 Colors","Raw_Artist":"kors k feat. 吉河順央","Raw_Duration":100000}
+{"DateTime":"2018-06-29T22:01:41.302209+08:00","ID":"28185902","Artist":"kors k feat.吉河順央","Title":"7 Colors","Duration":99996,"Raw_Title":"7 Colors","Raw_Artist":"kors k feat. 吉河順央","Raw_Duration":100000}
+{"DateTime":"2018-06-30T19:55:14.2500798+08:00","ID":"36783339","Artist":"米倉千尋","Title":"恋せよ乙女! (Game Size)","Duration":90491,"Raw_Title":"恋せよ乙女! (Game Size)","Raw_Artist":"米倉千尋","Raw_Duration":91000}
+{"DateTime":"2018-06-30T19:55:14.7865798+08:00","ID":"36783339","Artist":"米倉千尋","Title":"恋せよ乙女! (Game Size)","Duration":90491,"Raw_Title":"恋せよ乙女! (Game Size)","Raw_Artist":"米倉千尋","Raw_Duration":91000}
+{"DateTime":"2018-06-30T19:57:02.7368459+08:00","ID":"36103294","Artist":"yuiko","Title":"GLORIOUS_DAYS (Short)","Duration":109933,"Raw_Title":"GLORIOUS_DAYS(Short)","Raw_Artist":"yuiko","Raw_Duration":110000}
+{"DateTime":"2018-06-30T19:57:03.2273472+08:00","ID":"36103294","Artist":"yuiko","Title":"GLORIOUS_DAYS (Short)","Duration":109933,"Raw_Title":"GLORIOUS_DAYS(Short)","Raw_Artist":"yuiko","Raw_Duration":110000}
+{"DateTime":"2018-06-30T20:06:29.4284226+08:00","ID":"412327102","Artist":"鹿乃","Title":"ヒメコイ","Duration":268059,"Raw_Title":"ヒメコイ","Raw_Artist":"鹿乃","Raw_Duration":268000}
+{"DateTime":"2018-06-30T20:06:29.7979212+08:00","ID":"412327102","Artist":"鹿乃","Title":"ヒメコイ","Duration":268059,"Raw_Title":"ヒメコイ","Raw_Artist":"鹿乃","Raw_Duration":268000}
+{"DateTime":"2018-06-30T20:08:25.6667946+08:00","ID":"412327097","Artist":"鹿乃","Title":"プリマステラ","Duration":266921,"Raw_Title":"プリマステラ","Raw_Artist":"鹿乃","Raw_Duration":266000}
+{"DateTime":"2018-06-30T20:08:26.0647947+08:00","ID":"412327097","Artist":"鹿乃","Title":"プリマステラ","Duration":266921,"Raw_Title":"プリマステラ","Raw_Artist":"鹿乃","Raw_Duration":266000}
+{"DateTime":"2018-06-30T20:14:16.8480057+08:00","ID":"28524805","Artist":"ALiCE'S EMOTiON","Title":"Dark Flight Dreamer","Duration":193866,"Raw_Title":"Dark Flight Dreamer","Raw_Artist":"ALiCE'S EMOTiON","Raw_Duration":194000}
+{"DateTime":"2018-06-30T20:14:17.3058081+08:00","ID":"28524805","Artist":"ALiCE'S EMOTiON","Title":"Dark Flight Dreamer","Duration":193866,"Raw_Title":"Dark Flight Dreamer","Raw_Artist":"ALiCE'S EMOTiON","Raw_Duration":194000}
+{"DateTime":"2018-06-30T20:58:23.6807276+08:00","ID":"30870173","Artist":"Orangestar","Title":"アスノヨゾラ哨戒班","Duration":176666,"Raw_Title":"アスノヨゾラ哨戒班","Raw_Artist":"Orangestar","Raw_Duration":177000}
+{"DateTime":"2018-06-30T20:58:24.0352278+08:00","ID":"30870173","Artist":"Orangestar","Title":"アスノヨゾラ哨戒班","Duration":176666,"Raw_Title":"アスノヨゾラ哨戒班","Raw_Artist":"Orangestar","Raw_Duration":177000}
+{"DateTime":"2018-06-30T21:00:36.4960678+08:00","ID":"534190","Artist":"灯油","Title":"とても痛い痛がりたい","Duration":195000,"Raw_Title":"とても痛い痛がりたい","Raw_Artist":"そっとうP","Raw_Duration":196000}
+{"DateTime":"2018-06-30T21:00:36.8055681+08:00","ID":"534190","Artist":"灯油","Title":"とても痛い痛がりたい","Duration":195000,"Raw_Title":"とても痛い痛がりたい","Raw_Artist":"そっとうP","Raw_Duration":196000}
+{"DateTime":"2018-06-30T21:19:51.6120216+08:00","ID":"22716790","Artist":"EXIT TUNES","Title":"橙ゲノム","Duration":220343,"Raw_Title":"橙ゲノム","Raw_Artist":"つなまる","Raw_Duration":221000}
+{"DateTime":"2018-06-30T21:19:51.9960477+08:00","ID":"22716790","Artist":"EXIT TUNES","Title":"橙ゲノム","Duration":220343,"Raw_Title":"橙ゲノム","Raw_Artist":"つなまる","Raw_Duration":221000}
+{"DateTime":"2018-06-30T21:32:20.6631612+08:00","ID":"421160877","Artist":"高田憂希","Title":"Now Loading!!!!","Duration":253306,"Raw_Title":"Now Loading!!!!","Raw_Artist":"fourfolium","Raw_Duration":253000}
+{"DateTime":"2018-06-30T21:32:21.0822971+08:00","ID":"421160877","Artist":"高田憂希","Title":"Now Loading!!!!","Duration":253306,"Raw_Title":"Now Loading!!!!","Raw_Artist":"fourfolium","Raw_Duration":253000}
+{"DateTime":"2018-06-30T22:06:30.7771254+08:00","ID":"26385221","Artist":"GRANRODEO","Title":"Can Do (Tv Size)","Duration":92891,"Raw_Title":"Can Do (TV Size)","Raw_Artist":"GRANRODEO","Raw_Duration":93000}
+{"DateTime":"2018-06-30T22:06:31.1856293+08:00","ID":"26385221","Artist":"GRANRODEO","Title":"Can Do (Tv Size)","Duration":92891,"Raw_Title":"Can Do (TV Size)","Raw_Artist":"GRANRODEO","Raw_Duration":93000}
+{"DateTime":"2018-06-30T22:07:59.7365629+08:00","ID":"35779432","Artist":"petit milady","Title":"ハコネハコイリムスメ","Duration":246493,"Raw_Title":"ハコネハコイリムスメ","Raw_Artist":"petit milady","Raw_Duration":246000}
+{"DateTime":"2018-06-30T22:08:00.075064+08:00","ID":"35779432","Artist":"petit milady","Title":"ハコネハコイリムスメ","Duration":246493,"Raw_Title":"ハコネハコイリムスメ","Raw_Artist":"petit milady","Raw_Duration":246000}
+{"DateTime":"2018-06-30T22:25:49.7048488+08:00","ID":"28566459","Artist":"ゆいこんぬ","Title":"雨とアスファルト","Duration":274495,"Raw_Title":"雨とアスファルト","Raw_Artist":"40mP feat.ゆいこんぬ","Raw_Duration":274000}
+{"DateTime":"2018-06-30T22:25:50.0683499+08:00","ID":"28566459","Artist":"ゆいこんぬ","Title":"雨とアスファルト","Duration":274495,"Raw_Title":"雨とアスファルト","Raw_Artist":"40mP feat.ゆいこんぬ","Raw_Duration":274000}
+{"DateTime":"2018-06-30T22:31:25.3007445+08:00","ID":"35779333","Artist":"ゆいこんぬ","Title":"キャラメルヘヴン","Duration":237923,"Raw_Title":"キャラメルへヴン","Raw_Artist":"ゆいこんぬ","Raw_Duration":238000}
+{"DateTime":"2018-06-30T22:31:25.6657445+08:00","ID":"35779333","Artist":"ゆいこんぬ","Title":"キャラメルヘヴン","Duration":237923,"Raw_Title":"キャラメルへヴン","Raw_Artist":"ゆいこんぬ","Raw_Duration":238000}
+{"DateTime":"2018-07-01T19:52:14.8199711+08:00","ID":"28914772","Artist":"Black Raison d'être","Title":"INSIDE IDENTITY","Duration":262191,"Raw_Title":"INSIDE IDENTITY","Raw_Artist":"Black Raison d'etre","Raw_Duration":262000}
+{"DateTime":"2018-07-01T19:52:15.7909603+08:00","ID":"28914772","Artist":"Black Raison d'être","Title":"INSIDE IDENTITY","Duration":262191,"Raw_Title":"INSIDE IDENTITY","Raw_Artist":"Black Raison d'etre","Raw_Duration":262000}
+{"DateTime":"2018-07-01T20:00:14.8777652+08:00","ID":"442589230","Artist":"秋野花","Title":"ホントノトコロ","Duration":218840,"Raw_Title":"ホントノトコロ","Raw_Artist":"名瀬ゆかな(CV.秋野花)","Raw_Duration":219000}
+{"DateTime":"2018-07-01T20:00:15.2897658+08:00","ID":"442589230","Artist":"秋野花","Title":"ホントノトコロ","Duration":218840,"Raw_Title":"ホントノトコロ","Raw_Artist":"名瀬ゆかな(CV.秋野花)","Raw_Duration":219000}
+{"DateTime":"2018-07-01T20:05:52.9050015+08:00","ID":"858524","Artist":"DECO*27","Title":"39","Duration":220000,"Raw_Title":"39","Raw_Artist":"sasakure.UK x DECO*27","Raw_Duration":219000}
+{"DateTime":"2018-07-01T20:05:53.3075003+08:00","ID":"858524","Artist":"DECO*27","Title":"39","Duration":220000,"Raw_Title":"39","Raw_Artist":"sasakure.UK x DECO*27","Raw_Duration":219000}
+{"DateTime":"2018-07-01T20:12:18.0605762+08:00","ID":"409020821","Artist":"DJ TOTTO","Title":"illumina","Duration":114066,"Raw_Title":"illumina","Raw_Artist":"DJ TOTTO feat. *spiLa*","Raw_Duration":114000}
+{"DateTime":"2018-07-01T20:49:48.2538669+08:00","ID":"536623510","Artist":"saya","Title":"ハルカトオク","Duration":143203,"Raw_Title":"ハルカトオク","Raw_Artist":"saya","Raw_Duration":143000}
+{"DateTime":"2018-07-01T20:49:48.6233668+08:00","ID":"536623510","Artist":"saya","Title":"ハルカトオク","Duration":143203,"Raw_Title":"ハルカトオク","Raw_Artist":"saya","Raw_Duration":143000}
+{"DateTime":"2018-07-01T21:11:08.3411858+08:00","ID":"412178711","Artist":"鈴木このみ","Title":"Redo","Duration":258413,"Raw_Title":"Redo","Raw_Artist":"鈴木このみ","Raw_Duration":259000}
+{"DateTime":"2018-07-01T21:11:08.8127727+08:00","ID":"412178711","Artist":"鈴木このみ","Title":"Redo","Duration":258413,"Raw_Title":"Redo","Raw_Artist":"鈴木このみ","Raw_Duration":259000}
+{"DateTime":"2018-07-01T21:17:14.9998183+08:00","ID":"35778320","Artist":"ゆいこんぬ","Title":"オツキミリサイタル","Duration":225914,"Raw_Title":"オツキミリサイタル","Raw_Artist":"ゆいこんぬ","Raw_Duration":226000}
+{"DateTime":"2018-07-01T21:17:15.1639309+08:00","ID":"35778320","Artist":"ゆいこんぬ","Title":"オツキミリサイタル","Duration":225914,"Raw_Title":"オツキミリサイタル","Raw_Artist":"ゆいこんぬ","Raw_Duration":226000}
+{"DateTime":"2018-07-01T21:49:28.810236+08:00","ID":"17483988","Artist":"Dragonforce","Title":"Seasons","Duration":305659,"Raw_Title":"Seasons","Raw_Artist":"DragonForce","Raw_Duration":305000}
+{"DateTime":"2018-07-01T21:49:29.3022437+08:00","ID":"17483988","Artist":"Dragonforce","Title":"Seasons","Duration":305659,"Raw_Title":"Seasons","Raw_Artist":"DragonForce","Raw_Duration":305000}
+{"DateTime":"2018-07-01T21:56:57.6022733+08:00","ID":"33728002","Artist":"fhána","Title":"ワンダーステラ","Duration":299000,"Raw_Title":"ワンダーステラ","Raw_Artist":"fhána","Raw_Duration":299000}
+{"DateTime":"2018-07-01T21:56:57.7771438+08:00","ID":"33728002","Artist":"fhána","Title":"ワンダーステラ","Duration":299000,"Raw_Title":"ワンダーステラ","Raw_Artist":"fhána","Raw_Duration":299000}
+{"DateTime":"2018-07-01T22:06:07.2959268+08:00","ID":"27965044","Artist":"Agnete Kjolsund","Title":"Get Jinxed","Duration":152424,"Raw_Title":"Get Jinxed","Raw_Artist":"Agnete Kjølsrud","Raw_Duration":152000}
+{"DateTime":"2018-07-01T22:06:07.5559276+08:00","ID":"27965044","Artist":"Agnete Kjolsund","Title":"Get Jinxed","Duration":152424,"Raw_Title":"Get Jinxed","Raw_Artist":"Agnete Kjølsrud","Raw_Duration":152000}
+{"DateTime":"2018-07-01T22:07:57.5402652+08:00","ID":"769895","Artist":"LONG SHOT PARTY","Title":"distance (NARUTO Ver.)","Duration":93675,"Raw_Title":"distance (NARUTO Ver.)","Raw_Artist":"LONG SHOT PARTY","Raw_Duration":94000}
+{"DateTime":"2018-07-01T22:22:09.992657+08:00","ID":"29758260","Artist":"佐咲紗花","Title":"キスのひとつで","Duration":253231,"Raw_Title":"キスのひとつで","Raw_Artist":"佐咲紗花","Raw_Duration":253000}
+{"DateTime":"2018-07-01T22:22:10.2106536+08:00","ID":"29758260","Artist":"佐咲紗花","Title":"キスのひとつで","Duration":253231,"Raw_Title":"キスのひとつで","Raw_Artist":"佐咲紗花","Raw_Duration":253000}
+{"DateTime":"2018-07-02T13:34:59.2525794+08:00","ID":"412902260","Artist":"ピノキオピー","Title":"すきなことだけでいいです","Duration":273554,"Raw_Title":"すきなことだけでいいです","Raw_Artist":"ピノキオピー","Raw_Duration":274000}
+{"DateTime":"2018-07-02T13:34:59.7645792+08:00","ID":"412902260","Artist":"ピノキオピー","Title":"すきなことだけでいいです","Duration":273554,"Raw_Title":"すきなことだけでいいです","Raw_Artist":"ピノキオピー","Raw_Duration":274000}
+{"DateTime":"2018-07-02T20:50:47.2824699+08:00","ID":"32897084","Artist":"花たん","Title":"あったかいんだからぁ","Duration":82000,"Raw_Title":"あったかいんだからぁ♪","Raw_Artist":"花たん","Raw_Duration":83000}
+{"DateTime":"2018-07-02T20:50:47.87147+08:00","ID":"32897084","Artist":"花たん","Title":"あったかいんだからぁ","Duration":82000,"Raw_Title":"あったかいんだからぁ♪","Raw_Artist":"花たん","Raw_Duration":83000}
+{"DateTime":"2018-07-02T21:54:12.5789305+08:00","ID":"786627","Artist":"MOSAIC.WAV","Title":"全世界的タッチパネル","Duration":387843,"Raw_Title":"全世界的タッチパネル","Raw_Artist":"MOSAIC.WAV","Raw_Duration":388000}
+{"DateTime":"2018-07-02T22:02:01.9215703+08:00","ID":"33211455","Artist":"鎖那","Title":"告白ライバル宣言","Duration":230000,"Raw_Title":"告白ライバル宣言","Raw_Artist":"鎖那","Raw_Duration":231000}
+{"DateTime":"2018-07-02T22:02:02.1490699+08:00","ID":"33211455","Artist":"鎖那","Title":"告白ライバル宣言","Duration":230000,"Raw_Title":"告白ライバル宣言","Raw_Artist":"鎖那","Raw_Duration":231000}
+{"DateTime":"2018-07-02T22:45:25.3716422+08:00","ID":"651241","Artist":"佐咲紗花","Title":"Zzz","Duration":252944,"Raw_Title":"Zzz","Raw_Artist":"Sasaki Sayaka","Raw_Duration":252000}
+{"DateTime":"2018-07-02T22:45:25.6183953+08:00","ID":"651241","Artist":"佐咲紗花","Title":"Zzz","Duration":252944,"Raw_Title":"Zzz","Raw_Artist":"Sasaki Sayaka","Raw_Duration":252000}
+{"DateTime":"2018-07-02T23:05:49.2258433+08:00","ID":"438456473","Artist":"ナノ","Title":"DREAMCATCHER","Duration":217866,"Raw_Title":"DREAMCATCHER","Raw_Artist":"ナノ","Raw_Duration":218000}
+{"DateTime":"2018-07-02T23:05:49.4203415+08:00","ID":"438456473","Artist":"ナノ","Title":"DREAMCATCHER","Duration":217866,"Raw_Title":"DREAMCATCHER","Raw_Artist":"ナノ","Raw_Duration":218000}
+{"DateTime":"2018-07-02T23:09:02.9875503+08:00","ID":"28457388","Artist":"ギガP","Title":"えれくとりっく・えんじぇぅ","Duration":191268,"Raw_Title":"えれくとりっく・えんじぇぅ","Raw_Artist":"ギガP","Raw_Duration":192000}
+{"DateTime":"2018-07-02T23:09:03.1445473+08:00","ID":"28457388","Artist":"ギガP","Title":"えれくとりっく・えんじぇぅ","Duration":191268,"Raw_Title":"えれくとりっく・えんじぇぅ","Raw_Artist":"ギガP","Raw_Duration":192000}
+{"DateTime":"2018-07-03T13:03:09.8341129+08:00","ID":"479979547","Artist":"GARNiDELiA","Title":"桃源恋歌","Duration":232071,"Raw_Title":"桃源恋歌","Raw_Artist":"GARNiDELiA","Raw_Duration":232000}
+{"DateTime":"2018-07-03T13:03:10.1642008+08:00","ID":"479979547","Artist":"GARNiDELiA","Title":"桃源恋歌","Duration":232071,"Raw_Title":"桃源恋歌","Raw_Artist":"GARNiDELiA","Raw_Duration":232000}
+{"DateTime":"2018-07-03T13:45:16.707209+08:00","ID":"462686590","Artist":"さユり","Title":"平行線","Duration":299186,"Raw_Title":"平行線","Raw_Artist":"さユり","Raw_Duration":299000}
+{"DateTime":"2018-07-03T13:45:17.0567044+08:00","ID":"462686590","Artist":"さユり","Title":"平行線","Duration":299186,"Raw_Title":"平行線","Raw_Artist":"さユり","Raw_Duration":299000}
+{"DateTime":"2018-07-03T13:54:01.9993907+08:00","ID":"423118995","Artist":"petit milady","Title":"向日葵の坂道","Duration":311232,"Raw_Title":"向日葵の坂道","Raw_Artist":"petit milady","Raw_Duration":311000}
+{"DateTime":"2018-07-03T20:53:33.6551243+08:00","ID":"37092952","Artist":"水瀬いのり","Title":"未来パズル","Duration":235337,"Raw_Title":"未来パズル","Raw_Artist":"チノ(CV.水瀬 いのり","Raw_Duration":235000}
+{"DateTime":"2018-07-03T20:53:33.9862145+08:00","ID":"37092952","Artist":"水瀬いのり","Title":"未来パズル","Duration":235337,"Raw_Title":"未来パズル","Raw_Artist":"チノ(CV.水瀬 いのり","Raw_Duration":235000}
+{"DateTime":"2018-07-03T21:02:24.8202076+08:00","ID":"28482528","Artist":"GUMI","Title":"妄想果実","Duration":182622,"Raw_Title":"妄想果実","Raw_Artist":"七希 feat.GUMI","Raw_Duration":182000}
+{"DateTime":"2018-07-03T21:19:31.5338134+08:00","ID":"399552327","Artist":"初音ミク","Title":"ねぇウィリアム","Duration":238341,"Raw_Title":"ねぇウィリアム","Raw_Artist":"Omoi","Raw_Duration":238000}
+{"DateTime":"2018-07-03T21:27:15.0455841+08:00","ID":"30569022","Artist":"THREE LIGHTS DOWN KINGS","Title":"NEVER SAY NEVER","Duration":262000,"Raw_Title":"NEVER SAY NEVER","Raw_Artist":"THREE LIGHTS DOWN KINGS","Raw_Duration":263000}
+{"DateTime":"2018-07-03T21:27:15.2285869+08:00","ID":"30569022","Artist":"THREE LIGHTS DOWN KINGS","Title":"NEVER SAY NEVER","Duration":262000,"Raw_Title":"NEVER SAY NEVER","Raw_Artist":"THREE LIGHTS DOWN KINGS","Raw_Duration":263000}
+{"DateTime":"2018-07-04T21:42:02.418648+08:00","ID":"28234321","Artist":"めらみぽっぷ","Title":"落日ロマンス","Duration":365746,"Raw_Title":"落日ロマンス","Raw_Artist":"めらみぽっぷ","Raw_Duration":366000}
+{"DateTime":"2018-07-04T21:42:03.2345928+08:00","ID":"28234321","Artist":"めらみぽっぷ","Title":"落日ロマンス","Duration":365746,"Raw_Title":"落日ロマンス","Raw_Artist":"めらみぽっぷ","Raw_Duration":366000}
+{"DateTime":"2018-07-04T22:01:38.3135932+08:00","ID":"29150478","Artist":"Lily","Title":"Remember me","Duration":204773,"Raw_Title":"Remember Me","Raw_Artist":"seleP","Raw_Duration":205000}
+{"DateTime":"2018-07-04T22:01:38.4990929+08:00","ID":"29150478","Artist":"Lily","Title":"Remember me","Duration":204773,"Raw_Title":"Remember Me","Raw_Artist":"seleP","Raw_Duration":205000}
+{"DateTime":"2018-07-04T22:07:23.6559971+08:00","ID":"28468884","Artist":"びびあん","Title":"林檎売りの泡沫少女","Duration":363049,"Raw_Title":"林檎売りの泡沫少女","Raw_Artist":"Will Stetson","Raw_Duration":363000}
+{"DateTime":"2018-07-04T22:07:23.8680087+08:00","ID":"28468884","Artist":"びびあん","Title":"林檎売りの泡沫少女","Duration":363049,"Raw_Title":"林檎売りの泡沫少女","Raw_Artist":"Will Stetson","Raw_Duration":363000}
+{"DateTime":"2018-07-05T21:53:24.8810245+08:00","ID":"41645584","Artist":"ゆいこんぬ","Title":"ハートの後味","Duration":213942,"Raw_Title":"ハートの後味","Raw_Artist":"ゆいこんぬ","Raw_Duration":214000}
+{"DateTime":"2018-07-05T21:53:25.2099416+08:00","ID":"41645584","Artist":"ゆいこんぬ","Title":"ハートの後味","Duration":213942,"Raw_Title":"ハートの後味","Raw_Artist":"ゆいこんぬ","Raw_Duration":214000}
+{"DateTime":"2018-07-05T22:21:30.50334+08:00","ID":"29150473","Artist":"Lily","Title":"Scarlet Rose","Duration":234448,"Raw_Title":"Scarlet Rose","Raw_Artist":"seleP","Raw_Duration":235000}
+{"DateTime":"2018-07-05T22:21:30.7625278+08:00","ID":"29150473","Artist":"Lily","Title":"Scarlet Rose","Duration":234448,"Raw_Title":"Scarlet Rose","Raw_Artist":"seleP","Raw_Duration":235000}
+{"DateTime":"2018-07-05T22:22:03.4822781+08:00","ID":"475277317","Artist":"米津玄師","Title":"ピースサイン (TV edit.)","Duration":89768,"Raw_Title":"ピースサイン（TV edit.）","Raw_Artist":"米津玄師","Raw_Duration":90000}
+{"DateTime":"2018-07-05T22:22:03.6784015+08:00","ID":"475277317","Artist":"米津玄師","Title":"ピースサイン (TV edit.)","Duration":89768,"Raw_Title":"ピースサイン（TV edit.）","Raw_Artist":"米津玄師","Raw_Duration":90000}
+{"DateTime":"2018-07-05T22:42:49.3544974+08:00","ID":"794139","Artist":"ONE OK ROCK","Title":"未完成交響曲","Duration":208053,"Raw_Title":"未完成交響曲","Raw_Artist":"ONE OK ROCK","Raw_Duration":208000}
+{"DateTime":"2018-07-05T22:42:49.5551325+08:00","ID":"794139","Artist":"ONE OK ROCK","Title":"未完成交響曲","Duration":208053,"Raw_Title":"未完成交響曲","Raw_Artist":"ONE OK ROCK","Raw_Duration":208000}
+{"DateTime":"2018-07-05T22:48:18.7865465+08:00","ID":"27548277","Artist":"花たん","Title":"トリノコシティ","Duration":207706,"Raw_Title":"トリノコシティ","Raw_Artist":"花たん","Raw_Duration":208000}
+{"DateTime":"2018-07-05T22:48:18.9199922+08:00","ID":"27548277","Artist":"花たん","Title":"トリノコシティ","Duration":207706,"Raw_Title":"トリノコシティ","Raw_Artist":"花たん","Raw_Duration":208000}
+{"DateTime":"2018-07-05T23:23:19.6264048+08:00","ID":"28242646","Artist":"Fall Out Boy","Title":"Alone Together (Krewella Remix)","Duration":201000,"Raw_Title":"Alone Together (Krewella Remix)","Raw_Artist":"Fall Out Boy","Raw_Duration":201000}
+{"DateTime":"2018-07-05T23:23:19.9410072+08:00","ID":"28242646","Artist":"Fall Out Boy","Title":"Alone Together (Krewella Remix)","Duration":201000,"Raw_Title":"Alone Together (Krewella Remix)","Raw_Artist":"Fall Out Boy","Raw_Duration":201000}
+{"DateTime":"2018-07-05T23:29:24.2833306+08:00","ID":"34033742","Artist":"Asterisk","Title":"World's End, Girl's Rondo(Asterisk DnB Remix)","Duration":348107,"Raw_Title":"World's End, Girl's Rondo(Asterisk DnB Remix)","Raw_Artist":"分島花音","Raw_Duration":348000}
+{"DateTime":"2018-07-05T23:29:24.4953315+08:00","ID":"34033742","Artist":"Asterisk","Title":"World's End, Girl's Rondo(Asterisk DnB Remix)","Duration":348107,"Raw_Title":"World's End, Girl's Rondo(Asterisk DnB Remix)","Raw_Artist":"分島花音","Raw_Duration":348000}
+{"DateTime":"2018-07-05T23:44:06.057067+08:00","ID":"29307299","Artist":"Duca","Title":"Dreamer","Duration":297978,"Raw_Title":"Dreamer","Raw_Artist":"Duca","Raw_Duration":298000}
+{"DateTime":"2018-07-05T23:44:06.294698+08:00","ID":"29307299","Artist":"Duca","Title":"Dreamer","Duration":297978,"Raw_Title":"Dreamer","Raw_Artist":"Duca","Raw_Duration":298000}
+{"DateTime":"2018-07-06T14:39:47.9824161+08:00","ID":"29431208","Artist":"フレデリック","Title":"オドループ","Duration":255000,"Raw_Title":"オドループ","Raw_Artist":"フレデリック","Raw_Duration":255000}
+{"DateTime":"2018-07-06T14:39:48.9343642+08:00","ID":"29431208","Artist":"フレデリック","Title":"オドループ","Duration":255000,"Raw_Title":"オドループ","Raw_Artist":"フレデリック","Raw_Duration":255000}
+{"DateTime":"2018-07-06T15:12:35.2498868+08:00","ID":"28189639","Artist":"ゆいこんぬ","Title":"かくしごと","Duration":239360,"Raw_Title":"かくしごと","Raw_Artist":"ゆいこんぬ","Raw_Duration":239000}
+{"DateTime":"2018-07-06T20:13:42.6778718+08:00","ID":"26454906","Artist":"ななひら","Title":"物凄い勢いでけーねが物凄いうた","Duration":246586,"Raw_Title":"物凄い勢いでけーねが物凄いうた","Raw_Artist":"ななひら","Raw_Duration":247000}
+{"DateTime":"2018-07-06T20:13:43.0134128+08:00","ID":"26454906","Artist":"ななひら","Title":"物凄い勢いでけーねが物凄いうた","Duration":246586,"Raw_Title":"物凄い勢いでけーねが物凄いうた","Raw_Artist":"ななひら","Raw_Duration":247000}
+{"DateTime":"2018-07-06T21:00:43.6144315+08:00","ID":"28177969","Artist":"REDALiCE","Title":"Beautiful Dream feat. Anporin","Duration":115853,"Raw_Title":"Beautiful Dream","Raw_Artist":"REDALiCE feat. anporin","Raw_Duration":115000}
+{"DateTime":"2018-07-06T21:55:58.5805112+08:00","ID":"36872357","Artist":"鹿乃","Title":"ディアブレイブ","Duration":258986,"Raw_Title":"ディアブレイブ","Raw_Artist":"鹿乃","Raw_Duration":259000}
+{"DateTime":"2018-07-06T21:55:58.9215141+08:00","ID":"36872357","Artist":"鹿乃","Title":"ディアブレイブ","Duration":258986,"Raw_Title":"ディアブレイブ","Raw_Artist":"鹿乃","Raw_Duration":259000}
+{"DateTime":"2018-07-07T13:54:18.8135429+08:00","ID":"419254982","Artist":"天月-あまつき-","Title":"小さな恋のうた","Duration":279693,"Raw_Title":"小さな恋のうた","Raw_Artist":"天月","Raw_Duration":280000}
+{"DateTime":"2018-07-07T13:54:19.1243263+08:00","ID":"419254982","Artist":"天月-あまつき-","Title":"小さな恋のうた","Duration":279693,"Raw_Title":"小さな恋のうた","Raw_Artist":"天月","Raw_Duration":280000}
+{"DateTime":"2018-07-07T13:59:40.6144872+08:00","ID":"30830256","Artist":"Silent Siren","Title":"Routine","Duration":243000,"Raw_Title":"Routine","Raw_Artist":"サイレントサイレン","Raw_Duration":243000}
+{"DateTime":"2018-07-07T13:59:40.8218265+08:00","ID":"30830256","Artist":"Silent Siren","Title":"Routine","Duration":243000,"Raw_Title":"Routine","Raw_Artist":"サイレントサイレン","Raw_Duration":243000}
+{"DateTime":"2018-07-07T14:05:45.388003+08:00","ID":"451701492","Artist":"Yunomi","Title":"めんたいコズミック","Duration":226168,"Raw_Title":"めんたいコズミック","Raw_Artist":"Yunomi","Raw_Duration":226000}
+{"DateTime":"2018-07-07T14:05:45.5390498+08:00","ID":"451701492","Artist":"Yunomi","Title":"めんたいコズミック","Duration":226168,"Raw_Title":"めんたいコズミック","Raw_Artist":"Yunomi","Raw_Duration":226000}
+{"DateTime":"2018-07-07T20:05:13.1158149+08:00","ID":"26122394","Artist":"seiya-murai","Title":"8bit Princess","Duration":121025,"Raw_Title":"8bit Princess","Raw_Artist":"seiya-murai feat. ALT","Raw_Duration":121000}
+{"DateTime":"2018-07-07T20:07:37.480107+08:00","ID":"26116341","Artist":"illion","Title":"AIWAGUMA","Duration":226573,"Raw_Title":"AIWAGUMA","Raw_Artist":"illion","Raw_Duration":226000}
+{"DateTime":"2018-07-07T20:07:37.6521067+08:00","ID":"26116341","Artist":"illion","Title":"AIWAGUMA","Duration":226573,"Raw_Title":"AIWAGUMA","Raw_Artist":"illion","Raw_Duration":226000}
+{"DateTime":"2018-07-07T20:26:11.2690416+08:00","ID":"429348516","Artist":"kradness","Title":"Mazare Party","Duration":242155,"Raw_Title":"Mazare Party","Raw_Artist":"MAZARE","Raw_Duration":242000}
+{"DateTime":"2018-07-07T20:26:11.617042+08:00","ID":"429348516","Artist":"kradness","Title":"Mazare Party","Duration":242155,"Raw_Title":"Mazare Party","Raw_Artist":"MAZARE","Raw_Duration":242000}
+{"DateTime":"2018-07-07T20:47:33.5426512+08:00","ID":"752043","Artist":"IOSYS","Title":"魔理沙は大変なものを盗んでいきました","Duration":243579,"Raw_Title":"魔理沙は大変なものを盗んでいきました","Raw_Artist":"IOSYS","Raw_Duration":244000}
+{"DateTime":"2018-07-07T20:47:33.773647+08:00","ID":"752043","Artist":"IOSYS","Title":"魔理沙は大変なものを盗んでいきました","Duration":243579,"Raw_Title":"魔理沙は大変なものを盗んでいきました","Raw_Artist":"IOSYS","Raw_Duration":244000}
+{"DateTime":"2018-07-08T19:50:35.7869706+08:00","ID":"22809650","Artist":"花たん","Title":"You and beautiful world","Duration":318000,"Raw_Title":"You and beautiful world","Raw_Artist":"花たん","Raw_Duration":318000}
+{"DateTime":"2018-07-08T19:50:36.0119696+08:00","ID":"22809650","Artist":"花たん","Title":"You and beautiful world","Duration":318000,"Raw_Title":"You and beautiful world","Raw_Artist":"花たん","Raw_Duration":318000}
+{"DateTime":"2018-07-08T20:35:41.637969+08:00","ID":"38673123","Artist":"Maffalda","Title":"Pensamento Típico de Esquerda Caviar","Duration":125936,"Raw_Title":"pensamento tipico de esquerda caviar","Raw_Artist":"Maffalda","Raw_Duration":126000}
+{"DateTime":"2018-07-08T20:44:35.1536725+08:00","ID":"33955442","Artist":"FELT","Title":"New World","Duration":249312,"Raw_Title":"New World","Raw_Artist":"FELT","Raw_Duration":249000}
+{"DateTime":"2018-07-08T20:44:35.3526451+08:00","ID":"33955442","Artist":"FELT","Title":"New World","Duration":249312,"Raw_Title":"New World","Raw_Artist":"FELT","Raw_Duration":249000}
+{"DateTime":"2018-07-08T21:13:38.5737831+08:00","ID":"22736694","Artist":"UPLIFT SPICE","Title":"オメガリズム","Duration":181473,"Raw_Title":"オメガリズム","Raw_Artist":"UPLIFT SPICE","Raw_Duration":181000}
+{"DateTime":"2018-07-08T21:13:38.7477818+08:00","ID":"22736694","Artist":"UPLIFT SPICE","Title":"オメガリズム","Duration":181473,"Raw_Title":"オメガリズム","Raw_Artist":"UPLIFT SPICE","Raw_Duration":181000}
+{"DateTime":"2018-07-08T21:56:48.1849633+08:00","ID":"28360848","Artist":"kors k","Title":"smooooch・∀・","Duration":116613,"Raw_Title":"smooooch ・∀・","Raw_Artist":"kors k","Raw_Duration":116000}
+{"DateTime":"2018-07-08T23:35:40.0139706+08:00","ID":"644644","Artist":"霜月はるか","Title":"kaleidoscope","Duration":261538,"Raw_Title":"Kaleidoscope","Raw_Artist":"霜月はるか","Raw_Duration":261000}
+{"DateTime":"2018-07-08T23:35:40.3909788+08:00","ID":"644644","Artist":"霜月はるか","Title":"kaleidoscope","Duration":261538,"Raw_Title":"Kaleidoscope","Raw_Artist":"霜月はるか","Raw_Duration":261000}
+{"DateTime":"2018-07-09T14:25:23.0024108+08:00","ID":"794080","Artist":"ONE OK ROCK","Title":"Re:make","Duration":203133,"Raw_Title":"Re:make","Raw_Artist":"ONE OK ROCK","Raw_Duration":204000}
+{"DateTime":"2018-07-09T14:25:23.786325+08:00","ID":"794080","Artist":"ONE OK ROCK","Title":"Re:make","Duration":203133,"Raw_Title":"Re:make","Raw_Artist":"ONE OK ROCK","Raw_Duration":204000}
+{"DateTime":"2018-07-13T20:34:24.7822469+08:00","ID":"448742033","Artist":"nameless","Title":"透明エレジー","Duration":224411,"Raw_Title":"透明エレジー","Raw_Artist":"こぬこ","Raw_Duration":225000}
+{"DateTime":"2018-07-13T20:34:26.5387454+08:00","ID":"448742033","Artist":"nameless","Title":"透明エレジー","Duration":224411,"Raw_Title":"透明エレジー","Raw_Artist":"こぬこ","Raw_Duration":225000}
+{"DateTime":"2018-07-13T20:39:23.3026348+08:00","ID":"529391364","Artist":"めらみぽっぷ","Title":"まつりまつられ","Duration":397244,"Raw_Title":"まつりまつられ","Raw_Artist":"凋叶棕 feat. めらみぽっぷ","Raw_Duration":397000}
+{"DateTime":"2018-07-13T20:39:23.5586345+08:00","ID":"529391364","Artist":"めらみぽっぷ","Title":"まつりまつられ","Duration":397244,"Raw_Title":"まつりまつられ","Raw_Artist":"凋叶棕 feat. めらみぽっぷ","Raw_Duration":397000}
+{"DateTime":"2018-07-13T20:59:34.619988+08:00","ID":"484056953","Artist":"初音ミク","Title":"小さな恋のうた (Synth Rock Cover)","Duration":229955,"Raw_Title":"小さな恋のうた (Synth Rock Cover)","Raw_Artist":"Omoi","Raw_Duration":230000}
+{"DateTime":"2018-07-13T20:59:34.8584887+08:00","ID":"484056953","Artist":"初音ミク","Title":"小さな恋のうた (Synth Rock Cover)","Duration":229955,"Raw_Title":"小さな恋のうた (Synth Rock Cover)","Raw_Artist":"Omoi","Raw_Duration":230000}
+{"DateTime":"2018-07-13T21:16:24.0527236+08:00","ID":"34367043","Artist":"Rhodanthe*","Title":"夢色パレード","Duration":244224,"Raw_Title":"夢色パレード","Raw_Artist":"Rhodanthe*","Raw_Duration":244000}
+{"DateTime":"2018-07-13T21:16:24.3182214+08:00","ID":"34367043","Artist":"Rhodanthe*","Title":"夢色パレード","Duration":244224,"Raw_Title":"夢色パレード","Raw_Artist":"Rhodanthe*","Raw_Duration":244000}
+{"DateTime":"2018-07-13T21:37:36.7961235+08:00","ID":"420513446","Artist":"MY FIRST STORY","Title":"Smash Out!!","Duration":184866,"Raw_Title":"Smash Out!!","Raw_Artist":"MY FIRST STORY","Raw_Duration":185000}
+{"DateTime":"2018-07-13T21:37:37.0316242+08:00","ID":"420513446","Artist":"MY FIRST STORY","Title":"Smash Out!!","Duration":184866,"Raw_Title":"Smash Out!!","Raw_Artist":"MY FIRST STORY","Raw_Duration":185000}
+{"DateTime":"2018-07-13T21:45:43.3360943+08:00","ID":"25931858","Artist":"黒うさP","Title":"下弦の月","Duration":268000,"Raw_Title":"下弦の月","Raw_Artist":"96猫×黒うさＰ","Raw_Duration":268000}
+{"DateTime":"2018-07-13T21:45:43.5896367+08:00","ID":"25931858","Artist":"黒うさP","Title":"下弦の月","Duration":268000,"Raw_Title":"下弦の月","Raw_Artist":"96猫×黒うさＰ","Raw_Duration":268000}
+{"DateTime":"2018-07-14T00:16:21.3180443+08:00","ID":"18348304","Artist":"Infected Mushroom","Title":"The Pretender","Duration":395860,"Raw_Title":"The Pretender","Raw_Artist":"Infected Mushroom","Raw_Duration":395000}
+{"DateTime":"2018-07-14T00:16:21.5980433+08:00","ID":"18348304","Artist":"Infected Mushroom","Title":"The Pretender","Duration":395860,"Raw_Title":"The Pretender","Raw_Artist":"Infected Mushroom","Raw_Duration":395000}
+{"DateTime":"2018-07-17T20:03:33.761816+08:00","ID":"640420","Artist":"茶太","Title":"滑稽というなかれ","Duration":209626,"Raw_Title":"滑稽というなかれ","Raw_Artist":"茶太","Raw_Duration":210000}
+{"DateTime":"2018-07-17T20:03:34.0653172+08:00","ID":"640420","Artist":"茶太","Title":"滑稽というなかれ","Duration":209626,"Raw_Title":"滑稽というなかれ","Raw_Artist":"茶太","Raw_Duration":210000}
+{"DateTime":"2018-07-17T20:14:26.2651572+08:00","ID":"5067882","Artist":"Boyinaband","Title":"Time Bomb (feat. Veela)","Duration":211644,"Raw_Title":"Time Bomb (feat. Veela)","Raw_Artist":"Feint & Boyinaband","Raw_Duration":211000}
+{"DateTime":"2018-07-17T20:14:26.565657+08:00","ID":"5067882","Artist":"Boyinaband","Title":"Time Bomb (feat. Veela)","Duration":211644,"Raw_Title":"Time Bomb (feat. Veela)","Raw_Artist":"Feint & Boyinaband","Raw_Duration":211000}
+{"DateTime":"2018-07-17T20:51:23.6603691+08:00","ID":"570086044","Artist":"Roselia","Title":"六兆年と一夜物語","Duration":103872,"Raw_Title":"六兆年と一夜物語","Raw_Artist":"Roselia","Raw_Duration":104000}
+{"DateTime":"2018-07-17T21:12:49.6267783+08:00","ID":"30284542","Artist":"坂本真綾","Title":"幸せについて私が知っている5つの方法","Duration":280093,"Raw_Title":"幸せについて私が知っている5つの方法","Raw_Artist":"坂本真綾","Raw_Duration":280000}
+{"DateTime":"2018-07-17T21:12:49.8032786+08:00","ID":"30284542","Artist":"坂本真綾","Title":"幸せについて私が知っている5つの方法","Duration":280093,"Raw_Title":"幸せについて私が知っている5つの方法","Raw_Artist":"坂本真綾","Raw_Duration":280000}
+{"DateTime":"2018-07-18T19:17:58.522351+08:00","ID":"744881","Artist":"ほたる","Title":"Deconstruction Star","Duration":323657,"Raw_Title":"Deconstruction Star","Raw_Artist":"Halozy","Raw_Duration":323000}
+{"DateTime":"2018-07-18T19:17:58.8138483+08:00","ID":"744881","Artist":"ほたる","Title":"Deconstruction Star","Duration":323657,"Raw_Title":"Deconstruction Star","Raw_Artist":"Halozy","Raw_Duration":323000}
+{"DateTime":"2018-07-18T19:28:55.5925933+08:00","ID":"29004187","Artist":"ESQUARIA","Title":"Drivi'n greedy -Nhato Remix-","Duration":321593,"Raw_Title":"Drivi'n greedy - Nhato Remix -","Raw_Artist":"葉月ゆら","Raw_Duration":322000}
+{"DateTime":"2018-07-18T19:28:55.9835931+08:00","ID":"29004187","Artist":"ESQUARIA","Title":"Drivi'n greedy -Nhato Remix-","Duration":321593,"Raw_Title":"Drivi'n greedy - Nhato Remix -","Raw_Artist":"葉月ゆら","Raw_Duration":322000}
+{"DateTime":"2018-07-18T20:27:14.434392+08:00","ID":"31185138","Artist":"USAO","Title":"Night sky","Duration":127000,"Raw_Title":"Night sky","Raw_Artist":"USAO","Raw_Duration":127000}
+{"DateTime":"2018-07-18T20:27:14.7608906+08:00","ID":"31185138","Artist":"USAO","Title":"Night sky","Duration":127000,"Raw_Title":"Night sky","Raw_Artist":"USAO","Raw_Duration":127000}
+{"DateTime":"2018-07-18T20:31:52.3086758+08:00","ID":"30352691","Artist":"ゆいこんぬ","Title":"葵色ステップ","Duration":200045,"Raw_Title":"葵色ステップ","Raw_Artist":"ゆいこんぬ","Raw_Duration":200000}
+{"DateTime":"2018-07-18T20:31:52.509676+08:00","ID":"30352691","Artist":"ゆいこんぬ","Title":"葵色ステップ","Duration":200045,"Raw_Title":"葵色ステップ","Raw_Artist":"ゆいこんぬ","Raw_Duration":200000}
+{"DateTime":"2018-07-18T21:39:24.4638284+08:00","ID":"411928932","Artist":"Endorfin.","Title":"Luminous Rage","Duration":216502,"Raw_Title":"Luminous Rage","Raw_Artist":"Endorfin.","Raw_Duration":217000}
+{"DateTime":"2018-07-18T21:48:18.9332273+08:00","ID":"29814520","Artist":"妖精帝國","Title":"昏き世界の慟哭","Duration":262922,"Raw_Title":"昏き世界の慟哭","Raw_Artist":"妖精帝國","Raw_Duration":263000}
+{"DateTime":"2018-07-18T21:48:19.2527271+08:00","ID":"29814520","Artist":"妖精帝國","Title":"昏き世界の慟哭","Duration":262922,"Raw_Title":"昏き世界の慟哭","Raw_Artist":"妖精帝國","Raw_Duration":263000}
+{"DateTime":"2018-07-18T22:44:51.7870884+08:00","ID":"27580729","Artist":"Vivienne","Title":"Lies in Reality","Duration":390138,"Raw_Title":"Lies in Reality","Raw_Artist":"FELT","Raw_Duration":391000}
+{"DateTime":"2018-07-18T22:44:52.0940875+08:00","ID":"27580729","Artist":"Vivienne","Title":"Lies in Reality","Duration":390138,"Raw_Title":"Lies in Reality","Raw_Artist":"FELT","Raw_Duration":391000}
+{"DateTime":"2018-07-18T22:56:06.1759597+08:00","ID":"35848639","Artist":"ナノ","Title":"Bull's Eye","Duration":229800,"Raw_Title":"Bull's Eye","Raw_Artist":"ナノ","Raw_Duration":230000}
+{"DateTime":"2018-07-18T22:56:06.3909528+08:00","ID":"35848639","Artist":"ナノ","Title":"Bull's Eye","Duration":229800,"Raw_Title":"Bull's Eye","Raw_Artist":"ナノ","Raw_Duration":230000}
+{"DateTime":"2018-07-19T22:07:29.6261519+08:00","ID":"29751714","Artist":"Krewella","Title":"Say Goodbye","Duration":232045,"Raw_Title":"Say Goodbye","Raw_Artist":"Krewella","Raw_Duration":232000}
+{"DateTime":"2018-07-19T22:07:29.9581496+08:00","ID":"29751714","Artist":"Krewella","Title":"Say Goodbye","Duration":232045,"Raw_Title":"Say Goodbye","Raw_Artist":"Krewella","Raw_Duration":232000}
+{"DateTime":"2018-07-19T22:19:12.9682075+08:00","ID":"27517201","Artist":"Rita","Title":"Alicemagic ~TV animation ver.~","Duration":277000,"Raw_Title":"Alicemagic ～TV animation ver.～","Raw_Artist":"Rita","Raw_Duration":276000}
+{"DateTime":"2018-07-19T22:19:13.4097039+08:00","ID":"27517201","Artist":"Rita","Title":"Alicemagic ~TV animation ver.~","Duration":277000,"Raw_Title":"Alicemagic ～TV animation ver.～","Raw_Artist":"Rita","Raw_Duration":276000}
+{"DateTime":"2018-07-19T22:36:06.863479+08:00","ID":"34528298","Artist":"ななひら","Title":"月燈籠","Duration":292464,"Raw_Title":"月燈籠","Raw_Artist":"かめりあ feat. ななひら","Raw_Duration":292000}
+{"DateTime":"2018-07-19T22:48:20.937171+08:00","ID":"677023","Artist":"96猫","Title":"爱迷エレジー","Duration":181000,"Raw_Title":"愛迷エレジー","Raw_Artist":"96猫","Raw_Duration":181000}
+{"DateTime":"2018-07-19T23:43:36.0131051+08:00","ID":"26108698","Artist":"鹿乃","Title":"サクラノ前夜","Duration":360359,"Raw_Title":"サクラノ前夜","Raw_Artist":"鹿乃","Raw_Duration":360000}
+{"DateTime":"2018-07-20T13:09:19.3498171+08:00","ID":"32098832","Artist":"鹿乃","Title":"Stella-rium","Duration":248173,"Raw_Title":"Stella-rium","Raw_Artist":"鹿乃","Raw_Duration":248000}
+{"DateTime":"2018-07-20T13:09:19.9678164+08:00","ID":"32098832","Artist":"鹿乃","Title":"Stella-rium","Duration":248173,"Raw_Title":"Stella-rium","Raw_Artist":"鹿乃","Raw_Duration":248000}
+{"DateTime":"2018-07-20T22:58:56.6097719+08:00","ID":"28442960","Artist":"和楽器バンド","Title":"天樂","Duration":307200,"Raw_Title":"天樂","Raw_Artist":"和楽器バンド","Raw_Duration":308000}
+{"DateTime":"2018-07-20T22:58:57.156988+08:00","ID":"28442960","Artist":"和楽器バンド","Title":"天樂","Duration":307200,"Raw_Title":"天樂","Raw_Artist":"和楽器バンド","Raw_Duration":308000}
+{"DateTime":"2018-07-22T21:03:52.6583776+08:00","ID":"547764294","Artist":"かめりあ","Title":"べィスドロップ・フリークス (2018 \"Redrop\" ver.)","Duration":273493,"Raw_Title":"べィスドロップ・フリークス (2018 \"Redrop\" ver.)","Raw_Artist":"かめりあ feat. ななひら","Raw_Duration":274000}
+{"DateTime":"2018-07-22T21:23:07.0246463+08:00","ID":"28524465","Artist":"伊東歌詞太郎","Title":"しわ","Duration":247222,"Raw_Title":"しわ","Raw_Artist":"伊東歌詞太郎","Raw_Duration":247000}
+{"DateTime":"2018-07-22T21:23:07.7466475+08:00","ID":"28524465","Artist":"伊東歌詞太郎","Title":"しわ","Duration":247222,"Raw_Title":"しわ","Raw_Artist":"伊東歌詞太郎","Raw_Duration":247000}
+{"DateTime":"2018-07-22T21:28:05.801463+08:00","ID":"469065438","Artist":"とくP","Title":"SPiCa","Duration":217640,"Raw_Title":"SPiCa","Raw_Artist":"나래","Raw_Duration":218000}
+{"DateTime":"2018-07-22T21:28:06.2694599+08:00","ID":"469065438","Artist":"とくP","Title":"SPiCa","Duration":217640,"Raw_Title":"SPiCa","Raw_Artist":"나래","Raw_Duration":218000}
+{"DateTime":"2018-07-22T21:58:46.0604614+08:00","ID":"478736276","Artist":"Sound Horizon","Title":"自由の翼","Duration":331990,"Raw_Title":"自由の翼","Raw_Artist":"EPICA","Raw_Duration":332000}
+{"DateTime":"2018-07-22T21:58:46.4054588+08:00","ID":"478736276","Artist":"Sound Horizon","Title":"自由の翼","Duration":331990,"Raw_Title":"自由の翼","Raw_Artist":"EPICA","Raw_Duration":332000}
+{"DateTime":"2018-07-23T00:16:03.8579667+08:00","ID":"526904558","Artist":"Vivienne","Title":"Rendezvous","Duration":214622,"Raw_Title":"Rendezvous","Raw_Artist":"FELT","Raw_Duration":215000}
+{"DateTime":"2018-07-23T00:16:04.2869664+08:00","ID":"526904558","Artist":"Vivienne","Title":"Rendezvous","Duration":214622,"Raw_Title":"Rendezvous","Raw_Artist":"FELT","Raw_Duration":215000}
+{"DateTime":"2018-07-23T19:44:41.7302295+08:00","ID":"30039731","Artist":"田村ゆかり","Title":"Endless Story","Duration":228733,"Raw_Title":"Endless Story","Raw_Artist":"Tamura Yukari","Raw_Duration":229000}
+{"DateTime":"2018-07-23T19:44:42.7342289+08:00","ID":"30039731","Artist":"田村ゆかり","Title":"Endless Story","Duration":228733,"Raw_Title":"Endless Story","Raw_Artist":"Tamura Yukari","Raw_Duration":229000}
+{"DateTime":"2018-07-23T19:59:14.019728+08:00","ID":"33255205","Artist":"星野奏子","Title":"MAX LOVE ","Duration":139000,"Raw_Title":"MAX LOVE","Raw_Artist":"DJ YOSHITAKA feat. 星野奏子","Raw_Duration":140000}
+{"DateTime":"2018-07-23T20:39:12.7447521+08:00","ID":"28873240","Artist":"美里","Title":"Paranoid Lost","Duration":342253,"Raw_Title":"Paranoid Lost","Raw_Artist":"Halozy","Raw_Duration":342000}
+{"DateTime":"2018-07-23T20:39:13.2077512+08:00","ID":"28873240","Artist":"美里","Title":"Paranoid Lost","Duration":342253,"Raw_Title":"Paranoid Lost","Raw_Artist":"Halozy","Raw_Duration":342000}
+{"DateTime":"2018-07-23T22:13:46.1532522+08:00","ID":"28187539","Artist":"Foreground Eclipse","Title":"From Under Cover(Caught Up In A Love Song)","Duration":207177,"Raw_Title":"From Under Cover (Caught Up In A Love Song)","Raw_Artist":"Foreground Eclipse","Raw_Duration":207000}
+{"DateTime":"2018-07-23T22:13:46.4247514+08:00","ID":"28187539","Artist":"Foreground Eclipse","Title":"From Under Cover(Caught Up In A Love Song)","Duration":207177,"Raw_Title":"From Under Cover (Caught Up In A Love Song)","Raw_Artist":"Foreground Eclipse","Raw_Duration":207000}
+{"DateTime":"2018-07-24T20:57:17.3703037+08:00","ID":"28468947","Artist":"うさころにー","Title":"上弦の月","Duration":240927,"Raw_Title":"上弦の月","Raw_Artist":"うさ","Raw_Duration":241000}
+{"DateTime":"2018-07-24T20:57:18.1232808+08:00","ID":"28468947","Artist":"うさころにー","Title":"上弦の月","Duration":240927,"Raw_Title":"上弦の月","Raw_Artist":"うさ","Raw_Duration":241000}
+{"DateTime":"2018-07-24T21:19:22.6209931+08:00","ID":"4895401","Artist":"常盤ゆう","Title":"少年リップルズ","Duration":121520,"Raw_Title":"少年リップルズ","Raw_Artist":"常盤ゆう","Raw_Duration":122000}
+{"DateTime":"2018-07-24T21:24:47.7449991+08:00","ID":"34528234","Artist":"ななひら","Title":"Fly Away!","Duration":226766,"Raw_Title":"Fly Away!","Raw_Artist":"ななひら","Raw_Duration":227000}
+{"DateTime":"2018-07-25T18:45:35.0411903+08:00","ID":"36307050","Artist":"Pegboard Nerds","Title":"Emoji","Duration":219995,"Raw_Title":"Emoji","Raw_Artist":"Pegboard Nerds","Raw_Duration":220000}
+{"DateTime":"2018-07-25T19:06:40.2401357+08:00","ID":"26570568","Artist":"今井麻美","Title":"星屑のリング","Duration":322866,"Raw_Title":"星屑のリング","Raw_Artist":"今井麻美","Raw_Duration":323000}
+{"DateTime":"2018-07-25T19:06:40.4891337+08:00","ID":"26570568","Artist":"今井麻美","Title":"星屑のリング","Duration":322866,"Raw_Title":"星屑のリング","Raw_Artist":"今井麻美","Raw_Duration":323000}
+{"DateTime":"2018-07-25T19:27:26.6652826+08:00","ID":"32897078","Artist":"花たん","Title":"アイのシナリオ","Duration":273000,"Raw_Title":"アイのシナリオ","Raw_Artist":"花たん","Raw_Duration":274000}
+{"DateTime":"2018-07-25T19:27:27.058283+08:00","ID":"32897078","Artist":"花たん","Title":"アイのシナリオ","Duration":273000,"Raw_Title":"アイのシナリオ","Raw_Artist":"花たん","Raw_Duration":274000}
+{"DateTime":"2018-07-25T19:51:22.7305175+08:00","ID":"857380","Artist":"vip店長","Title":"白い雪のプリンセスは","Duration":263026,"Raw_Title":"白い雪のプリンセスは","Raw_Artist":"のぼる↑ feat.実谷なな","Raw_Duration":264000}
+{"DateTime":"2018-07-25T19:51:24.3392888+08:00","ID":"857380","Artist":"vip店長","Title":"白い雪のプリンセスは","Duration":263026,"Raw_Title":"白い雪のプリンセスは","Raw_Artist":"のぼる↑ feat.実谷なな","Raw_Duration":264000}
+{"DateTime":"2018-07-25T21:10:11.1883594+08:00","ID":"31311506","Artist":"伊東歌詞太郎","Title":"夢地図","Duration":198000,"Raw_Title":"夢地図","Raw_Artist":"伊東歌詞太郎","Raw_Duration":198000}
+{"DateTime":"2018-07-26T19:00:06.6438621+08:00","ID":"530986968","Artist":"高橋李依","Title":"AM11:00","Duration":309026,"Raw_Title":"AM11：00","Raw_Artist":"高木さん（CV：高橋李依）","Raw_Duration":309000}
+{"DateTime":"2018-07-26T19:00:07.5303594+08:00","ID":"530986968","Artist":"高橋李依","Title":"AM11:00","Duration":309026,"Raw_Title":"AM11：00","Raw_Artist":"高木さん（CV：高橋李依）","Raw_Duration":309000}
+{"DateTime":"2018-07-26T19:29:36.5047148+08:00","ID":"31185135","Artist":"DJ NAGAI","Title":"紅牡丹","Duration":109000,"Raw_Title":"紅牡丹","Raw_Artist":"DJ NAGAI feat. a☆ru","Raw_Duration":109000}
+{"DateTime":"2018-07-26T19:29:36.7803144+08:00","ID":"31185135","Artist":"DJ NAGAI","Title":"紅牡丹","Duration":109000,"Raw_Title":"紅牡丹","Raw_Artist":"DJ NAGAI feat. a☆ru","Raw_Duration":109000}
+{"DateTime":"2018-07-26T19:32:45.6971596+08:00","ID":"551338809","Artist":"Roselia","Title":"This game","Duration":122520,"Raw_Title":"This game","Raw_Artist":"Roselia","Raw_Duration":123000}
+{"DateTime":"2018-07-26T19:32:46.1111598+08:00","ID":"551338809","Artist":"Roselia","Title":"This game","Duration":122520,"Raw_Title":"This game","Raw_Artist":"Roselia","Raw_Duration":123000}
+{"DateTime":"2018-07-26T19:34:37.7862736+08:00","ID":"399366409","Artist":"はな","Title":"櫻ノ詩 (OP short ver)","Duration":103888,"Raw_Title":"櫻ノ詩","Raw_Artist":"はな","Raw_Duration":104000}
+{"DateTime":"2018-07-26T19:34:37.9872732+08:00","ID":"399366409","Artist":"はな","Title":"櫻ノ詩 (OP short ver)","Duration":103888,"Raw_Title":"櫻ノ詩","Raw_Artist":"はな","Raw_Duration":104000}
+{"DateTime":"2018-07-26T19:38:10.1123813+08:00","ID":"28830006","Artist":"伊東歌詞太郎","Title":"やくそく","Duration":311823,"Raw_Title":"やくそく","Raw_Artist":"イトヲカシ","Raw_Duration":312000}
+{"DateTime":"2018-07-26T19:38:10.3208855+08:00","ID":"28830006","Artist":"伊東歌詞太郎","Title":"やくそく","Duration":311823,"Raw_Title":"やくそく","Raw_Artist":"イトヲカシ","Raw_Duration":312000}
+{"DateTime":"2018-07-26T19:50:20.3484684+08:00","ID":"402073800","Artist":"noma","Title":"Brain Power Long Version","Duration":367873,"Raw_Title":"Brain Power Long Version","Raw_Artist":"ノマ","Raw_Duration":367000}
+{"DateTime":"2018-07-26T19:50:20.8129684+08:00","ID":"402073800","Artist":"noma","Title":"Brain Power Long Version","Duration":367873,"Raw_Title":"Brain Power Long Version","Raw_Artist":"ノマ","Raw_Duration":367000}
+{"DateTime":"2018-07-26T20:22:13.935632+08:00","ID":"34002701","Artist":"nomico","Title":"Lost Emotion (Amane UK Hardcore Remix)","Duration":314434,"Raw_Title":"Lost Emotion (Amane UK Hardcore Remix)","Raw_Artist":"Masayoshi Minoshima feat.nomico","Raw_Duration":314000}
+{"DateTime":"2018-07-26T20:22:14.2466313+08:00","ID":"34002701","Artist":"nomico","Title":"Lost Emotion (Amane UK Hardcore Remix)","Duration":314434,"Raw_Title":"Lost Emotion (Amane UK Hardcore Remix)","Raw_Artist":"Masayoshi Minoshima feat.nomico","Raw_Duration":314000}
+{"DateTime":"2018-07-26T20:54:50.1909316+08:00","ID":"32098833","Artist":"鹿乃","Title":"Walk This Way!","Duration":249000,"Raw_Title":"Walk This Way!","Raw_Artist":"鹿乃","Raw_Duration":249000}
+{"DateTime":"2018-07-26T20:54:50.4239311+08:00","ID":"32098833","Artist":"鹿乃","Title":"Walk This Way!","Duration":249000,"Raw_Title":"Walk This Way!","Raw_Artist":"鹿乃","Raw_Duration":249000}
+{"DateTime":"2018-07-27T19:53:55.5912799+08:00","ID":"28360848","Artist":"kors k","Title":"smooooch・∀・","Duration":116613,"Raw_Title":"smooooch","Raw_Artist":"kors k","Raw_Duration":116000}
+{"DateTime":"2018-07-28T20:00:05.1513931+08:00","ID":"22791467","Artist":"xi","Title":"Mirage Garden","Duration":238733,"Raw_Title":"Mirage Garden","Raw_Artist":"xi","Raw_Duration":239000}
+{"DateTime":"2018-07-28T21:32:31.5775692+08:00","ID":"30841060","Artist":"佐藤直之","Title":"chrono diver -fragment-","Duration":361900,"Raw_Title":"chrono diver -fragment-","Raw_Artist":"猫叉Master feat.三澤秋","Raw_Duration":362000}
+{"DateTime":"2018-07-30T22:18:38.4067638+08:00","ID":"28075293","Artist":"airportexpress","Title":"BIRTH","Duration":225123,"Raw_Title":"BIRTH","Raw_Artist":"airportexpress feat.伍猫","Raw_Duration":225000}
+{"DateTime":"2018-07-30T22:48:15.2062531+08:00","ID":"28859524","Artist":"yuiko","Title":"君が望む世界","Duration":229506,"Raw_Title":"君が望む世界","Raw_Artist":"Primary","Raw_Duration":230000}
+{"DateTime":"2018-07-30T22:48:15.636418+08:00","ID":"28859524","Artist":"yuiko","Title":"君が望む世界","Duration":229506,"Raw_Title":"君が望む世界","Raw_Artist":"Primary","Raw_Duration":230000}
+{"DateTime":"2018-07-31T20:18:33.0541772+08:00","ID":"22709616","Artist":"Supercell","Title":"ヒーロー","Duration":311680,"Raw_Title":"ヒーロー","Raw_Artist":"supercell","Raw_Duration":312000}
+{"DateTime":"2018-07-31T20:18:33.3231759+08:00","ID":"22709616","Artist":"Supercell","Title":"ヒーロー","Duration":311680,"Raw_Title":"ヒーロー","Raw_Artist":"supercell","Raw_Duration":312000}
+{"DateTime":"2018-07-31T20:28:50.9570637+08:00","ID":"551339788","Artist":"Roselia","Title":"紅蓮の弓矢","Duration":98856,"Raw_Title":"紅蓮の弓矢","Raw_Artist":"Roselia","Raw_Duration":99000}
+{"DateTime":"2018-07-31T20:28:51.1770637+08:00","ID":"551339788","Artist":"Roselia","Title":"紅蓮の弓矢","Duration":98856,"Raw_Title":"紅蓮の弓矢","Raw_Artist":"Roselia","Raw_Duration":99000}
+{"DateTime":"2018-07-31T21:05:21.6417098+08:00","ID":"22815604","Artist":"UNDEAD CORPORATION","Title":"夜啼く兎は梦を见る","Duration":226403,"Raw_Title":"夜啼く兎は夢を見る","Raw_Artist":"UNDEAD CORPORATION","Raw_Duration":226000}
+{"DateTime":"2018-07-31T21:05:21.833694+08:00","ID":"22815604","Artist":"UNDEAD CORPORATION","Title":"夜啼く兎は梦を见る","Duration":226403,"Raw_Title":"夜啼く兎は夢を見る","Raw_Artist":"UNDEAD CORPORATION","Raw_Duration":226000}
+{"DateTime":"2018-07-31T22:00:16.0467737+08:00","ID":"412327884","Artist":"TrySail","Title":"High Free Spirits","Duration":285200,"Raw_Title":"High Free Spirits","Raw_Artist":"TrySail","Raw_Duration":285000}
+{"DateTime":"2018-07-31T22:00:16.258775+08:00","ID":"412327884","Artist":"TrySail","Title":"High Free Spirits","Duration":285200,"Raw_Title":"High Free Spirits","Raw_Artist":"TrySail","Raw_Duration":285000}
+{"DateTime":"2018-08-01T20:33:45.954251+08:00","ID":"1293905025","Artist":"ナナヲアカリ","Title":"ワンルームシュガーライフ (TV size ver.)","Duration":89048,"Raw_Title":"ワンルームシュガーライフ (TV Size)","Raw_Artist":"ナナヲアカリ","Raw_Duration":90000}
+{"DateTime":"2018-08-01T20:33:46.238252+08:00","ID":"1293905025","Artist":"ナナヲアカリ","Title":"ワンルームシュガーライフ (TV size ver.)","Duration":89048,"Raw_Title":"ワンルームシュガーライフ (TV Size)","Raw_Artist":"ナナヲアカリ","Raw_Duration":90000}
+{"DateTime":"2018-08-02T21:29:40.1654983+08:00","ID":"29758259","Artist":"佐咲紗花","Title":"マリンブルーに沿って","Duration":243722,"Raw_Title":"マリンブルーに沿って","Raw_Artist":"佐咲紗花","Raw_Duration":244000}
+{"DateTime":"2018-08-02T21:29:40.4235857+08:00","ID":"29758259","Artist":"佐咲紗花","Title":"マリンブルーに沿って","Duration":243722,"Raw_Title":"マリンブルーに沿って","Raw_Artist":"佐咲紗花","Raw_Duration":244000}
+{"DateTime":"2018-08-02T21:51:44.4347328+08:00","ID":"41630286","Artist":"みとせのりこ","Title":"Duel Alternatives","Duration":472529,"Raw_Title":"Duel Alternatives","Raw_Artist":"みとせのりこ","Raw_Duration":472000}
+{"DateTime":"2018-08-02T21:51:44.7103186+08:00","ID":"41630286","Artist":"みとせのりこ","Title":"Duel Alternatives","Duration":472529,"Raw_Title":"Duel Alternatives","Raw_Artist":"みとせのりこ","Raw_Duration":472000}
+{"DateTime":"2018-08-02T22:48:42.6157652+08:00","ID":"33875057","Artist":"Carpenter Brut","Title":"Anarchy Road","Duration":213084,"Raw_Title":"Anarchy Road","Raw_Artist":"Carpenter Brut","Raw_Duration":213000}
+{"DateTime":"2018-08-02T23:19:23.4401412+08:00","ID":"32431066","Artist":"初音ミク","Title":"神のまにまに","Duration":256000,"Raw_Title":"神のまにまに","Raw_Artist":"泠鸢yousa","Raw_Duration":255000}
+{"DateTime":"2018-08-02T23:19:23.7103577+08:00","ID":"32431066","Artist":"初音ミク","Title":"神のまにまに","Duration":256000,"Raw_Title":"神のまにまに","Raw_Artist":"泠鸢yousa","Raw_Duration":255000}
+{"DateTime":"2018-08-03T19:21:38.1986339+08:00","ID":"30051939","Artist":"DJ Genericname","Title":"Dear You","Duration":115931,"Raw_Title":"Dear You","Raw_Artist":"DJ Genericname","Raw_Duration":116000}
+{"DateTime":"2018-08-03T19:21:38.5241352+08:00","ID":"30051939","Artist":"DJ Genericname","Title":"Dear You","Duration":115931,"Raw_Title":"Dear You","Raw_Artist":"DJ Genericname","Raw_Duration":116000}
+{"DateTime":"2018-08-03T19:24:00.2595083+08:00","ID":"436305235","Artist":"海の底からマーメイド♨Prim by ARM×孤夢想","Title":"ギョギョっと人魚♨爆婚ブライダル","Duration":121920,"Raw_Title":"ギョギョっと人魚♨爆婚ブライダル","Raw_Artist":"海の底からマーメイド♨Prim by ARM×狐夢想","Raw_Duration":122000}
+{"DateTime":"2018-08-03T19:24:00.4685085+08:00","ID":"436305235","Artist":"海の底からマーメイド♨Prim by ARM×孤夢想","Title":"ギョギョっと人魚♨爆婚ブライダル","Duration":121920,"Raw_Title":"ギョギョっと人魚♨爆婚ブライダル","Raw_Artist":"海の底からマーメイド♨Prim by ARM×狐夢想","Raw_Duration":122000}
+{"DateTime":"2018-08-03T19:31:08.267377+08:00","ID":"867666","Artist":"妖精帝國","Title":"Hades: The rise","Duration":287347,"Raw_Title":"Hades: The rise","Raw_Artist":"妖精帝國","Raw_Duration":287000}
+{"DateTime":"2018-08-03T20:07:28.375426+08:00","ID":"469508053","Artist":"Linked Horizon","Title":"心臓を捧げよ! (TV Size)","Duration":90070,"Raw_Title":"心臓を捧げよ! [TV Size]","Raw_Artist":"Linked Horizon","Raw_Duration":90000}
+{"DateTime":"2018-08-03T20:07:28.5614269+08:00","ID":"469508053","Artist":"Linked Horizon","Title":"心臓を捧げよ! (TV Size)","Duration":90070,"Raw_Title":"心臓を捧げよ! [TV Size]","Raw_Artist":"Linked Horizon","Raw_Duration":90000}
+{"DateTime":"2018-08-03T21:12:57.1949309+08:00","ID":"31560098","Artist":"富永TOMMY弘明","Title":"ジョジョ~その血の運命~ Archetype MIX Ver.","Duration":266000,"Raw_Title":"ジョジョ～その血の運命～ Archetype MIX Ver.","Raw_Artist":"富永TOMMY弘明","Raw_Duration":267000}
+{"DateTime":"2018-08-03T21:12:57.4984295+08:00","ID":"31560098","Artist":"富永TOMMY弘明","Title":"ジョジョ~その血の運命~ Archetype MIX Ver.","Duration":266000,"Raw_Title":"ジョジョ～その血の運命～ Archetype MIX Ver.","Raw_Artist":"富永TOMMY弘明","Raw_Duration":267000}
+{"DateTime":"2018-08-03T21:36:19.4402329+08:00","ID":"28959386","Artist":"ななひら","Title":"ばーさす!","Duration":295862,"Raw_Title":"ばーさす!","Raw_Artist":"ななひら","Raw_Duration":296000}
+{"DateTime":"2018-08-03T21:47:58.6539614+08:00","ID":"29794476","Artist":"ヲタみん","Title":"ギガンティックO.T.N","Duration":199053,"Raw_Title":"ギガンティック O.T.N","Raw_Artist":"ヲタみん","Raw_Duration":199000}
+{"DateTime":"2018-08-03T21:47:58.8474059+08:00","ID":"29794476","Artist":"ヲタみん","Title":"ギガンティックO.T.N","Duration":199053,"Raw_Title":"ギガンティック O.T.N","Raw_Artist":"ヲタみん","Raw_Duration":199000}
+{"DateTime":"2018-08-03T22:15:06.4399344+08:00","ID":"399555298","Artist":"初音ミク","Title":"スノウドライヴ","Duration":258821,"Raw_Title":"スノウドライヴ","Raw_Artist":"Omoi","Raw_Duration":259000}
+{"DateTime":"2018-08-03T22:27:16.8702786+08:00","ID":"525241799","Artist":"Nitro Fun","Title":"Cheat Codes VIP","Duration":204382,"Raw_Title":"Cheat Codes VIP","Raw_Artist":"Nitro Fun","Raw_Duration":204000}
+{"DateTime":"2018-08-03T22:37:44.4289013+08:00","ID":"33516493","Artist":"れをる","Title":"ロジックエージェント","Duration":215066,"Raw_Title":"ロジックエージェント","Raw_Artist":"れをる","Raw_Duration":215000}
+{"DateTime":"2018-08-03T22:37:44.6242501+08:00","ID":"33516493","Artist":"れをる","Title":"ロジックエージェント","Duration":215066,"Raw_Title":"ロジックエージェント","Raw_Artist":"れをる","Raw_Duration":215000}
+{"DateTime":"2018-08-03T22:42:52.0736408+08:00","ID":"34528298","Artist":"ななひら","Title":"月燈籠","Duration":292464,"Raw_Title":"月燈籠","Raw_Artist":"かめりあ feat. ななひら","Raw_Duration":292000}
+{"DateTime":"2018-08-04T20:42:32.127828+08:00","ID":"438466359","Artist":"沼倉愛美","Title":"叫べ","Duration":248333,"Raw_Title":"叫べ","Raw_Artist":"沼倉愛美","Raw_Duration":248000}
+{"DateTime":"2018-08-04T20:42:32.759828+08:00","ID":"438466359","Artist":"沼倉愛美","Title":"叫べ","Duration":248333,"Raw_Title":"叫べ","Raw_Artist":"沼倉愛美","Raw_Duration":248000}
+{"DateTime":"2018-08-04T20:47:29.6888444+08:00","ID":"421160875","Artist":"高田憂希","Title":"ほっしーの!","Duration":210413,"Raw_Title":"ほっしーの!","Raw_Artist":"fourfolium","Raw_Duration":210000}
+{"DateTime":"2018-08-04T20:47:29.9668441+08:00","ID":"421160875","Artist":"高田憂希","Title":"ほっしーの!","Duration":210413,"Raw_Title":"ほっしーの!","Raw_Artist":"fourfolium","Raw_Duration":210000}
+{"DateTime":"2018-08-04T21:20:05.4123202+08:00","ID":"36783339","Artist":"米倉千尋","Title":"恋せよ乙女! (Game Size)","Duration":90491,"Raw_Title":"恋せよ乙女!","Raw_Artist":"米倉千尋","Raw_Duration":91000}
+{"DateTime":"2018-08-04T21:20:05.6083111+08:00","ID":"36783339","Artist":"米倉千尋","Title":"恋せよ乙女! (Game Size)","Duration":90491,"Raw_Title":"恋せよ乙女!","Raw_Artist":"米倉千尋","Raw_Duration":91000}
+{"DateTime":"2018-08-06T20:21:13.4796228+08:00","ID":"31680145","Artist":"霜月はるか","Title":"妖花ト夢現","Duration":309000,"Raw_Title":"妖花ト夢現","Raw_Artist":"霜月はるか","Raw_Duration":309000}
+{"DateTime":"2018-08-06T20:44:40.3599927+08:00","ID":"27580729","Artist":"Vivienne","Title":"Lies in Reality","Duration":390138,"Raw_Title":"Lies in Reality","Raw_Artist":"FELT","Raw_Duration":390000}
+{"DateTime":"2018-08-06T20:44:40.640993+08:00","ID":"27580729","Artist":"Vivienne","Title":"Lies in Reality","Duration":390138,"Raw_Title":"Lies in Reality","Raw_Artist":"FELT","Raw_Duration":390000}
+{"DateTime":"2018-08-06T20:58:41.9610679+08:00","ID":"33516502","Artist":"れをる","Title":"MONSTER","Duration":201933,"Raw_Title":"MONSTER","Raw_Artist":"れをる","Raw_Duration":202000}
+{"DateTime":"2018-08-06T20:58:42.1860688+08:00","ID":"33516502","Artist":"れをる","Title":"MONSTER","Duration":201933,"Raw_Title":"MONSTER","Raw_Artist":"れをる","Raw_Duration":202000}
+{"DateTime":"2018-08-06T21:03:11.6616005+08:00","ID":"465677826","Artist":"Lynn","Title":"Fair wind","Duration":241000,"Raw_Title":"Fair wind","Raw_Artist":"秋月風夏 CV:Lynn","Raw_Duration":241000}
+{"DateTime":"2018-08-06T21:03:12.075588+08:00","ID":"465677826","Artist":"Lynn","Title":"Fair wind","Duration":241000,"Raw_Title":"Fair wind","Raw_Artist":"秋月風夏 CV:Lynn","Raw_Duration":241000}
+{"DateTime":"2018-08-06T21:39:27.5185348+08:00","ID":"411907742","Artist":"Stripe.P","Title":"銀河鉄道のペンギン (Stripe.P Remix)","Duration":234057,"Raw_Title":"銀河鉄道のペンギン ft. nicamoq (Stripe.P Remix)","Raw_Artist":"Aiobahn & Yunomi","Raw_Duration":234000}
+{"DateTime":"2018-08-06T21:39:27.769522+08:00","ID":"411907742","Artist":"Stripe.P","Title":"銀河鉄道のペンギン (Stripe.P Remix)","Duration":234057,"Raw_Title":"銀河鉄道のペンギン ft. nicamoq (Stripe.P Remix)","Raw_Artist":"Aiobahn & Yunomi","Raw_Duration":234000}
+{"DateTime":"2018-08-06T21:42:57.1831439+08:00","ID":"29979491","Artist":"BABYMETAL","Title":"Road of Resistance","Duration":319869,"Raw_Title":"Road of Resistance","Raw_Artist":"BABYMETAL","Raw_Duration":320000}
+{"DateTime":"2018-08-06T21:42:57.4204536+08:00","ID":"29979491","Artist":"BABYMETAL","Title":"Road of Resistance","Duration":319869,"Raw_Title":"Road of Resistance","Raw_Artist":"BABYMETAL","Raw_Duration":320000}
+{"DateTime":"2018-08-06T21:47:02.8236471+08:00","ID":"714728","Artist":"DystopiaGround","Title":"∧ugΦEidEs","Duration":433057,"Raw_Title":"∧ugΦEidEs","Raw_Artist":"DystopiaGround","Raw_Duration":433000}
+{"DateTime":"2018-08-06T21:47:03.1106449+08:00","ID":"714728","Artist":"DystopiaGround","Title":"∧ugΦEidEs","Duration":433057,"Raw_Title":"∧ugΦEidEs","Raw_Artist":"DystopiaGround","Raw_Duration":433000}
+{"DateTime":"2018-08-07T21:12:50.0950803+08:00","ID":"28096450","Artist":"kradness","Title":"おこちゃま戦争","Duration":212976,"Raw_Title":"おこちゃま戦争","Raw_Artist":"kradness＆れをる","Raw_Duration":213000}
+{"DateTime":"2018-08-07T21:12:50.318079+08:00","ID":"28096450","Artist":"kradness","Title":"おこちゃま戦争","Duration":212976,"Raw_Title":"おこちゃま戦争","Raw_Artist":"kradness＆れをる","Raw_Duration":213000}
+{"DateTime":"2018-08-07T21:21:26.2353248+08:00","ID":"30612786","Artist":"鈴木このみ","Title":"Absolute Soul","Duration":284577,"Raw_Title":"Absolute Soul","Raw_Artist":"鈴木このみ","Raw_Duration":285000}
+{"DateTime":"2018-08-07T21:21:26.5594438+08:00","ID":"30612786","Artist":"鈴木このみ","Title":"Absolute Soul","Duration":284577,"Raw_Title":"Absolute Soul","Raw_Artist":"鈴木このみ","Raw_Duration":285000}
+{"DateTime":"2018-08-07T22:13:37.630078+08:00","ID":"36872359","Artist":"鹿乃","Title":"Toy-toi","Duration":215200,"Raw_Title":"Toy-toi","Raw_Artist":"鹿乃","Raw_Duration":215000}
+{"DateTime":"2018-08-07T22:13:37.8160772+08:00","ID":"36872359","Artist":"鹿乃","Title":"Toy-toi","Duration":215200,"Raw_Title":"Toy-toi","Raw_Artist":"鹿乃","Raw_Duration":215000}
+{"DateTime":"2018-08-08T21:25:31.0435228+08:00","ID":"490182345","Artist":"たぴみる","Title":"発見者はワタシ (TV SIZE)","Duration":90883,"Raw_Title":"発見者はワタシ (TV Size)","Raw_Artist":"たぴみる","Raw_Duration":90000}
+{"DateTime":"2018-08-08T21:25:31.3125215+08:00","ID":"490182345","Artist":"たぴみる","Title":"発見者はワタシ (TV SIZE)","Duration":90883,"Raw_Title":"発見者はワタシ (TV Size)","Raw_Artist":"たぴみる","Raw_Duration":90000}
+{"DateTime":"2018-08-08T21:34:37.2972544+08:00","ID":"520458678","Artist":"真里歌","Title":"quantum jump","Duration":242808,"Raw_Title":"quantum jump","Raw_Artist":"真里歌","Raw_Duration":242000}
+{"DateTime":"2018-08-08T21:34:37.6212551+08:00","ID":"520458678","Artist":"真里歌","Title":"quantum jump","Duration":242808,"Raw_Title":"quantum jump","Raw_Artist":"真里歌","Raw_Duration":242000}
+{"DateTime":"2018-08-08T21:48:35.1841445+08:00","ID":"29027512","Artist":"分島花音","Title":"killy killy JOKER (TV Size)","Duration":92133,"Raw_Title":"killy killy JOKER (TV Size)","Raw_Artist":"分島花音","Raw_Duration":92000}
+{"DateTime":"2018-08-08T21:48:35.6342402+08:00","ID":"29027512","Artist":"分島花音","Title":"killy killy JOKER (TV Size)","Duration":92133,"Raw_Title":"killy killy JOKER (TV Size)","Raw_Artist":"分島花音","Raw_Duration":92000}
+{"DateTime":"2018-08-08T23:11:40.9277703+08:00","ID":"28360856","Artist":"DJ NAGAI","Title":"Mono Logic","Duration":122480,"Raw_Title":"Mono Logic","Raw_Artist":"DJ NAGAI feat. Ayumi Nomiya","Raw_Duration":123000}
+{"DateTime":"2018-08-08T23:11:41.2388676+08:00","ID":"28360856","Artist":"DJ NAGAI","Title":"Mono Logic","Duration":122480,"Raw_Title":"Mono Logic","Raw_Artist":"DJ NAGAI feat. Ayumi Nomiya","Raw_Duration":123000}
+{"DateTime":"2018-08-08T23:24:17.495758+08:00","ID":"29498251","Artist":"Tia","Title":"The Glory Days","Duration":256426,"Raw_Title":"The Glory Days","Raw_Artist":"Tia","Raw_Duration":257000}
+{"DateTime":"2018-08-08T23:24:17.7967602+08:00","ID":"29498251","Artist":"Tia","Title":"The Glory Days","Duration":256426,"Raw_Title":"The Glory Days","Raw_Artist":"Tia","Raw_Duration":257000}
+{"DateTime":"2018-08-09T21:54:10.6499728+08:00","ID":"424477298","Artist":"GARNiDELiA","Title":"約束 -Promise code-","Duration":255920,"Raw_Title":"約束 -Promise code-","Raw_Artist":"GARNiDELiA","Raw_Duration":256000}
+{"DateTime":"2018-08-09T21:54:10.9469923+08:00","ID":"424477298","Artist":"GARNiDELiA","Title":"約束 -Promise code-","Duration":255920,"Raw_Title":"約束 -Promise code-","Raw_Artist":"GARNiDELiA","Raw_Duration":256000}
+{"DateTime":"2018-08-09T22:48:38.1625544+08:00","ID":"33861449","Artist":"小倉唯","Title":"Honey♥Come!!","Duration":247986,"Raw_Title":"Honey♥Come!!","Raw_Artist":"小倉唯","Raw_Duration":248000}
+{"DateTime":"2018-08-09T22:48:38.5515099+08:00","ID":"33861449","Artist":"小倉唯","Title":"Honey♥Come!!","Duration":247986,"Raw_Title":"Honey♥Come!!","Raw_Artist":"小倉唯","Raw_Duration":248000}
+{"DateTime":"2018-08-11T19:26:40.5857701+08:00","ID":"404543276","Artist":"吉田凜音","Title":"ひとつ星","Duration":319324,"Raw_Title":"ひとつ星","Raw_Artist":"吉田凜音","Raw_Duration":319000}
+{"DateTime":"2018-08-11T19:26:41.0647564+08:00","ID":"404543276","Artist":"吉田凜音","Title":"ひとつ星","Duration":319324,"Raw_Title":"ひとつ星","Raw_Artist":"吉田凜音","Raw_Duration":319000}
+{"DateTime":"2018-08-11T22:48:17.9727439+08:00","ID":"404543841","Artist":"μ's","Title":"MOMENT RING","Duration":372166,"Raw_Title":"MOMENT RING","Raw_Artist":"μ's","Raw_Duration":372000}
+{"DateTime":"2018-08-11T22:48:23.3221096+08:00","ID":"404543841","Artist":"μ's","Title":"MOMENT RING","Duration":372166,"Raw_Title":"MOMENT RING","Raw_Artist":"μ's","Raw_Duration":372000}
+{"DateTime":"2018-08-11T23:17:51.6864766+08:00","ID":"714728","Artist":"DystopiaGround","Title":"∧ugΦEidEs","Duration":433057,"Raw_Title":"∧ugΦEidEs","Raw_Artist":"DystopiaGround","Raw_Duration":434000}
+{"DateTime":"2018-08-11T23:17:53.0106998+08:00","ID":"714728","Artist":"DystopiaGround","Title":"∧ugΦEidEs","Duration":433057,"Raw_Title":"∧ugΦEidEs","Raw_Artist":"DystopiaGround","Raw_Duration":434000}
+{"DateTime":"2018-08-13T21:15:57.0571579+08:00","ID":"27904212","Artist":"Ocelot","Title":"TSUBAKI","Duration":184000,"Raw_Title":"TSUBAKI","Raw_Artist":"Ocelot","Raw_Duration":184000}
+{"DateTime":"2018-08-14T21:01:33.7155505+08:00","ID":"41645636","Artist":"Machico","Title":"fantastic dreamer","Duration":244093,"Raw_Title":"fantastic dreamer","Raw_Artist":"Machico","Raw_Duration":244000}
+{"DateTime":"2018-08-14T21:01:33.9883926+08:00","ID":"41645636","Artist":"Machico","Title":"fantastic dreamer","Duration":244093,"Raw_Title":"fantastic dreamer","Raw_Artist":"Machico","Raw_Duration":244000}
+{"DateTime":"2018-08-14T21:17:23.5810275+08:00","ID":"33715501","Artist":"CHiCO with HoneyWorks","Title":"ヒストリア","Duration":209133,"Raw_Title":"ヒストリア","Raw_Artist":"CHiCO with HoneyWorks","Raw_Duration":209000}
+{"DateTime":"2018-08-14T21:17:23.8065619+08:00","ID":"33715501","Artist":"CHiCO with HoneyWorks","Title":"ヒストリア","Duration":209133,"Raw_Title":"ヒストリア","Raw_Artist":"CHiCO with HoneyWorks","Raw_Duration":209000}
+{"DateTime":"2018-08-16T22:23:12.8387967+08:00","ID":"464015277","Artist":"11t","Title":"Sweet Dreams (11t dnb mix)","Duration":153652,"Raw_Title":"Sweet Dreams (11t dnb mix)","Raw_Artist":"西野カナ","Raw_Duration":154000}
+{"DateTime":"2018-08-16T22:23:13.5257779+08:00","ID":"464015277","Artist":"11t","Title":"Sweet Dreams (11t dnb mix)","Duration":153652,"Raw_Title":"Sweet Dreams (11t dnb mix)","Raw_Artist":"西野カナ","Raw_Duration":154000}
+{"DateTime":"2018-08-16T22:31:52.7048097+08:00","ID":"480097177","Artist":"東山奈央","Title":"イマココ","Duration":223466,"Raw_Title":"イマココ","Raw_Artist":"東山奈央","Raw_Duration":224000}
+{"DateTime":"2018-08-16T22:31:53.5228099+08:00","ID":"480097177","Artist":"東山奈央","Title":"イマココ","Duration":223466,"Raw_Title":"イマココ","Raw_Artist":"東山奈央","Raw_Duration":224000}
+{"DateTime":"2018-08-21T21:29:25.1875047+08:00","ID":"4918133","Artist":"Dormir","Title":"Une mage blanche","Duration":115931,"Raw_Title":"Une mage blanche","Raw_Artist":"Dormir","Raw_Duration":116000}
+{"DateTime":"2018-08-21T21:43:17.1044869+08:00","ID":"406238","Artist":"DJ Okawari","Title":"Flower Dance","Duration":266345,"Raw_Title":"Flower Dance","Raw_Artist":"DJ OKAWARI","Raw_Duration":266000}
+{"DateTime":"2018-08-21T21:43:17.6287368+08:00","ID":"406238","Artist":"DJ Okawari","Title":"Flower Dance","Duration":266345,"Raw_Title":"Flower Dance","Raw_Artist":"DJ OKAWARI","Raw_Duration":266000}
+{"DateTime":"2018-08-21T23:11:38.8668265+08:00","ID":"453185936","Artist":"Fear, and Loathing in Las Vegas","Title":"Just Awake","Duration":220447,"Raw_Title":"Just Awake","Raw_Artist":"Fear, and Loathing in Las Vegas","Raw_Duration":220000}
+{"DateTime":"2018-08-21T23:11:39.4643947+08:00","ID":"453185936","Artist":"Fear, and Loathing in Las Vegas","Title":"Just Awake","Duration":220447,"Raw_Title":"Just Awake","Raw_Artist":"Fear, and Loathing in Las Vegas","Raw_Duration":220000}
+{"DateTime":"2018-08-22T19:48:30.5172536+08:00","ID":"427142158","Artist":"ChouCho","Title":"bouquet","Duration":262556,"Raw_Title":"bouquet","Raw_Artist":"ChouCho","Raw_Duration":263000}
+{"DateTime":"2018-08-22T19:48:31.223251+08:00","ID":"427142158","Artist":"ChouCho","Title":"bouquet","Duration":262556,"Raw_Title":"bouquet","Raw_Artist":"ChouCho","Raw_Duration":263000}
+{"DateTime":"2018-08-22T20:43:45.6520234+08:00","ID":"401250026","Artist":"まふまふ","Title":"ゴーストルール","Duration":206628,"Raw_Title":"ゴーストルール","Raw_Artist":"ゆいこんぬ","Raw_Duration":206000}
+{"DateTime":"2018-08-22T20:43:46.1127197+08:00","ID":"401250026","Artist":"まふまふ","Title":"ゴーストルール","Duration":206628,"Raw_Title":"ゴーストルール","Raw_Artist":"ゆいこんぬ","Raw_Duration":206000}
+{"DateTime":"2018-08-25T20:42:17.5978457+08:00","ID":"33255205","Artist":"星野奏子","Title":"MAX LOVE ","Duration":139000,"Raw_Title":"MAX LOVE","Raw_Artist":"DJ YOSHITAKA feat. Hoshino Kanako","Raw_Duration":140000}
+{"DateTime":"2018-08-25T21:30:44.4662667+08:00","ID":"411928934","Artist":"Endorfin.","Title":"Spica","Duration":217939,"Raw_Title":"Spica","Raw_Artist":"Endorfin.","Raw_Duration":218000}
+{"DateTime":"2018-08-25T21:30:44.9284007+08:00","ID":"411928934","Artist":"Endorfin.","Title":"Spica","Duration":217939,"Raw_Title":"Spica","Raw_Artist":"Endorfin.","Raw_Duration":218000}
+{"DateTime":"2018-08-25T22:24:17.1762527+08:00","ID":"498286369","Artist":"ABSOLUTE CASTAWAY","Title":"深層心闘論","Duration":254850,"Raw_Title":"深層心闘論","Raw_Artist":"ABSOLUTE CASTAWAY","Raw_Duration":255000}
+{"DateTime":"2018-08-25T22:24:17.493253+08:00","ID":"498286369","Artist":"ABSOLUTE CASTAWAY","Title":"深層心闘論","Duration":254850,"Raw_Title":"深層心闘論","Raw_Artist":"ABSOLUTE CASTAWAY","Raw_Duration":255000}
+{"DateTime":"2018-08-25T22:35:17.2057669+08:00","ID":"28485797","Artist":"Crywolf","Title":"Eyes Half Closed","Duration":405706,"Raw_Title":"Eyes Half Closed","Raw_Artist":"Crywolf","Raw_Duration":405000}
+{"DateTime":"2018-08-25T22:35:17.5467663+08:00","ID":"28485797","Artist":"Crywolf","Title":"Eyes Half Closed","Duration":405706,"Raw_Title":"Eyes Half Closed","Raw_Artist":"Crywolf","Raw_Duration":405000}
+{"DateTime":"2018-08-26T20:50:41.0988132+08:00","ID":"38391378","Artist":"Chasers","Title":"Lost","Duration":210442,"Raw_Title":"Lost","Raw_Artist":"Chasers","Raw_Duration":210000}
+{"DateTime":"2018-08-27T20:57:17.9879136+08:00","ID":"26315273","Artist":"妖精帝國","Title":"神、ノゾム世界と箱庭幻想","Duration":238446,"Raw_Title":"神、ノゾム世界と箱庭幻想","Raw_Artist":"妖精帝國","Raw_Duration":238000}
+{"DateTime":"2018-08-27T20:57:18.1988943+08:00","ID":"26315273","Artist":"妖精帝國","Title":"神、ノゾム世界と箱庭幻想","Duration":238446,"Raw_Title":"神、ノゾム世界と箱庭幻想","Raw_Artist":"妖精帝國","Raw_Duration":238000}
+{"DateTime":"2018-08-27T21:26:46.2013996+08:00","ID":"644507","Artist":"島みやえい子","Title":"ひぐらしのなく頃に","Duration":267651,"Raw_Title":"ひぐらしのなく頃に","Raw_Artist":"島みやえい子","Raw_Duration":267000}
+{"DateTime":"2018-08-27T21:26:46.4521934+08:00","ID":"644507","Artist":"島みやえい子","Title":"ひぐらしのなく頃に","Duration":267651,"Raw_Title":"ひぐらしのなく頃に","Raw_Artist":"島みやえい子","Raw_Duration":267000}
+{"DateTime":"2018-08-29T21:45:19.5582264+08:00","ID":"557583436","Artist":"DREAMCATCHER","Title":"YOU AND I","Duration":195015,"Raw_Title":"YOU AND I","Raw_Artist":"드림캐쳐","Raw_Duration":195000}
+{"DateTime":"2018-08-29T21:45:20.1162221+08:00","ID":"557583436","Artist":"DREAMCATCHER","Title":"YOU AND I","Duration":195015,"Raw_Title":"YOU AND I","Raw_Artist":"드림캐쳐","Raw_Duration":195000}
+{"DateTime":"2018-08-29T21:58:39.0406795+08:00","ID":"429482366","Artist":"Jun Kuroda","Title":"Stay Alive(Jun Kuroda bootleg)","Duration":232968,"Raw_Title":"Stay Alive(Jun Kuroda Bootleg Remix)","Raw_Artist":"エミリア(CV：高橋李依)","Raw_Duration":233000}
+{"DateTime":"2018-08-29T21:58:39.3206789+08:00","ID":"429482366","Artist":"Jun Kuroda","Title":"Stay Alive(Jun Kuroda bootleg)","Duration":232968,"Raw_Title":"Stay Alive(Jun Kuroda Bootleg Remix)","Raw_Artist":"エミリア(CV：高橋李依)","Raw_Duration":233000}
+{"DateTime":"2018-08-29T22:06:31.3125022+08:00","ID":"438466415","Artist":"麻倉もも","Title":"明日は君と。 ","Duration":276851,"Raw_Title":"明日は君と。","Raw_Artist":"麻倉もも","Raw_Duration":277000}
+{"DateTime":"2018-08-29T22:06:32.5117581+08:00","ID":"438466415","Artist":"麻倉もも","Title":"明日は君と。 ","Duration":276851,"Raw_Title":"明日は君と。","Raw_Artist":"麻倉もも","Raw_Duration":277000}
+{"DateTime":"2018-08-29T22:12:55.223105+08:00","ID":"401249926","Artist":"赤ティン","Title":"アウターサイエンス","Duration":220541,"Raw_Title":"アウターサイエンス","Raw_Artist":"赤ティン","Raw_Duration":221000}
+{"DateTime":"2018-08-29T22:12:55.7431016+08:00","ID":"401249926","Artist":"赤ティン","Title":"アウターサイエンス","Duration":220541,"Raw_Title":"アウターサイエンス","Raw_Artist":"赤ティン","Raw_Duration":221000}
+{"DateTime":"2018-08-29T22:16:47.9195746+08:00","ID":"529546883","Artist":"Fear, and Loathing in Las Vegas","Title":"Keep the Heat and Fire Yourself Up (TV Size Edit)","Duration":90644,"Raw_Title":"Keep the Heat and Fire Yourself Up","Raw_Artist":"Fear, and Loathing in Las Vegas","Raw_Duration":90000}
+{"DateTime":"2018-08-29T22:16:48.4845749+08:00","ID":"529546883","Artist":"Fear, and Loathing in Las Vegas","Title":"Keep the Heat and Fire Yourself Up (TV Size Edit)","Duration":90644,"Raw_Title":"Keep the Heat and Fire Yourself Up","Raw_Artist":"Fear, and Loathing in Las Vegas","Raw_Duration":90000}
+{"DateTime":"2018-08-30T20:19:34.9674562+08:00","ID":"469508068","Artist":"鈴木このみ","Title":"全部君がいたから知ったんだ","Duration":260466,"Raw_Title":"全部君がいたから知ったんだ","Raw_Artist":"鈴木このみ","Raw_Duration":260000}
+{"DateTime":"2018-08-30T20:19:35.4544548+08:00","ID":"469508068","Artist":"鈴木このみ","Title":"全部君がいたから知ったんだ","Duration":260466,"Raw_Title":"全部君がいたから知ったんだ","Raw_Artist":"鈴木このみ","Raw_Duration":260000}
+{"DateTime":"2018-08-30T20:34:55.8775539+08:00","ID":"486173824","Artist":"あやぽんず*","Title":"ストリーミングハート","Duration":183040,"Raw_Title":"ストリーミングハート","Raw_Artist":"あやぽんず＊","Raw_Duration":183000}
+{"DateTime":"2018-08-30T20:34:56.3825485+08:00","ID":"486173824","Artist":"あやぽんず*","Title":"ストリーミングハート","Duration":183040,"Raw_Title":"ストリーミングハート","Raw_Artist":"あやぽんず＊","Raw_Duration":183000}
+{"DateTime":"2018-08-31T21:34:04.8504782+08:00","ID":"28934952","Artist":"Dragonforce","Title":"Symphony Of The Night","Duration":319973,"Raw_Title":"Symphony Of The Night","Raw_Artist":"DragonForce","Raw_Duration":320000}
+{"DateTime":"2018-08-31T21:34:05.2594198+08:00","ID":"28934952","Artist":"Dragonforce","Title":"Symphony Of The Night","Duration":319973,"Raw_Title":"Symphony Of The Night","Raw_Artist":"DragonForce","Raw_Duration":320000}
+{"DateTime":"2018-09-02T21:55:18.9687617+08:00","ID":"424474640","Artist":"Poppin'Party","Title":"STAR BEAT!～ホシノコドウ～","Duration":319386,"Raw_Title":"STAR BEAT!～ホシノコドウ～","Raw_Artist":"Poppin'Party","Raw_Duration":319000}
+{"DateTime":"2018-09-02T21:55:19.2297678+08:00","ID":"424474640","Artist":"Poppin'Party","Title":"STAR BEAT!～ホシノコドウ～","Duration":319386,"Raw_Title":"STAR BEAT!～ホシノコドウ～","Raw_Artist":"Poppin'Party","Raw_Duration":319000}
+{"DateTime":"2018-09-04T21:14:47.7877391+08:00","ID":"41672754","Artist":"LIQU@。","Title":"NANAIRO","Duration":119506,"Raw_Title":"NANAIRO","Raw_Artist":"LIQU@。","Raw_Duration":120000}
+{"DateTime":"2018-09-04T22:02:56.2584051+08:00","ID":"29027127","Artist":"Ceui","Title":"星織ユメミライ","Duration":269035,"Raw_Title":"星織ユメミライ","Raw_Artist":"Ceui","Raw_Duration":269000}
+{"DateTime":"2018-09-04T22:02:56.6513046+08:00","ID":"29027127","Artist":"Ceui","Title":"星織ユメミライ","Duration":269035,"Raw_Title":"星織ユメミライ","Raw_Artist":"Ceui","Raw_Duration":269000}
+{"DateTime":"2018-09-04T22:28:17.8223377+08:00","ID":"31140831","Artist":"Excision","Title":"Bring The Madness (Noisestorm Remix)","Duration":240000,"Raw_Title":"Bring The Madness (Noisestorm Remix)","Raw_Artist":"Excision & Pegboard Nerds","Raw_Duration":240000}
+{"DateTime":"2018-09-04T22:28:18.4940061+08:00","ID":"31140831","Artist":"Excision","Title":"Bring The Madness (Noisestorm Remix)","Duration":240000,"Raw_Title":"Bring The Madness (Noisestorm Remix)","Raw_Artist":"Excision & Pegboard Nerds","Raw_Duration":240000}
+{"DateTime":"2018-09-06T20:15:54.4516807+08:00","ID":"559831","Artist":"ChouCho","Title":"Authentic symphony","Duration":272946,"Raw_Title":"Authentic symphony","Raw_Artist":"ちょうちょ","Raw_Duration":273000}
+{"DateTime":"2018-09-06T20:15:54.7276778+08:00","ID":"559831","Artist":"ChouCho","Title":"Authentic symphony","Duration":272946,"Raw_Title":"Authentic symphony","Raw_Artist":"ちょうちょ","Raw_Duration":273000}
+{"DateTime":"2018-09-06T20:58:09.9891154+08:00","ID":"28885050","Artist":"Fear, and Loathing in Las Vegas","Title":"Swing It!!","Duration":218304,"Raw_Title":"Swing It!!","Raw_Artist":"Fear, and Loathing in Las Vegas","Raw_Duration":219000}
+{"DateTime":"2018-09-09T19:43:19.1106787+08:00","ID":"446875491","Artist":"GARNiDELiA","Title":"BAD BOY -GARNiDELiA vs HEAVYGRINDER-","Duration":239533,"Raw_Title":"BAD BOY","Raw_Artist":"GARNiDELiA vs HEAVYGRINDER-","Raw_Duration":240000}
+{"DateTime":"2018-09-09T19:43:19.4576848+08:00","ID":"446875491","Artist":"GARNiDELiA","Title":"BAD BOY -GARNiDELiA vs HEAVYGRINDER-","Duration":239533,"Raw_Title":"BAD BOY","Raw_Artist":"GARNiDELiA vs HEAVYGRINDER-","Raw_Duration":240000}
+{"DateTime":"2018-09-09T21:30:43.0654435+08:00","ID":"425684778","Artist":"ゆいこんぬ","Title":"罪の名前","Duration":388008,"Raw_Title":"罪の名前","Raw_Artist":"ゆいこんぬ","Raw_Duration":388000}
+{"DateTime":"2018-09-09T21:30:43.3259431+08:00","ID":"425684778","Artist":"ゆいこんぬ","Title":"罪の名前","Duration":388008,"Raw_Title":"罪の名前","Raw_Artist":"ゆいこんぬ","Raw_Duration":388000}
+{"DateTime":"2018-09-09T21:45:44.6409448+08:00","ID":"418708362","Artist":"Kicco","Title":"Amazing Sky","Duration":267679,"Raw_Title":"Amazing sky","Raw_Artist":"Kicco","Raw_Duration":268000}
+{"DateTime":"2018-09-09T21:45:45.3174428+08:00","ID":"418708362","Artist":"Kicco","Title":"Amazing Sky","Duration":267679,"Raw_Title":"Amazing sky","Raw_Artist":"Kicco","Raw_Duration":268000}
+{"DateTime":"2018-09-10T19:59:20.4280274+08:00","ID":"407677608","Artist":"Φ串Φ","Title":"サクラノ前夜(Speed Up Ver.)","Duration":313939,"Raw_Title":"サクラノ前夜 (Speed Up Ver.)","Raw_Artist":"Φ串Φ","Raw_Duration":314000}
+{"DateTime":"2018-09-10T19:59:21.1005271+08:00","ID":"407677608","Artist":"Φ串Φ","Title":"サクラノ前夜(Speed Up Ver.)","Duration":313939,"Raw_Title":"サクラノ前夜 (Speed Up Ver.)","Raw_Artist":"Φ串Φ","Raw_Duration":314000}
+{"DateTime":"2018-09-10T20:35:10.2371499+08:00","ID":"28302817","Artist":"MAN WITH A MISSION","Title":"When My Devil Rises","Duration":256000,"Raw_Title":"When My Devil Rises","Raw_Artist":"MAN WITH A MISSION","Raw_Duration":256000}
+{"DateTime":"2018-09-10T21:01:10.72815+08:00","ID":"41667918","Artist":"nowisee","Title":"confusion","Duration":261665,"Raw_Title":"confusion","Raw_Artist":"nowisee","Raw_Duration":261000}
+{"DateTime":"2018-09-10T21:01:11.0886501+08:00","ID":"41667918","Artist":"nowisee","Title":"confusion","Duration":261665,"Raw_Title":"confusion","Raw_Artist":"nowisee","Raw_Duration":261000}
+{"DateTime":"2018-09-11T19:15:33.7232432+08:00","ID":"569214129","Artist":"Rigel Theatre","Title":"Rinn Ding Dong","Duration":253048,"Raw_Title":"Rinn Ding Dong","Raw_Artist":"Rigël Theatre","Raw_Duration":253000}
+{"DateTime":"2018-09-11T19:15:34.1542359+08:00","ID":"569214129","Artist":"Rigel Theatre","Title":"Rinn Ding Dong","Duration":253048,"Raw_Title":"Rinn Ding Dong","Raw_Artist":"Rigël Theatre","Raw_Duration":253000}
+{"DateTime":"2018-09-11T19:42:17.2083164+08:00","ID":"22686711","Artist":"CosMo@暴走P","Title":"初音ミクの暴走","Duration":288313,"Raw_Title":"初音ミクの消失","Raw_Artist":"cosMo@暴走P feat.初音ミク","Raw_Duration":288000}
+{"DateTime":"2018-09-11T19:42:17.5448194+08:00","ID":"22686711","Artist":"CosMo@暴走P","Title":"初音ミクの暴走","Duration":288313,"Raw_Title":"初音ミクの消失","Raw_Artist":"cosMo@暴走P feat.初音ミク","Raw_Duration":288000}
+{"DateTime":"2018-09-13T19:54:22.7269075+08:00","ID":"28864165","Artist":"阿澄佳奈","Title":"はなごのみ (TV Size Ver)","Duration":91872,"Raw_Title":"はなごのみ (TV Size)","Raw_Artist":"阿澄佳奈","Raw_Duration":91000}
+{"DateTime":"2018-09-13T19:54:23.1764092+08:00","ID":"28864165","Artist":"阿澄佳奈","Title":"はなごのみ (TV Size Ver)","Duration":91872,"Raw_Title":"はなごのみ (TV Size)","Raw_Artist":"阿澄佳奈","Raw_Duration":91000}
+{"DateTime":"2018-09-16T13:51:50.955761+08:00","ID":"850571","Artist":"めらみぽっぷ","Title":"ささぐうた -ヒガン・ルトゥール・シンフォニー-","Duration":338240,"Raw_Title":"ささぐうた -ヒガン・ルトゥール・シンフォニー-","Raw_Artist":"凋叶棕","Raw_Duration":338000}
+{"DateTime":"2018-09-16T13:51:51.4727274+08:00","ID":"850571","Artist":"めらみぽっぷ","Title":"ささぐうた -ヒガン・ルトゥール・シンフォニー-","Duration":338240,"Raw_Title":"ささぐうた -ヒガン・ルトゥール・シンフォニー-","Raw_Artist":"凋叶棕","Raw_Duration":338000}
+{"DateTime":"2018-09-16T14:00:30.807741+08:00","ID":"484365747","Artist":"+α/あるふぁきゅん。","Title":"桜ノ雨","Duration":352104,"Raw_Title":"桜ノ雨","Raw_Artist":"＋α／あるふぁきゅん。","Raw_Duration":352000}
+{"DateTime":"2018-09-16T14:00:30.9717379+08:00","ID":"484365747","Artist":"+α/あるふぁきゅん。","Title":"桜ノ雨","Duration":352104,"Raw_Title":"桜ノ雨","Raw_Artist":"＋α／あるふぁきゅん。","Raw_Duration":352000}
+{"DateTime":"2018-09-17T19:30:44.8520093+08:00","ID":"611113","Artist":"水樹奈々","Title":"ETERNAL BLAZE","Duration":308773,"Raw_Title":"ETERNAL BLAZE","Raw_Artist":"Roselia","Raw_Duration":309000}
+{"DateTime":"2018-09-17T19:30:45.3407165+08:00","ID":"611113","Artist":"水樹奈々","Title":"ETERNAL BLAZE","Duration":308773,"Raw_Title":"ETERNAL BLAZE","Raw_Artist":"Roselia","Raw_Duration":309000}
+{"DateTime":"2018-09-17T20:40:16.9288903+08:00","ID":"41645588","Artist":"あやぽんず*","Title":"ヤクビョウガミ","Duration":226638,"Raw_Title":"ヤクビョウガミ","Raw_Artist":"あやぽんず＊","Raw_Duration":227000}
+{"DateTime":"2018-09-17T20:40:17.1053372+08:00","ID":"41645588","Artist":"あやぽんず*","Title":"ヤクビョウガミ","Duration":226638,"Raw_Title":"ヤクビョウガミ","Raw_Artist":"あやぽんず＊","Raw_Duration":227000}
+{"DateTime":"2018-09-18T19:05:14.6034545+08:00","ID":"487527929","Artist":"鈴湯","Title":"ユーフォリアム","Duration":285213,"Raw_Title":"ユーフォリアム","Raw_Artist":"鈴湯","Raw_Duration":285000}
+{"DateTime":"2018-09-18T19:05:14.9024532+08:00","ID":"487527929","Artist":"鈴湯","Title":"ユーフォリアム","Duration":285213,"Raw_Title":"ユーフォリアム","Raw_Artist":"鈴湯","Raw_Duration":285000}
+{"DateTime":"2018-09-18T20:12:59.6151066+08:00","ID":"421934057","Artist":"夏萝","Title":"爱啦啦","Duration":175908,"Raw_Title":"爱啦啦","Raw_Artist":"Sharlo","Raw_Duration":176000}
+{"DateTime":"2018-09-18T20:59:44.4652945+08:00","ID":"32717350","Artist":"Rigel Theatre","Title":"LUNA","Duration":303000,"Raw_Title":"LUNA","Raw_Artist":"Rigel Theatre","Raw_Duration":303000}
+{"DateTime":"2018-09-18T20:59:44.7840034+08:00","ID":"32717350","Artist":"Rigel Theatre","Title":"LUNA","Duration":303000,"Raw_Title":"LUNA","Raw_Artist":"Rigel Theatre","Raw_Duration":303000}
+{"DateTime":"2018-09-19T19:59:43.5163663+08:00","ID":"401382198","Artist":"ゆいこんぬ","Title":"愛×愛ホイッスル","Duration":196963,"Raw_Title":"愛×愛ホイッスル","Raw_Artist":"松下＆ゆいこんぬ","Raw_Duration":197000}
+{"DateTime":"2018-09-19T19:59:43.8353668+08:00","ID":"401382198","Artist":"ゆいこんぬ","Title":"愛×愛ホイッスル","Duration":196963,"Raw_Title":"愛×愛ホイッスル","Raw_Artist":"松下＆ゆいこんぬ","Raw_Duration":197000}
+{"DateTime":"2018-09-19T20:13:07.562959+08:00","ID":"29129701","Artist":"幽閉サテライト","Title":"生まれた意味、生きる理由","Duration":204617,"Raw_Title":"生まれた意味、生きる理由","Raw_Artist":"senya","Raw_Duration":205000}
+{"DateTime":"2018-09-19T20:13:07.7699598+08:00","ID":"29129701","Artist":"幽閉サテライト","Title":"生まれた意味、生きる理由","Duration":204617,"Raw_Title":"生まれた意味、生きる理由","Raw_Artist":"senya","Raw_Duration":205000}
+{"DateTime":"2018-09-19T20:38:28.2895042+08:00","ID":"28162337","Artist":"USAO","Title":"Miracle 5ympho X","Duration":124238,"Raw_Title":"Miracle 5ympho X","Raw_Artist":"USAO","Raw_Duration":125000}
+{"DateTime":"2018-09-19T20:38:28.4665033+08:00","ID":"28162337","Artist":"USAO","Title":"Miracle 5ympho X","Duration":124238,"Raw_Title":"Miracle 5ympho X","Raw_Artist":"USAO","Raw_Duration":125000}
+{"DateTime":"2018-09-20T19:24:17.2187384+08:00","ID":"22808858","Artist":"Halozy","Title":"Dut ～うさとびすてっぷ～","Duration":271000,"Raw_Title":"Dut ～うさぎとびすてっぷ～","Raw_Artist":"Halozy","Raw_Duration":271000}
+{"DateTime":"2018-09-20T19:24:17.4867372+08:00","ID":"22808858","Artist":"Halozy","Title":"Dut ～うさとびすてっぷ～","Duration":271000,"Raw_Title":"Dut ～うさぎとびすてっぷ～","Raw_Artist":"Halozy","Raw_Duration":271000}
+{"DateTime":"2018-09-20T19:38:35.7332282+08:00","ID":"29979043","Artist":"初音ミク","Title":"Our let it be","Duration":286223,"Raw_Title":"Our let it be","Raw_Artist":"Hatsune Miku","Raw_Duration":286000}
+{"DateTime":"2018-09-20T19:47:23.1441703+08:00","ID":"28234319","Artist":"めらみぽっぷ","Title":"竹ノ花","Duration":347213,"Raw_Title":"竹ノ花","Raw_Artist":"めらみぽっぷ","Raw_Duration":347000}
+{"DateTime":"2018-09-20T19:47:23.2741683+08:00","ID":"28234319","Artist":"めらみぽっぷ","Title":"竹ノ花","Duration":347213,"Raw_Title":"竹ノ花","Raw_Artist":"めらみぽっぷ","Raw_Duration":347000}
+{"DateTime":"2018-09-20T20:50:47.194859+08:00","ID":"26082645","Artist":"μ's","Title":"僕らのLIVE 君とのLIFE","Duration":323133,"Raw_Title":"僕らのLIVE 君とのLIFE","Raw_Artist":"μ's","Raw_Duration":323000}
+{"DateTime":"2018-09-20T20:50:47.3768623+08:00","ID":"26082645","Artist":"μ's","Title":"僕らのLIVE 君とのLIFE","Duration":323133,"Raw_Title":"僕らのLIVE 君とのLIFE","Raw_Artist":"μ's","Raw_Duration":323000}
+{"DateTime":"2018-09-21T19:20:39.7536366+08:00","ID":"442314037","Artist":"YUC'e","Title":"Cinderella Syndrome","Duration":240039,"Raw_Title":"Cinderella Syndrome","Raw_Artist":"ゆーしえ","Raw_Duration":240000}
+{"DateTime":"2018-09-21T19:20:40.1036373+08:00","ID":"442314037","Artist":"YUC'e","Title":"Cinderella Syndrome","Duration":240039,"Raw_Title":"Cinderella Syndrome","Raw_Artist":"ゆーしえ","Raw_Duration":240000}
+{"DateTime":"2018-09-21T19:24:51.6329307+08:00","ID":"34248930","Artist":"Rena","Title":"穢れなき薔薇十字","Duration":354880,"Raw_Title":"穢れなき薔薇十字","Raw_Artist":"Ariabl'eyeS","Raw_Duration":355000}
+{"DateTime":"2018-09-21T19:24:51.8129315+08:00","ID":"34248930","Artist":"Rena","Title":"穢れなき薔薇十字","Duration":354880,"Raw_Title":"穢れなき薔薇十字","Raw_Artist":"Ariabl'eyeS","Raw_Duration":355000}
+{"DateTime":"2018-09-21T20:39:49.2244785+08:00","ID":"28884173","Artist":"Rita","Title":"Dream Walker","Duration":302236,"Raw_Title":"Dream Walker","Raw_Artist":"Rita","Raw_Duration":303000}
+{"DateTime":"2018-09-21T20:50:41.4715333+08:00","ID":"867231","Artist":"妖精帝國","Title":"The Creator","Duration":232229,"Raw_Title":"The Creator","Raw_Artist":"妖精帝國","Raw_Duration":232000}
+{"DateTime":"2018-09-21T20:50:41.8015335+08:00","ID":"867231","Artist":"妖精帝國","Title":"The Creator","Duration":232229,"Raw_Title":"The Creator","Raw_Artist":"妖精帝國","Raw_Duration":232000}
+{"DateTime":"2018-09-22T19:56:17.1476082+08:00","ID":"22644064","Artist":"葉月ゆら","Title":"なんかいいこと","Duration":81110,"Raw_Title":"なんかいいこと","Raw_Artist":"葉月ゆら","Raw_Duration":81000}
+{"DateTime":"2018-09-22T19:56:17.6386362+08:00","ID":"22644064","Artist":"葉月ゆら","Title":"なんかいいこと","Duration":81110,"Raw_Title":"なんかいいこと","Raw_Artist":"葉月ゆら","Raw_Duration":81000}
+{"DateTime":"2018-09-22T21:18:04.1067237+08:00","ID":"418708367","Artist":"Kicco","Title":"終わらない煌めきを","Duration":299209,"Raw_Title":"終わらない煌めきを","Raw_Artist":"Kicco","Raw_Duration":299000}
+{"DateTime":"2018-09-22T21:18:04.4777231+08:00","ID":"418708367","Artist":"Kicco","Title":"終わらない煌めきを","Duration":299209,"Raw_Title":"終わらない煌めきを","Raw_Artist":"Kicco","Raw_Duration":299000}
+{"DateTime":"2018-09-23T19:02:50.3098333+08:00","ID":"432506952","Artist":"板垣奏太郎","Title":"夢現乱舞抄 (GAME size)","Duration":100840,"Raw_Title":"夢現乱舞抄(Game size)","Raw_Artist":"板垣奏太郎","Raw_Duration":100000}
+{"DateTime":"2018-09-23T19:02:50.8189633+08:00","ID":"432506952","Artist":"板垣奏太郎","Title":"夢現乱舞抄 (GAME size)","Duration":100840,"Raw_Title":"夢現乱舞抄(Game size)","Raw_Artist":"板垣奏太郎","Raw_Duration":100000}
+{"DateTime":"2018-09-24T18:50:33.8443836+08:00","ID":"562218","Artist":"Ceui","Title":"圣戦スペクタル","Duration":301113,"Raw_Title":"聖戦スペクタル","Raw_Artist":"Ceui","Raw_Duration":301000}
+{"DateTime":"2018-09-24T18:50:34.1853847+08:00","ID":"562218","Artist":"Ceui","Title":"圣戦スペクタル","Duration":301113,"Raw_Title":"聖戦スペクタル","Raw_Artist":"Ceui","Raw_Duration":301000}
+{"DateTime":"2018-09-24T19:17:40.9489483+08:00","ID":"461301623","Artist":"HoneyWorks","Title":"好きと好きの方程式","Duration":151893,"Raw_Title":"好きと好きの方程式","Raw_Artist":"HoneyWorks meets まふまふ","Raw_Duration":152000}
+{"DateTime":"2018-09-24T19:17:41.326495+08:00","ID":"461301623","Artist":"HoneyWorks","Title":"好きと好きの方程式","Duration":151893,"Raw_Title":"好きと好きの方程式","Raw_Artist":"HoneyWorks meets まふまふ","Raw_Duration":152000}
+{"DateTime":"2018-09-26T19:34:17.2513003+08:00","ID":"29460709","Artist":"fhána","Title":"星屑のインターリュード","Duration":387000,"Raw_Title":"星屑のインターリュード","Raw_Artist":"fhána","Raw_Duration":387000}
+{"DateTime":"2018-09-26T19:34:17.579843+08:00","ID":"29460709","Artist":"fhána","Title":"星屑のインターリュード","Duration":387000,"Raw_Title":"星屑のインターリュード","Raw_Artist":"fhána","Raw_Duration":387000}
+{"DateTime":"2018-09-26T19:37:15.2104161+08:00","ID":"501133576","Artist":"ゆいこんぬ","Title":"夢のまた夢","Duration":235206,"Raw_Title":"夢のまた夢","Raw_Artist":"ゆいこんぬ","Raw_Duration":235000}
+{"DateTime":"2018-09-26T19:37:15.4644157+08:00","ID":"501133576","Artist":"ゆいこんぬ","Title":"夢のまた夢","Duration":235206,"Raw_Title":"夢のまた夢","Raw_Artist":"ゆいこんぬ","Raw_Duration":235000}
+{"DateTime":"2018-09-26T19:45:49.0849395+08:00","ID":"28574958","Artist":"MOtOLOiD","Title":"Internet bitch P-Light Remix","Duration":267456,"Raw_Title":"Internet bitch (P-Light Remix)","Raw_Artist":"DJ'TEKINA","Raw_Duration":268000}
+{"DateTime":"2018-09-26T19:45:49.3499358+08:00","ID":"28574958","Artist":"MOtOLOiD","Title":"Internet bitch P-Light Remix","Duration":267456,"Raw_Title":"Internet bitch (P-Light Remix)","Raw_Artist":"DJ'TEKINA","Raw_Duration":268000}
+{"DateTime":"2018-09-26T19:50:32.9753398+08:00","ID":"789417","Artist":"nobodyknows+","Title":"ココロオドル","Duration":253649,"Raw_Title":"ココロオドル","Raw_Artist":"Nobodyknows+","Raw_Duration":253000}
+{"DateTime":"2018-09-26T19:50:33.3143403+08:00","ID":"789417","Artist":"nobodyknows+","Title":"ココロオドル","Duration":253649,"Raw_Title":"ココロオドル","Raw_Artist":"Nobodyknows+","Raw_Duration":253000}
+{"DateTime":"2018-09-26T20:58:55.8535935+08:00","ID":"29783598","Artist":"天宫エリカ","Title":"生きとし生けるもの","Duration":85133,"Raw_Title":"生きとし生けるもの","Raw_Artist":"天宫エリカ","Raw_Duration":85000}
+{"DateTime":"2018-09-26T20:58:56.1504861+08:00","ID":"29783598","Artist":"天宫エリカ","Title":"生きとし生けるもの","Duration":85133,"Raw_Title":"生きとし生けるもの","Raw_Artist":"天宫エリカ","Raw_Duration":85000}
+{"DateTime":"2018-09-27T19:28:55.0821557+08:00","ID":"530986051","Artist":"Aqours","Title":"WATER BLUE NEW WORLD","Duration":343413,"Raw_Title":"WATER BLUE NEW WORLD","Raw_Artist":"Aqours","Raw_Duration":344000}
+{"DateTime":"2018-09-27T19:28:56.1490634+08:00","ID":"530986051","Artist":"Aqours","Title":"WATER BLUE NEW WORLD","Duration":343413,"Raw_Title":"WATER BLUE NEW WORLD","Raw_Artist":"Aqours","Raw_Duration":344000}
+{"DateTime":"2018-09-27T19:34:46.9311525+08:00","ID":"32364449","Artist":"今井麻美","Title":"朝焼けのスターマイン","Duration":275573,"Raw_Title":"朝焼けのスターマイン","Raw_Artist":"今井麻美","Raw_Duration":276000}
+{"DateTime":"2018-09-27T19:34:47.5081544+08:00","ID":"32364449","Artist":"今井麻美","Title":"朝焼けのスターマイン","Duration":275573,"Raw_Title":"朝焼けのスターマイン","Raw_Artist":"今井麻美","Raw_Duration":276000}
+{"DateTime":"2018-09-27T19:38:55.5692958+08:00","ID":"461858","Artist":"堀江由衣","Title":"sugar sweet nightmare","Duration":269949,"Raw_Title":"sugar sweet nightmare","Raw_Artist":"堀江由衣","Raw_Duration":270000}
+{"DateTime":"2018-09-27T19:38:56.2872995+08:00","ID":"22769227","Artist":"堀江由衣","Title":"sugar sweet nightmare","Duration":269949,"Raw_Title":"sugar sweet nightmare","Raw_Artist":"堀江由衣","Raw_Duration":270000}
+{"DateTime":"2018-09-27T20:53:35.4705231+08:00","ID":"474791105","Artist":"Poppin'Party","Title":"キラキラだとか夢だとか ～Sing Girls～ (TV Size)","Duration":92746,"Raw_Title":"キラキラだとか夢だとか ～Sing Girls～ (TV Size)","Raw_Artist":"Poppin'Party","Raw_Duration":93000}
+{"DateTime":"2018-09-27T20:55:05.687544+08:00","ID":"474791105","Artist":"Poppin'Party","Title":"キラキラだとか夢だとか ～Sing Girls～ (TV Size)","Duration":92746,"Raw_Title":"キラキラだとか夢だとか ～Sing Girls～ (TV Size)","Raw_Artist":"Poppin'Party","Raw_Duration":93000}
+{"DateTime":"2018-09-28T19:51:19.0730498+08:00","ID":"453268383","Artist":"DREAMCATCHER","Title":"Chase Me","Duration":189387,"Raw_Title":"Chase Me","Raw_Artist":"드림캐쳐","Raw_Duration":189000}
+{"DateTime":"2018-09-28T19:51:19.4250502+08:00","ID":"453268383","Artist":"DREAMCATCHER","Title":"Chase Me","Duration":189387,"Raw_Title":"Chase Me","Raw_Artist":"드림캐쳐","Raw_Duration":189000}
+{"DateTime":"2018-09-28T20:16:16.3448915+08:00","ID":"28468647","Artist":"田村ゆかり","Title":"恋のヒメヒメぺったんこ","Duration":239438,"Raw_Title":"恋のヒメヒメぺったんこ","Raw_Artist":"＊なみりん","Raw_Duration":240000}
+{"DateTime":"2018-09-28T20:16:16.6344265+08:00","ID":"28468647","Artist":"田村ゆかり","Title":"恋のヒメヒメぺったんこ","Duration":239438,"Raw_Title":"恋のヒメヒメぺったんこ","Raw_Artist":"＊なみりん","Raw_Duration":240000}
+{"DateTime":"2018-09-29T20:07:14.4836367+08:00","ID":"28185864","Artist":"Zektbach","Title":"Apocalypse ～dirge of swans～","Duration":126302,"Raw_Title":"Apocalypse ~dirge of swans~","Raw_Artist":"Zektbach","Raw_Duration":127000}
+{"DateTime":"2018-09-29T20:07:14.8226359+08:00","ID":"28185864","Artist":"Zektbach","Title":"Apocalypse ～dirge of swans～","Duration":126302,"Raw_Title":"Apocalypse ~dirge of swans~","Raw_Artist":"Zektbach","Raw_Duration":127000}
+{"DateTime":"2018-09-29T21:20:06.4302448+08:00","ID":"420513533","Artist":"Phantom Sage","Title":"Holystone","Duration":405864,"Raw_Title":"Holystone","Raw_Artist":"Phantom Sage","Raw_Duration":406000}
+{"DateTime":"2018-09-29T21:25:01.170607+08:00","ID":"29736065","Artist":"TERRASPEX","Title":"AMAZING BREAK","Duration":234997,"Raw_Title":"AMAZING BREAK","Raw_Artist":"TERRASPEX","Raw_Duration":235000}
+{"DateTime":"2018-09-29T21:25:01.7846083+08:00","ID":"29736065","Artist":"TERRASPEX","Title":"AMAZING BREAK","Duration":234997,"Raw_Title":"AMAZING BREAK","Raw_Artist":"TERRASPEX","Raw_Duration":235000}
+{"DateTime":"2018-09-29T21:45:10.9244528+08:00","ID":"580568","Artist":"葉月ゆら","Title":"宵闇花火","Duration":307487,"Raw_Title":"宵闇花火","Raw_Artist":"葉月ゆら","Raw_Duration":307000}
+{"DateTime":"2018-09-29T21:45:11.0934552+08:00","ID":"580568","Artist":"葉月ゆら","Title":"宵闇花火","Duration":307487,"Raw_Title":"宵闇花火","Raw_Artist":"葉月ゆら","Raw_Duration":307000}
+{"DateTime":"2018-09-30T18:58:30.3723508+08:00","ID":"22660952","Artist":"fripSide","Title":"an evening calm","Duration":350866,"Raw_Title":"an evening calm","Raw_Artist":"fripSide","Raw_Duration":351000}
+{"DateTime":"2018-09-30T18:58:30.7753503+08:00","ID":"22660952","Artist":"fripSide","Title":"an evening calm","Duration":350866,"Raw_Title":"an evening calm","Raw_Artist":"fripSide","Raw_Duration":351000}
+{"DateTime":"2018-09-30T19:10:47.0485268+08:00","ID":"825646","Artist":"Supercell","Title":"君の知らない物語","Duration":341053,"Raw_Title":"君の知らない物語","Raw_Artist":"supercell","Raw_Duration":341000}
+{"DateTime":"2018-09-30T19:10:47.4095256+08:00","ID":"825646","Artist":"Supercell","Title":"君の知らない物語","Duration":341053,"Raw_Title":"君の知らない物語","Raw_Artist":"supercell","Raw_Duration":341000}
+{"DateTime":"2018-09-30T19:27:30.5874072+08:00","ID":"33913978","Artist":"sweet ARMS","Title":"Key of Truth","Duration":235013,"Raw_Title":"Key of Truth","Raw_Artist":"sweet ARMS","Raw_Duration":235000}
+{"DateTime":"2018-09-30T19:27:30.8624115+08:00","ID":"33913978","Artist":"sweet ARMS","Title":"Key of Truth","Duration":235013,"Raw_Title":"Key of Truth","Raw_Artist":"sweet ARMS","Raw_Duration":235000}
+{"DateTime":"2018-10-01T20:57:25.892477+08:00","ID":"31191346","Artist":"AKINO","Title":"雪のように","Duration":266000,"Raw_Title":"雪のように","Raw_Artist":"AKINO with bless4","Raw_Duration":266000}
+{"DateTime":"2018-10-02T20:48:27.6005847+08:00","ID":"504425755","Artist":"Ceui","Title":"今、歩き出す君へ","Duration":276306,"Raw_Title":"今、歩き出す君へ。","Raw_Artist":"Ceui","Raw_Duration":276000}
+{"DateTime":"2018-10-02T20:48:27.8765834+08:00","ID":"504425755","Artist":"Ceui","Title":"今、歩き出す君へ","Duration":276306,"Raw_Title":"今、歩き出す君へ。","Raw_Artist":"Ceui","Raw_Duration":276000}
+{"DateTime":"2018-10-02T22:12:47.4721745+08:00","ID":"35527489","Artist":"The Living Tombstone","Title":"Five Nights at Freddy's","Duration":165461,"Raw_Title":"Five Nights at Freddy's","Raw_Artist":"The Living Tombstone","Raw_Duration":165000}
+{"DateTime":"2018-10-02T22:12:47.8001544+08:00","ID":"35527489","Artist":"The Living Tombstone","Title":"Five Nights at Freddy's","Duration":165461,"Raw_Title":"Five Nights at Freddy's","Raw_Artist":"The Living Tombstone","Raw_Duration":165000}
+{"DateTime":"2018-10-04T18:55:06.8179134+08:00","ID":"18348361","Artist":"Infected Mushroom","Title":"The Legend Of The Black Shawarma","Duration":432144,"Raw_Title":"Legend Of The Black Shawarma","Raw_Artist":"Infected Mushroom","Raw_Duration":432000}
+{"DateTime":"2018-10-04T20:54:18.5539524+08:00","ID":"29177255","Artist":"融合P","Title":"YELLOW TRICK","Duration":149368,"Raw_Title":"YELLOW TRICK","Raw_Artist":"融合P","Raw_Duration":149000}
+{"DateTime":"2018-10-04T20:54:18.7609526+08:00","ID":"29177255","Artist":"融合P","Title":"YELLOW TRICK","Duration":149368,"Raw_Title":"YELLOW TRICK","Raw_Artist":"融合P","Raw_Duration":149000}
+{"DateTime":"2018-10-05T19:56:31.9300709+08:00","ID":"429482655","Artist":"天月-あまつき-","Title":"風になる","Duration":284238,"Raw_Title":"風になる","Raw_Artist":"天月","Raw_Duration":284000}
+{"DateTime":"2018-10-05T19:56:32.1490741+08:00","ID":"429482655","Artist":"天月-あまつき-","Title":"風になる","Duration":284238,"Raw_Title":"風になる","Raw_Artist":"天月","Raw_Duration":284000}
+{"DateTime":"2018-10-05T20:37:41.7975316+08:00","ID":"687463","Artist":"美里","Title":"Necro Fantasia","Duration":349333,"Raw_Title":"Necro Fantasia","Raw_Artist":"美里","Raw_Duration":349000}
+{"DateTime":"2018-10-05T20:37:42.095531+08:00","ID":"687463","Artist":"美里","Title":"Necro Fantasia","Duration":349333,"Raw_Title":"Necro Fantasia","Raw_Artist":"美里","Raw_Duration":349000}
+{"DateTime":"2018-10-05T21:09:09.2802449+08:00","ID":"30245511","Artist":"THE ROLLING GIRLS","Title":"人にやさしく","Duration":201992,"Raw_Title":"人にやさしく","Raw_Artist":"THE ROLLING GIRLS","Raw_Duration":202000}
+{"DateTime":"2018-10-05T21:09:09.4572424+08:00","ID":"30245511","Artist":"THE ROLLING GIRLS","Title":"人にやさしく","Duration":201992,"Raw_Title":"人にやさしく","Raw_Artist":"THE ROLLING GIRLS","Raw_Duration":202000}
+{"DateTime":"2018-10-06T21:45:29.5911035+08:00","ID":"487190590","Artist":"Helblinde","Title":"The Solace of Oblivion","Duration":343431,"Raw_Title":"The Solace of Oblivion","Raw_Artist":"Helblinde","Raw_Duration":343000}
+{"DateTime":"2018-10-07T19:27:13.1529881+08:00","ID":"22823273","Artist":"新谷良子","Title":"Wonderful World","Duration":269184,"Raw_Title":"Wonderful World","Raw_Artist":"Shintani Ryoko","Raw_Duration":269000}
+{"DateTime":"2018-10-07T19:27:13.483988+08:00","ID":"22823273","Artist":"新谷良子","Title":"Wonderful World","Duration":269184,"Raw_Title":"Wonderful World","Raw_Artist":"Shintani Ryoko","Raw_Duration":269000}
+{"DateTime":"2018-10-08T18:50:02.0905636+08:00","ID":"36102296","Artist":"yuiko","Title":"東の空から始まる世界 (Short)","Duration":170693,"Raw_Title":"東の空から始まる世界 (Short)","Raw_Artist":"yuiko","Raw_Duration":171000}
+{"DateTime":"2018-10-08T18:50:02.3785712+08:00","ID":"36102296","Artist":"yuiko","Title":"東の空から始まる世界 (Short)","Duration":170693,"Raw_Title":"東の空から始まる世界 (Short)","Raw_Artist":"yuiko","Raw_Duration":171000}
+{"DateTime":"2018-10-08T19:48:40.2895681+08:00","ID":"30830256","Artist":"Silent Siren","Title":"Routine","Duration":243000,"Raw_Title":"Routine","Raw_Artist":"Silent Siren","Raw_Duration":244000}
+{"DateTime":"2018-10-08T19:48:40.4295744+08:00","ID":"30830256","Artist":"Silent Siren","Title":"Routine","Duration":243000,"Raw_Title":"Routine","Raw_Artist":"Silent Siren","Raw_Duration":244000}
+{"DateTime":"2018-10-08T19:50:04.5585573+08:00","ID":"26455786","Artist":"めらみぽっぷ","Title":"シークレットデザイア- Dyes Remix - - remix","Duration":354000,"Raw_Title":"シークレットデザイア- Dyes Remix -","Raw_Artist":"めらみぽっぷ","Raw_Duration":354000}
+{"DateTime":"2018-10-08T19:50:04.6895612+08:00","ID":"26455786","Artist":"めらみぽっぷ","Title":"シークレットデザイア- Dyes Remix - - remix","Duration":354000,"Raw_Title":"シークレットデザイア- Dyes Remix -","Raw_Artist":"めらみぽっぷ","Raw_Duration":354000}
+{"DateTime":"2018-10-09T12:03:16.9504438+08:00","ID":"819914","Artist":"Scandal","Title":"HARUKAZE","Duration":278933,"Raw_Title":"HARUKAZE","Raw_Artist":"SCANDAL","Raw_Duration":279000}
+{"DateTime":"2018-10-09T12:03:17.2224415+08:00","ID":"819914","Artist":"Scandal","Title":"HARUKAZE","Duration":278933,"Raw_Title":"HARUKAZE","Raw_Artist":"SCANDAL","Raw_Duration":279000}
+{"DateTime":"2018-10-09T20:43:44.6570161+08:00","ID":"458507120","Artist":"沼倉愛美","Title":"Climber's High!","Duration":241533,"Raw_Title":"Climber's High!","Raw_Artist":"沼倉愛美","Raw_Duration":242000}
+{"DateTime":"2018-10-09T20:43:44.943014+08:00","ID":"458507120","Artist":"沼倉愛美","Title":"Climber's High!","Duration":241533,"Raw_Title":"Climber's High!","Raw_Artist":"沼倉愛美","Raw_Duration":242000}
+{"DateTime":"2018-10-10T19:54:57.7656467+08:00","ID":"865048686","Artist":"NAGI","Title":"春待ちクローバー(NAGI vs 14 Remix)","Duration":311790,"Raw_Title":"春待ちクローバー(NAGI vs 14 Remix)","Raw_Artist":"花坂結衣(CV：Ｍ・Ａ・Ｏ)","Raw_Duration":312000}
+{"DateTime":"2018-10-10T19:54:57.9986223+08:00","ID":"865048686","Artist":"NAGI","Title":"春待ちクローバー(NAGI vs 14 Remix)","Duration":311790,"Raw_Title":"春待ちクローバー(NAGI vs 14 Remix)","Raw_Artist":"花坂結衣(CV：Ｍ・Ａ・Ｏ)","Raw_Duration":312000}
+{"DateTime":"2018-10-11T18:56:59.3182317+08:00","ID":"30854609","Artist":"LiSA","Title":"君にピエロ","Duration":253837,"Raw_Title":"君にピエロ","Raw_Artist":"LiSA","Raw_Duration":254000}
+{"DateTime":"2018-10-11T18:56:59.5432383+08:00","ID":"30854609","Artist":"LiSA","Title":"君にピエロ","Duration":253837,"Raw_Title":"君にピエロ","Raw_Artist":"LiSA","Raw_Duration":254000}
+{"DateTime":"2018-10-11T19:29:41.2058441+08:00","ID":"682140","Artist":"Asriel","Title":"穢れ亡き夢","Duration":304173,"Raw_Title":"穢れ亡き夢","Raw_Artist":"Asriel","Raw_Duration":304000}
+{"DateTime":"2018-10-11T19:29:41.5098438+08:00","ID":"682140","Artist":"Asriel","Title":"穢れ亡き夢","Duration":304173,"Raw_Title":"穢れ亡き夢","Raw_Artist":"Asriel","Raw_Duration":304000}
+{"DateTime":"2018-10-11T21:00:54.5463014+08:00","ID":"31680144","Artist":"中恵光城","Title":"mirage","Duration":299000,"Raw_Title":"mirage","Raw_Artist":"霜月はるか・中恵光城","Raw_Duration":300000}
+{"DateTime":"2018-10-11T21:00:54.8023028+08:00","ID":"31680144","Artist":"中恵光城","Title":"mirage","Duration":299000,"Raw_Title":"mirage","Raw_Artist":"霜月はるか・中恵光城","Raw_Duration":300000}
+{"DateTime":"2018-10-12T20:49:46.9500771+08:00","ID":"31967337","Artist":"RAMMに這いよるクー子さんとクー音さん","Title":"Sister,Friend,Lover","Duration":220853,"Raw_Title":"Sister, Friend, Lover","Raw_Artist":"RAMMに這いよるクー子さんとクー音さん","Raw_Duration":221000}
+{"DateTime":"2018-10-12T20:49:47.0960776+08:00","ID":"31967337","Artist":"RAMMに這いよるクー子さんとクー音さん","Title":"Sister,Friend,Lover","Duration":220853,"Raw_Title":"Sister, Friend, Lover","Raw_Artist":"RAMMに這いよるクー子さんとクー音さん","Raw_Duration":221000}
+{"DateTime":"2018-10-12T21:27:22.9517933+08:00","ID":"41416575","Artist":"鎖那","Title":"パケットヒーロー","Duration":276062,"Raw_Title":"パケットヒーロー","Raw_Artist":"鎖那","Raw_Duration":276000}
+{"DateTime":"2018-10-12T21:27:23.0827934+08:00","ID":"41416575","Artist":"鎖那","Title":"パケットヒーロー","Duration":276062,"Raw_Title":"パケットヒーロー","Raw_Artist":"鎖那","Raw_Duration":276000}
+{"DateTime":"2018-10-14T20:32:45.0457226+08:00","ID":"35527133","Artist":"ゆいこんぬ","Title":"夢地図","Duration":190080,"Raw_Title":"夢地図","Raw_Artist":"ゆいこんぬ","Raw_Duration":190000}
+{"DateTime":"2018-10-14T20:32:45.2688312+08:00","ID":"35527133","Artist":"ゆいこんぬ","Title":"夢地図","Duration":190080,"Raw_Title":"夢地図","Raw_Artist":"ゆいこんぬ","Raw_Duration":190000}
+{"DateTime":"2018-10-17T18:49:02.5227016+08:00","ID":"676526","Artist":"やなぎなぎ","Title":"とある海賊王の気まぐれ","Duration":309666,"Raw_Title":"とある海賊王の気まぐれ","Raw_Artist":"麻枝 准×やなぎなぎ","Raw_Duration":310000}
+{"DateTime":"2018-10-17T18:49:02.7146296+08:00","ID":"676526","Artist":"やなぎなぎ","Title":"とある海賊王の気まぐれ","Duration":309666,"Raw_Title":"とある海賊王の気まぐれ","Raw_Artist":"麻枝 准×やなぎなぎ","Raw_Duration":310000}
+{"DateTime":"2018-10-18T19:34:20.4801164+08:00","ID":"410629457","Artist":"Yonder Voice","Title":"星空の花束","Duration":218173,"Raw_Title":"星空の花束","Raw_Artist":"himmel feat. 瑶山百霊","Raw_Duration":218000}
+{"DateTime":"2018-10-18T19:34:20.8693911+08:00","ID":"410629457","Artist":"Yonder Voice","Title":"星空の花束","Duration":218173,"Raw_Title":"星空の花束","Raw_Artist":"himmel feat. 瑶山百霊","Raw_Duration":218000}
+{"DateTime":"2018-10-18T20:00:07.7356547+08:00","ID":"462612855","Artist":"黒脛","Title":"忍恋花","Duration":109978,"Raw_Title":"忍恋花","Raw_Artist":"黒脛","Raw_Duration":110000}
+{"DateTime":"2018-10-18T20:02:04.3040009+08:00","ID":"28854221","Artist":"加隈亜衣","Title":"祝祭のエレメンタリア","Duration":196963,"Raw_Title":"祝祭のエレメンタリア","Raw_Artist":"にーそっくすす","Raw_Duration":197000}
+{"DateTime":"2018-10-18T20:02:04.4474807+08:00","ID":"28854216","Artist":"にーそっくすす","Title":"祝祭のエレメンタリア","Duration":197093,"Raw_Title":"祝祭のエレメンタリア","Raw_Artist":"にーそっくすす","Raw_Duration":197000}
+{"DateTime":"2018-10-18T20:08:02.8229602+08:00","ID":"28169817","Artist":"ave;new","Title":"MAYBE ROSY KISS -HARD dRESS STYLE-","Duration":285126,"Raw_Title":"MAYBE ROSY KISS -HARD dRESS STYLE-","Raw_Artist":"ave;new feat.白沢理恵","Raw_Duration":285000}
+{"DateTime":"2018-10-18T21:03:13.8329642+08:00","ID":"676514","Artist":"やなぎなぎ","Title":"無敵のSoldier","Duration":313933,"Raw_Title":"無敵のSoldier","Raw_Artist":"やなぎなぎ","Raw_Duration":314000}
+{"DateTime":"2018-10-18T21:03:13.9638904+08:00","ID":"676514","Artist":"やなぎなぎ","Title":"無敵のSoldier","Duration":313933,"Raw_Title":"無敵のSoldier","Raw_Artist":"やなぎなぎ","Raw_Duration":314000}
+{"DateTime":"2018-10-18T21:04:27.6887892+08:00","ID":"31478519","Artist":"TRUE","Title":"DREAM SOLISTER","Duration":298000,"Raw_Title":"DREAM SOLISTER","Raw_Artist":"TRUE","Raw_Duration":298000}
+{"DateTime":"2018-10-18T21:04:27.9798227+08:00","ID":"31478519","Artist":"TRUE","Title":"DREAM SOLISTER","Duration":298000,"Raw_Title":"DREAM SOLISTER","Raw_Artist":"TRUE","Raw_Duration":298000}
+{"DateTime":"2018-10-18T21:56:04.6048943+08:00","ID":"34509791","Artist":"yuiko","Title":"イナイセカイ","Duration":196800,"Raw_Title":"イナイセカイ","Raw_Artist":"Primary","Raw_Duration":197000}
+{"DateTime":"2018-10-18T21:56:04.8384939+08:00","ID":"34509791","Artist":"yuiko","Title":"イナイセカイ","Duration":196800,"Raw_Title":"イナイセカイ","Raw_Artist":"Primary","Raw_Duration":197000}
+{"DateTime":"2018-10-19T19:19:38.9811522+08:00","ID":"825522","Artist":"Supercell","Title":"星が瞬くこんな夜に","Duration":269346,"Raw_Title":"星が瞬くこんな夜に","Raw_Artist":"supercell","Raw_Duration":269000}
+{"DateTime":"2018-10-19T19:19:39.1863305+08:00","ID":"825522","Artist":"Supercell","Title":"星が瞬くこんな夜に","Duration":269346,"Raw_Title":"星が瞬くこんな夜に","Raw_Artist":"supercell","Raw_Duration":269000}
+{"DateTime":"2018-10-19T19:38:00.7333681+08:00","ID":"505851693","Artist":"みみめめMIMI","Title":"CANDY MAGIC","Duration":276297,"Raw_Title":"CANDY MAGIC","Raw_Artist":"みみめめMIMI","Raw_Duration":277000}
+{"DateTime":"2018-10-19T19:38:00.8795959+08:00","ID":"505851693","Artist":"みみめめMIMI","Title":"CANDY MAGIC","Duration":276297,"Raw_Title":"CANDY MAGIC","Raw_Artist":"みみめめMIMI","Raw_Duration":277000}
+{"DateTime":"2018-10-20T21:00:19.0154285+08:00","ID":"26123626","Artist":"XL project","Title":"Starmine (feat. mintea)","Duration":280685,"Raw_Title":"Starmine","Raw_Artist":"XL Project","Raw_Duration":281000}
+{"DateTime":"2018-10-20T21:00:19.3060578+08:00","ID":"26123626","Artist":"XL project","Title":"Starmine (feat. mintea)","Duration":280685,"Raw_Title":"Starmine","Raw_Artist":"XL Project","Raw_Duration":281000}
+{"DateTime":"2018-10-21T19:25:08.3110883+08:00","ID":"29897622","Artist":"ゆいこんぬ","Title":"空想フォレスト","Duration":253178,"Raw_Title":"想像フォレスト","Raw_Artist":"ゆいこんぬ","Raw_Duration":253000}
+{"DateTime":"2018-10-22T19:33:31.785566+08:00","ID":"29803434","Artist":"yuiko","Title":"in the Garden","Duration":227239,"Raw_Title":"in the Garden","Raw_Artist":"Primary","Raw_Duration":227000}
+{"DateTime":"2018-10-22T19:33:32.0230813+08:00","ID":"29803434","Artist":"yuiko","Title":"in the Garden","Duration":227239,"Raw_Title":"in the Garden","Raw_Artist":"Primary","Raw_Duration":227000}
+{"DateTime":"2018-10-22T19:51:22.3069804+08:00","ID":"399552421","Artist":"DECO*27","Title":"ゴーストルール","Duration":206471,"Raw_Title":"ゴーストルール","Raw_Artist":"DECO*27","Raw_Duration":207000}
+{"DateTime":"2018-10-22T19:51:22.4535689+08:00","ID":"399552421","Artist":"DECO*27","Title":"ゴーストルール","Duration":206471,"Raw_Title":"ゴーストルール","Raw_Artist":"DECO*27","Raw_Duration":207000}
+{"DateTime":"2018-10-22T20:04:20.1060694+08:00","ID":"551939","Artist":"彩音","Title":"Arrival of Tears","Duration":320078,"Raw_Title":"Arrival of Tears","Raw_Artist":"彩音","Raw_Duration":321000}
+{"DateTime":"2018-10-22T20:04:21.308366+08:00","ID":"551939","Artist":"彩音","Title":"Arrival of Tears","Duration":320078,"Raw_Title":"Arrival of Tears","Raw_Artist":"彩音","Raw_Duration":321000}
+{"DateTime":"2018-10-22T21:24:20.6899867+08:00","ID":"500913905","Artist":"富田美憂","Title":"Deep in Abyss","Duration":223712,"Raw_Title":"Deep in Abyss","Raw_Artist":"リコ（CV：富田美憂）、レグ（CV：伊瀬茉莉也）","Raw_Duration":223000}
+{"DateTime":"2018-10-22T21:24:20.8343414+08:00","ID":"500913905","Artist":"富田美憂","Title":"Deep in Abyss","Duration":223712,"Raw_Title":"Deep in Abyss","Raw_Artist":"リコ（CV：富田美憂）、レグ（CV：伊瀬茉莉也）","Raw_Duration":223000}
+{"DateTime":"2018-10-23T19:55:25.8621563+08:00","ID":"22647263","Artist":"奥井雅美","Title":"God Speed","Duration":237949,"Raw_Title":"God Speed","Raw_Artist":"Okui Masami","Raw_Duration":238000}
+{"DateTime":"2018-10-23T21:03:57.4283235+08:00","ID":"28755557","Artist":"Linkin Park","Title":"Guilty All The Same (feat. Rakim)","Duration":355106,"Raw_Title":"Guilty All The Same (feat. Rakim)","Raw_Artist":"Linkin Park","Raw_Duration":355000}
+{"DateTime":"2018-10-23T21:03:57.6499308+08:00","ID":"28755557","Artist":"Linkin Park","Title":"Guilty All The Same (feat. Rakim)","Duration":355106,"Raw_Title":"Guilty All The Same (feat. Rakim)","Raw_Artist":"Linkin Park","Raw_Duration":355000}
+{"DateTime":"2018-10-24T19:28:16.8775048+08:00","ID":"494645501","Artist":"伊藤彩沙","Title":"す、好きなんかじゃない!","Duration":237557,"Raw_Title":"す、好きなんかじゃない!","Raw_Artist":"市ヶ谷有咲 (CV: 伊藤彩沙)","Raw_Duration":237000}
+{"DateTime":"2018-10-24T19:28:17.1168351+08:00","ID":"494645501","Artist":"伊藤彩沙","Title":"す、好きなんかじゃない!","Duration":237557,"Raw_Title":"す、好きなんかじゃない!","Raw_Artist":"市ヶ谷有咲 (CV: 伊藤彩沙)","Raw_Duration":237000}
+{"DateTime":"2018-10-24T20:13:20.6491748+08:00","ID":"27493015","Artist":"mao","Title":"梅雪夜","Duration":109680,"Raw_Title":"梅雪夜","Raw_Artist":"Qrispy Joybox feat.mao","Raw_Duration":109000}
+{"DateTime":"2018-10-24T20:13:20.9207931+08:00","ID":"27493015","Artist":"mao","Title":"梅雪夜","Duration":109680,"Raw_Title":"梅雪夜","Raw_Artist":"Qrispy Joybox feat.mao","Raw_Duration":109000}
+{"DateTime":"2018-10-24T20:47:36.9322007+08:00","ID":"34367777","Artist":"水瀬いのり","Title":"空に私のサンシャイン","Duration":220666,"Raw_Title":"空に私のサンシャイン","Raw_Artist":"丈槍由紀(CV.水瀬いのり)","Raw_Duration":220000}
+{"DateTime":"2018-10-24T20:47:37.0844169+08:00","ID":"34367777","Artist":"水瀬いのり","Title":"空に私のサンシャイン","Duration":220666,"Raw_Title":"空に私のサンシャイン","Raw_Artist":"丈槍由紀(CV.水瀬いのり)","Raw_Duration":220000}
+{"DateTime":"2018-10-25T18:58:05.5856325+08:00","ID":"33255175","Artist":"JUN","Title":"KIMONO❤PRINCESS","Duration":105000,"Raw_Title":"KIMONO <3 PRINCESS","Raw_Artist":"jun","Raw_Duration":105000}
+{"DateTime":"2018-10-25T19:23:07.4415889+08:00","ID":"867206","Artist":"妖精帝國","Title":"絶望plantation","Duration":220865,"Raw_Title":"絶望plantation","Raw_Artist":"妖精帝國","Raw_Duration":221000}
+{"DateTime":"2018-10-25T19:23:07.8772763+08:00","ID":"867206","Artist":"妖精帝國","Title":"絶望plantation","Duration":220865,"Raw_Title":"絶望plantation","Raw_Artist":"妖精帝國","Raw_Duration":221000}
+{"DateTime":"2018-10-26T19:48:08.340156+08:00","ID":"429348700","Artist":"DAOKO","Title":"BANG!","Duration":219024,"Raw_Title":"BANG!","Raw_Artist":"DAOKO","Raw_Duration":220000}
+{"DateTime":"2018-10-26T19:48:08.5431942+08:00","ID":"429348700","Artist":"DAOKO","Title":"BANG!","Duration":219024,"Raw_Title":"BANG!","Raw_Artist":"DAOKO","Raw_Duration":220000}
+{"DateTime":"2018-10-28T18:55:13.4291305+08:00","ID":"28240346","Artist":"petit milady","Title":"azurite","Duration":239229,"Raw_Title":"azurite","Raw_Artist":"petit milady","Raw_Duration":239000}
+{"DateTime":"2018-10-28T18:55:13.6240194+08:00","ID":"28240346","Artist":"petit milady","Title":"azurite","Duration":239229,"Raw_Title":"azurite","Raw_Artist":"petit milady","Raw_Duration":239000}
+{"DateTime":"2018-10-31T19:02:14.4852404+08:00","ID":"450041179","Artist":"種田梨沙","Title":"フランボワーズ ラヴァーズ","Duration":223712,"Raw_Title":"フランボワーズ　ラヴァーズ","Raw_Artist":"姫柊雪菜（ＣＶ：種田梨沙）","Raw_Duration":224000}
+{"DateTime":"2018-10-31T19:02:14.7061129+08:00","ID":"450041179","Artist":"種田梨沙","Title":"フランボワーズ ラヴァーズ","Duration":223712,"Raw_Title":"フランボワーズ　ラヴァーズ","Raw_Artist":"姫柊雪菜（ＣＶ：種田梨沙）","Raw_Duration":224000}
+{"DateTime":"2018-10-31T19:33:17.4732402+08:00","ID":"27515006","Artist":"nao","Title":"Dimension tripper!!!!","Duration":256613,"Raw_Title":"Dimension tripper!!!!","Raw_Artist":"nao","Raw_Duration":257000}
+{"DateTime":"2018-10-31T19:33:17.6911141+08:00","ID":"27515006","Artist":"nao","Title":"Dimension tripper!!!!","Duration":256613,"Raw_Title":"Dimension tripper!!!!","Raw_Artist":"nao","Raw_Duration":257000}
+{"DateTime":"2018-10-31T19:48:52.3552219+08:00","ID":"623010","Artist":"KOTOKO","Title":"Presto","Duration":268746,"Raw_Title":"Presto","Raw_Artist":"KOTOKO","Raw_Duration":269000}
+{"DateTime":"2018-10-31T19:48:52.5651+08:00","ID":"623010","Artist":"KOTOKO","Title":"Presto","Duration":268746,"Raw_Title":"Presto","Raw_Artist":"KOTOKO","Raw_Duration":269000}
+{"DateTime":"2018-11-01T19:31:46.3238193+08:00","ID":"642680","Artist":"志方あきこ","Title":"讴う丘 ~Ar=Ciel Ar=Dor~","Duration":383555,"Raw_Title":"謳う丘 ~Ar=Ciel Ar=Dor~","Raw_Artist":"志方あきこ","Raw_Duration":384000}
+{"DateTime":"2018-11-01T19:31:46.5167083+08:00","ID":"642680","Artist":"志方あきこ","Title":"讴う丘 ~Ar=Ciel Ar=Dor~","Duration":383555,"Raw_Title":"謳う丘 ~Ar=Ciel Ar=Dor~","Raw_Artist":"志方あきこ","Raw_Duration":384000}
+{"DateTime":"2018-11-01T19:43:34.8317645+08:00","ID":"547971231","Artist":"XX:me","Title":"トリカゴ","Duration":219853,"Raw_Title":"トリカゴ","Raw_Artist":"XX:me","Raw_Duration":220000}
+{"DateTime":"2018-11-01T19:43:34.9746825+08:00","ID":"547971231","Artist":"XX:me","Title":"トリカゴ","Duration":219853,"Raw_Title":"トリカゴ","Raw_Artist":"XX:me","Raw_Duration":220000}
+{"DateTime":"2018-11-02T19:45:58.2367243+08:00","ID":"22666129","Artist":"ナノ","Title":"想イ出カケラ","Duration":270367,"Raw_Title":"想イ出カケラ","Raw_Artist":"ナノ","Raw_Duration":270000}
+{"DateTime":"2018-11-02T19:45:58.4446038+08:00","ID":"22666129","Artist":"ナノ","Title":"想イ出カケラ","Duration":270367,"Raw_Title":"想イ出カケラ","Raw_Artist":"ナノ","Raw_Duration":270000}
+{"DateTime":"2018-11-02T21:13:11.2538307+08:00","ID":"29728255","Artist":"ひめりんご","Title":"四ツ谷さんによろしく","Duration":178207,"Raw_Title":"四ツ谷さんによろしく","Raw_Artist":"ひめりんご","Raw_Duration":178000}
+{"DateTime":"2018-11-02T21:13:11.3848006+08:00","ID":"29728255","Artist":"ひめりんご","Title":"四ツ谷さんによろしく","Duration":178207,"Raw_Title":"四ツ谷さんによろしく","Raw_Artist":"ひめりんご","Raw_Duration":178000}
+{"DateTime":"2018-11-04T18:23:48.8058907+08:00","ID":"677047","Artist":"momori","Title":"咎める翳","Duration":240300,"Raw_Title":"咎める翳","Raw_Artist":"momori","Raw_Duration":240000}
+{"DateTime":"2018-11-04T18:23:49.116903+08:00","ID":"677047","Artist":"momori","Title":"咎める翳","Duration":240300,"Raw_Title":"咎める翳","Raw_Artist":"momori","Raw_Duration":240000}
+{"DateTime":"2018-11-04T19:00:06.6133372+08:00","ID":"451521472","Artist":"AiRI","Title":"永遠に咲く花","Duration":275043,"Raw_Title":"永遠に咲く花","Raw_Artist":"AiRI","Raw_Duration":275000}
+{"DateTime":"2018-11-04T19:00:06.7732451+08:00","ID":"451521472","Artist":"AiRI","Title":"永遠に咲く花","Duration":275043,"Raw_Title":"永遠に咲く花","Raw_Artist":"AiRI","Raw_Duration":275000}
+{"DateTime":"2018-11-04T19:10:58.3633708+08:00","ID":"404783794","Artist":"ClariS","Title":"さよならメモリーズ","Duration":367480,"Raw_Title":"さよならメモリーズ","Raw_Artist":"ClariS","Raw_Duration":367000}
+{"DateTime":"2018-11-04T19:10:58.5362717+08:00","ID":"404783794","Artist":"ClariS","Title":"さよならメモリーズ","Duration":367480,"Raw_Title":"さよならメモリーズ","Raw_Artist":"ClariS","Raw_Duration":367000}
+{"DateTime":"2018-11-04T19:24:30.0300854+08:00","ID":"22782014","Artist":"Sound Horizon","Title":"青き伯爵の城","Duration":457653,"Raw_Title":"青き伯爵の城","Raw_Artist":"Sound Horizon","Raw_Duration":458000}
+{"DateTime":"2018-11-04T19:24:30.1750005+08:00","ID":"22782014","Artist":"Sound Horizon","Title":"青き伯爵の城","Duration":457653,"Raw_Title":"青き伯爵の城","Raw_Artist":"Sound Horizon","Raw_Duration":458000}
+{"DateTime":"2018-11-04T19:39:55.2831953+08:00","ID":"28832112","Artist":"原田ひとみ","Title":"共鳴のTrue Force","Duration":277002,"Raw_Title":"共鳴のTrue Force","Raw_Artist":"原田ひとみ","Raw_Duration":277000}
+{"DateTime":"2018-11-04T19:39:55.4520986+08:00","ID":"28832112","Artist":"原田ひとみ","Title":"共鳴のTrue Force","Duration":277002,"Raw_Title":"共鳴のTrue Force","Raw_Artist":"原田ひとみ","Raw_Duration":277000}
+{"DateTime":"2018-11-05T18:43:59.6802736+08:00","ID":"412951858","Artist":"茶太","Title":"プレゼント","Duration":221146,"Raw_Title":"プレゼント","Raw_Artist":"茶太","Raw_Duration":221000}
+{"DateTime":"2018-11-05T18:43:59.8631686+08:00","ID":"412951858","Artist":"茶太","Title":"プレゼント","Duration":221146,"Raw_Title":"プレゼント","Raw_Artist":"茶太","Raw_Duration":221000}
+{"DateTime":"2018-11-06T19:43:47.7862476+08:00","ID":"30706244","Artist":"Ceui","Title":"COLORFUL DAYS!!","Duration":271093,"Raw_Title":"COLORFUL DAYS!!","Raw_Artist":"Ceui","Raw_Duration":271000}
+{"DateTime":"2018-11-06T19:43:47.9871055+08:00","ID":"30706244","Artist":"Ceui","Title":"COLORFUL DAYS!!","Duration":271093,"Raw_Title":"COLORFUL DAYS!!","Raw_Artist":"Ceui","Raw_Duration":271000}
+{"DateTime":"2018-11-07T20:06:12.7132124+08:00","ID":"31191351","Artist":"花たん","Title":"笹舟","Duration":315040,"Raw_Title":"笹舟","Raw_Artist":"花たん","Raw_Duration":315000}
+{"DateTime":"2018-11-07T20:06:12.8501346+08:00","ID":"31191351","Artist":"花たん","Title":"笹舟","Duration":315040,"Raw_Title":"笹舟","Raw_Artist":"花たん","Raw_Duration":315000}
+{"DateTime":"2018-11-07T20:30:59.0901404+08:00","ID":"32235968","Artist":"BiBi","Title":"冬がくれた予感","Duration":333106,"Raw_Title":"冬がくれた予感","Raw_Artist":"BiBi","Raw_Duration":334000}
+{"DateTime":"2018-11-07T20:30:59.4059597+08:00","ID":"32235968","Artist":"BiBi","Title":"冬がくれた予感","Duration":333106,"Raw_Title":"冬がくれた予感","Raw_Artist":"BiBi","Raw_Duration":334000}
+{"DateTime":"2018-11-08T20:15:19.4804212+08:00","ID":"26454906","Artist":"ななひら","Title":"物凄い勢いでけーねが物凄いうた","Duration":246586,"Raw_Title":"物凄い勢いでけーねが物凄いうた","Raw_Artist":"ななひら","Raw_Duration":246000}
+{"DateTime":"2018-11-08T20:15:19.734825+08:00","ID":"26454906","Artist":"ななひら","Title":"物凄い勢いでけーねが物凄いうた","Duration":246586,"Raw_Title":"物凄い勢いでけーねが物凄いうた","Raw_Artist":"ななひら","Raw_Duration":246000}
+{"DateTime":"2018-11-08T20:22:21.0126908+08:00","ID":"35527129","Artist":"ゆいこんぬ","Title":"アイのシナリオ","Duration":274104,"Raw_Title":"アイのシナリオ","Raw_Artist":"ゆいこんぬ","Raw_Duration":274000}
+{"DateTime":"2018-11-09T19:18:54.8142411+08:00","ID":"442867164","Artist":"S3RL","Title":"I Will Pick You Up","Duration":222168,"Raw_Title":"I Will Pick You Up","Raw_Artist":"S3RL feat Tamika","Raw_Duration":222000}
+{"DateTime":"2018-11-09T19:25:04.1892227+08:00","ID":"1871311","Artist":"Rhapsody of Fire","Title":"Emerald Sword","Duration":261197,"Raw_Title":"Emerald Sword","Raw_Artist":"Rhapsody","Raw_Duration":261000}
+{"DateTime":"2018-11-09T19:25:04.510553+08:00","ID":"1871311","Artist":"Rhapsody of Fire","Title":"Emerald Sword","Duration":261197,"Raw_Title":"Emerald Sword","Raw_Artist":"Rhapsody","Raw_Duration":261000}
+{"DateTime":"2018-11-12T19:16:57.9912487+08:00","ID":"22705495","Artist":"鹿乃","Title":"六兆年と一夜物语","Duration":220026,"Raw_Title":"六兆年と一夜物語","Raw_Artist":"あやぽんず＊","Raw_Duration":220000}
+{"DateTime":"2018-11-12T19:16:58.1843896+08:00","ID":"22705495","Artist":"鹿乃","Title":"六兆年と一夜物语","Duration":220026,"Raw_Title":"六兆年と一夜物語","Raw_Artist":"あやぽんず＊","Raw_Duration":220000}
+{"DateTime":"2018-11-12T19:47:38.173038+08:00","ID":"35779205","Artist":"小松菜","Title":"暁ノ月","Duration":247040,"Raw_Title":"暁ノ月","Raw_Artist":"void feat. 小松菜","Raw_Duration":247000}
+{"DateTime":"2018-11-15T19:23:39.6264861+08:00","ID":"528271138","Artist":"t+pazolite","Title":"Party in the HOLLOWood","Duration":238968,"Raw_Title":"Party in the HOLLOWood feat. ななひら","Raw_Artist":"t+pazolite","Raw_Duration":239000}
+{"DateTime":"2018-11-17T19:08:25.8305773+08:00","ID":"29809846","Artist":"UNDEAD CORPORATION","Title":"MEGALOMANIA","Duration":274599,"Raw_Title":"MEGALOMANIA","Raw_Artist":"UNDEAD CORPORATION","Raw_Duration":275000}
+{"DateTime":"2018-11-17T19:08:26.2363277+08:00","ID":"29809846","Artist":"UNDEAD CORPORATION","Title":"MEGALOMANIA","Duration":274599,"Raw_Title":"MEGALOMANIA","Raw_Artist":"UNDEAD CORPORATION","Raw_Duration":275000}
+{"DateTime":"2018-11-17T19:12:55.7066811+08:00","ID":"526904528","Artist":"ななひら","Title":"觀測衞","Duration":283062,"Raw_Title":"觀測衞曐","Raw_Artist":"かめりあ feat. ななひら","Raw_Duration":283000}
+{"DateTime":"2018-11-17T19:12:55.8745847+08:00","ID":"526904528","Artist":"ななひら","Title":"觀測衞","Duration":283062,"Raw_Title":"觀測衞曐","Raw_Artist":"かめりあ feat. ななひら","Raw_Duration":283000}
+{"DateTime":"2018-11-17T19:37:40.8488182+08:00","ID":"29154917","Artist":"VOCALOID","Title":"花色日和","Duration":201508,"Raw_Title":"花色日和","Raw_Artist":"なつめ千秋","Raw_Duration":201000}
+{"DateTime":"2018-11-17T19:37:41.0776851+08:00","ID":"29154917","Artist":"VOCALOID","Title":"花色日和","Duration":201508,"Raw_Title":"花色日和","Raw_Artist":"なつめ千秋","Raw_Duration":201000}
+{"DateTime":"2018-11-21T19:03:26.0855117+08:00","ID":"401386175","Artist":"ゆいこんぬ","Title":"放課後ストライド","Duration":225358,"Raw_Title":"放課後ストライド","Raw_Artist":"ゆいこんぬ","Raw_Duration":226000}
+{"DateTime":"2018-11-21T19:03:26.285394+08:00","ID":"401386175","Artist":"ゆいこんぬ","Title":"放課後ストライド","Duration":225358,"Raw_Title":"放課後ストライド","Raw_Artist":"ゆいこんぬ","Raw_Duration":226000}
+{"DateTime":"2018-11-24T18:35:18.4852092+08:00","ID":"402070931","Artist":"田所あずさ","Title":"純真Always","Duration":263520,"Raw_Title":"純真Always","Raw_Artist":"田所あずさ","Raw_Duration":264000}
+{"DateTime":"2018-11-24T18:35:18.7331764+08:00","ID":"402070931","Artist":"田所あずさ","Title":"純真Always","Duration":263520,"Raw_Title":"純真Always","Raw_Artist":"田所あずさ","Raw_Duration":264000}
+{"DateTime":"2018-11-24T18:42:15.4236052+08:00","ID":"35470874","Artist":"千歳サラ","Title":"アルカディア","Duration":242520,"Raw_Title":"アルカディア","Raw_Artist":"千歳サラ","Raw_Duration":243000}
+{"DateTime":"2018-11-24T18:42:15.6546145+08:00","ID":"35470874","Artist":"千歳サラ","Title":"アルカディア","Duration":242520,"Raw_Title":"アルカディア","Raw_Artist":"千歳サラ","Raw_Duration":243000}
+{"DateTime":"2018-11-25T20:35:32.7826399+08:00","ID":"520459688","Artist":"ユウカ","Title":"Girls' Carnival","Duration":246648,"Raw_Title":"Girls' Carnival","Raw_Artist":"ユウカ","Raw_Duration":247000}
+{"DateTime":"2018-11-25T20:35:32.9915196+08:00","ID":"520459688","Artist":"ユウカ","Title":"Girls' Carnival","Duration":246648,"Raw_Title":"Girls' Carnival","Raw_Artist":"ユウカ","Raw_Duration":247000}
+{"DateTime":"2018-11-25T20:36:30.2419083+08:00","ID":"435004345","Artist":"あやぽんず*","Title":"白い雪のプリンセスは","Duration":262295,"Raw_Title":"白い雪のプリンセスは","Raw_Artist":"あやぽんず＊","Raw_Duration":262000}
+{"DateTime":"2018-11-25T20:36:30.4248028+08:00","ID":"435004345","Artist":"あやぽんず*","Title":"白い雪のプリンセスは","Duration":262295,"Raw_Title":"白い雪のプリンセスは","Raw_Artist":"あやぽんず＊","Raw_Duration":262000}
+{"DateTime":"2018-11-25T20:57:57.8312134+08:00","ID":"31478812","Artist":"μ's","Title":"Super LOVE=Super LIVE!","Duration":342000,"Raw_Title":"Super LOVE=Super LIVE!","Raw_Artist":"μ's","Raw_Duration":343000}
+{"DateTime":"2018-11-25T20:57:58.0201047+08:00","ID":"31478812","Artist":"μ's","Title":"Super LOVE=Super LIVE!","Duration":342000,"Raw_Title":"Super LOVE=Super LIVE!","Raw_Artist":"μ's","Raw_Duration":343000}
+{"DateTime":"2018-11-26T18:48:47.6378192+08:00","ID":"28528971","Artist":"群星","Title":"金坷垃与你同在","Duration":91167,"Raw_Title":"金坷垃与你同在","Raw_Artist":"DepXe","Raw_Duration":91000}
+{"DateTime":"2018-11-26T19:47:25.5645868+08:00","ID":"1311346811","Artist":"藍月なくる","Title":"Monochrome Butterfly","Duration":196911,"Raw_Title":"Monochrome Butterfly","Raw_Artist":"藍月なくる","Raw_Duration":197000}
+{"DateTime":"2018-11-27T20:29:52.1928292+08:00","ID":"515647317","Artist":"ABSOLUTE CASTAWAY","Title":"桜花演武","Duration":221746,"Raw_Title":"桜花演武","Raw_Artist":"中恵光城","Raw_Duration":222000}
+{"DateTime":"2018-11-27T20:29:52.4566397+08:00","ID":"515647317","Artist":"ABSOLUTE CASTAWAY","Title":"桜花演武","Duration":221746,"Raw_Title":"桜花演武","Raw_Artist":"中恵光城","Raw_Duration":222000}
+{"DateTime":"2018-11-27T20:32:47.2468327+08:00","ID":"478203596","Artist":"森罗万象","Title":"天国地獄大地獄","Duration":224400,"Raw_Title":"天国地獄大地獄","Raw_Artist":"森罗万象","Raw_Duration":224000}
+{"DateTime":"2018-11-27T20:32:48.5087408+08:00","ID":"478203596","Artist":"森罗万象","Title":"天国地獄大地獄","Duration":224400,"Raw_Title":"天国地獄大地獄","Raw_Artist":"森罗万象","Raw_Duration":224000}
+{"DateTime":"2018-11-29T21:00:24.157627+08:00","ID":"29709668","Artist":"MY FIRST STORY","Title":"虚言NEUROSE","Duration":260239,"Raw_Title":"虚言NEUROSE","Raw_Artist":"MY FIRST STORY","Raw_Duration":260000}
+{"DateTime":"2018-11-29T21:00:24.3355243+08:00","ID":"29709668","Artist":"MY FIRST STORY","Title":"虚言NEUROSE","Duration":260239,"Raw_Title":"虚言NEUROSE","Raw_Artist":"MY FIRST STORY","Raw_Duration":260000}
+{"DateTime":"2018-12-01T20:14:09.8651759+08:00","ID":"450222557","Artist":"ラックライフ","Title":"風が吹く街 (TV Size)","Duration":108643,"Raw_Title":"風が吹く街（TV size）","Raw_Artist":"ラックライフ","Raw_Duration":109000}
+{"DateTime":"2018-12-01T20:14:10.0360753+08:00","ID":"450222557","Artist":"ラックライフ","Title":"風が吹く街 (TV Size)","Duration":108643,"Raw_Title":"風が吹く街（TV size）","Raw_Artist":"ラックライフ","Raw_Duration":109000}
+{"DateTime":"2018-12-01T20:47:00.2635398+08:00","ID":"30870173","Artist":"Orangestar","Title":"アスノヨゾラ哨戒班","Duration":176600,"Raw_Title":"キミノヨゾラ哨戒班","Raw_Artist":"Orangestar","Raw_Duration":176000}
+{"DateTime":"2018-12-01T20:47:00.4234484+08:00","ID":"30870173","Artist":"Orangestar","Title":"アスノヨゾラ哨戒班","Duration":176600,"Raw_Title":"キミノヨゾラ哨戒班","Raw_Artist":"Orangestar","Raw_Duration":176000}
+{"DateTime":"2018-12-01T20:53:33.5571689+08:00","ID":"33709221","Artist":"沢城みゆき","Title":"Delta Decision","Duration":253000,"Raw_Title":"Delta Decision","Raw_Artist":"エィハ(CV：沢城みゆき) 婁 (CV：内田真礼) メリル(CV：照井春佳)","Raw_Duration":253000}
+{"DateTime":"2018-12-01T20:53:33.6900924+08:00","ID":"33709221","Artist":"沢城みゆき","Title":"Delta Decision","Duration":253000,"Raw_Title":"Delta Decision","Raw_Artist":"エィハ(CV：沢城みゆき) 婁 (CV：内田真礼) メリル(CV：照井春佳)","Raw_Duration":253000}
+{"DateTime":"2018-12-04T20:10:00.1484774+08:00","ID":"28189644","Artist":"ゆいこんぬ","Title":"妄想スケッチ","Duration":222955,"Raw_Title":"妄想スケッチ","Raw_Artist":"ゆいこんぬ","Raw_Duration":223000}
+{"DateTime":"2018-12-04T20:10:00.3433646+08:00","ID":"28189644","Artist":"ゆいこんぬ","Title":"妄想スケッチ","Duration":222955,"Raw_Title":"妄想スケッチ","Raw_Artist":"ゆいこんぬ","Raw_Duration":223000}
+{"DateTime":"2018-12-04T20:15:23.9372374+08:00","ID":"469065452","Artist":"初音ミク","Title":"paranoia","Duration":229715,"Raw_Title":"paranoia","Raw_Artist":"つなまる","Raw_Duration":230000}
+{"DateTime":"2018-12-04T20:15:24.167132+08:00","ID":"469065452","Artist":"初音ミク","Title":"paranoia","Duration":229715,"Raw_Title":"paranoia","Raw_Artist":"つなまる","Raw_Duration":230000}
+{"DateTime":"2018-12-04T20:49:39.1082186+08:00","ID":"715594","Artist":"電気式華憐音楽集団","Title":"I pray","Duration":321541,"Raw_Title":"I pray","Raw_Artist":"電気式華憐音楽集団","Raw_Duration":322000}
+{"DateTime":"2018-12-04T20:49:39.2761222+08:00","ID":"715594","Artist":"電気式華憐音楽集団","Title":"I pray","Duration":321541,"Raw_Title":"I pray","Raw_Artist":"電気式華憐音楽集団","Raw_Duration":322000}
+{"DateTime":"2018-12-10T19:12:43.7496208+08:00","ID":"32405297","Artist":"霜月はるか","Title":"Snow×Connect","Duration":294000,"Raw_Title":"Snow×Connect","Raw_Artist":"霜月はるか","Raw_Duration":293000}
+{"DateTime":"2018-12-10T19:12:44.0204638+08:00","ID":"32405297","Artist":"霜月はるか","Title":"Snow×Connect","Duration":294000,"Raw_Title":"Snow×Connect","Raw_Artist":"霜月はるか","Raw_Duration":293000}
+{"DateTime":"2018-12-10T20:00:32.447341+08:00","ID":"18176928","Artist":"Poets of the Fall","Title":"The Happy Song","Duration":259173,"Raw_Title":"The Happy Song","Raw_Artist":"Poets of the Fall","Raw_Duration":259000}
+{"DateTime":"2018-12-10T20:00:32.6522218+08:00","ID":"18176928","Artist":"Poets of the Fall","Title":"The Happy Song","Duration":259173,"Raw_Title":"The Happy Song","Raw_Artist":"Poets of the Fall","Raw_Duration":259000}
+{"DateTime":"2018-12-12T20:23:48.6476573+08:00","ID":"19191171","Artist":"Sleeping with Sirens","Title":"If You Can't Hang","Duration":250000,"Raw_Title":"If You Can't Hang","Raw_Artist":"Sleeping With Sirens","Raw_Duration":250000}
+{"DateTime":"2018-12-12T20:23:48.9025092+08:00","ID":"19191171","Artist":"Sleeping with Sirens","Title":"If You Can't Hang","Duration":250000,"Raw_Title":"If You Can't Hang","Raw_Artist":"Sleeping With Sirens","Raw_Duration":250000}
+{"DateTime":"2018-12-14T21:58:06.4298434+08:00","ID":"867781","Artist":"妖精帝國","Title":"鲜血の誓い","Duration":256574,"Raw_Title":"鮮血の誓い","Raw_Artist":"妖精帝國","Raw_Duration":257000}
+{"DateTime":"2018-12-14T21:58:06.8036282+08:00","ID":"867781","Artist":"妖精帝國","Title":"鲜血の誓い","Duration":256574,"Raw_Title":"鮮血の誓い","Raw_Artist":"妖精帝國","Raw_Duration":257000}
+{"DateTime":"2018-12-15T20:40:46.4339556+08:00","ID":"514774643","Artist":"田所あずさ","Title":"ストーリーテラー","Duration":273226,"Raw_Title":"ストーリーテラー","Raw_Artist":"田所あずさ","Raw_Duration":273000}
+{"DateTime":"2018-12-17T20:33:37.7508528+08:00","ID":"1300594308","Artist":"めらみぽっぷ","Title":"至天","Duration":372626,"Raw_Title":"至天","Raw_Artist":"RD-Sounds feat. めらみぽっぷ/nayuta","Raw_Duration":373000}
+{"DateTime":"2018-12-17T20:33:37.9797214+08:00","ID":"1300594308","Artist":"めらみぽっぷ","Title":"至天","Duration":372626,"Raw_Title":"至天","Raw_Artist":"RD-Sounds feat. めらみぽっぷ/nayuta","Raw_Duration":373000}
+{"DateTime":"2018-12-19T19:05:54.093182+08:00","ID":"32823152","Artist":"鈴湯","Title":"夏空の光","Duration":285000,"Raw_Title":"夏空の光","Raw_Artist":"鈴湯","Raw_Duration":285000}
+{"DateTime":"2018-12-19T19:05:54.258087+08:00","ID":"32823152","Artist":"鈴湯","Title":"夏空の光","Duration":285000,"Raw_Title":"夏空の光","Raw_Artist":"鈴湯","Raw_Duration":285000}
+{"DateTime":"2018-12-19T19:17:54.4496326+08:00","ID":"467011539","Artist":"霜月はるか","Title":"small star","Duration":271229,"Raw_Title":"small star","Raw_Artist":"霜月はるか","Raw_Duration":271000}
+{"DateTime":"2018-12-19T20:00:49.4757272+08:00","ID":"856752","Artist":"松下","Title":"ダンスナンバーを共に","Duration":264737,"Raw_Title":"ダンスナンバーを共に","Raw_Artist":"ナナホシ管弦楽団 feat.松下","Raw_Duration":265000}
+{"DateTime":"2018-12-26T19:01:53.8763112+08:00","ID":"1326775232","Artist":"柿崽","Title":"POP/STARS（Cover：Madison Beer/(G)I-DLE/Jaira Burns）","Duration":190852,"Raw_Title":"POP/STARS (ft. Madison Beer, (G)I-DLE, Jaira Burns)","Raw_Artist":"K/DA","Raw_Duration":191000}
+{"DateTime":"2018-12-26T19:01:54.0971567+08:00","ID":"1326775232","Artist":"柿崽","Title":"POP/STARS（Cover：Madison Beer/(G)I-DLE/Jaira Burns）","Duration":190852,"Raw_Title":"POP/STARS (ft. Madison Beer, (G)I-DLE, Jaira Burns)","Raw_Artist":"K/DA","Raw_Duration":191000}
+{"DateTime":"2018-12-30T20:13:35.3458148+08:00","ID":"27643247","Artist":"ダルビッシュP","Title":"夢幻","Duration":280076,"Raw_Title":"夢幻","Raw_Artist":"ダルビッシュP feat.GUMI","Raw_Duration":280000}
+{"DateTime":"2018-12-30T20:27:55.8312657+08:00","ID":"835966","Artist":"サリー","Title":"Remind","Duration":325213,"Raw_Title":"Remind","Raw_Artist":"サリー","Raw_Duration":325000}
+{"DateTime":"2018-12-30T20:27:55.9871763+08:00","ID":"835966","Artist":"サリー","Title":"Remind","Duration":325213,"Raw_Title":"Remind","Raw_Artist":"サリー","Raw_Duration":325000}
+{"DateTime":"2018-12-30T20:42:15.2974753+08:00","ID":"35729154","Artist":"ななひら","Title":"ビバハピ","Duration":214400,"Raw_Title":"ビバハピ","Raw_Artist":"ななひら","Raw_Duration":215000}
+{"DateTime":"2019-01-01T18:55:04.7487257+08:00","ID":"437292616","Artist":"ななひら","Title":"恋の2-4-11","Duration":270613,"Raw_Title":"恋は2-4-11","Raw_Artist":"Gun-SEKI","Raw_Duration":271000}
+{"DateTime":"2019-01-01T18:55:04.987588+08:00","ID":"437292616","Artist":"ななひら","Title":"恋の2-4-11","Duration":270613,"Raw_Title":"恋は2-4-11","Raw_Artist":"Gun-SEKI","Raw_Duration":271000}
+{"DateTime":"2019-01-03T19:02:27.5140452+08:00","ID":"399342787","Artist":"茶太","Title":"Engage","Duration":284133,"Raw_Title":"Engage","Raw_Artist":"茶太","Raw_Duration":284000}
+{"DateTime":"2019-01-03T19:02:27.8048184+08:00","ID":"399342787","Artist":"茶太","Title":"Engage","Duration":284133,"Raw_Title":"Engage","Raw_Artist":"茶太","Raw_Duration":284000}
+{"DateTime":"2019-01-06T19:50:35.6995086+08:00","ID":"28959381","Artist":"ななひら","Title":"雹落","Duration":246256,"Raw_Title":"雹落","Raw_Artist":"かめりあ feat. ななひら","Raw_Duration":246000}
+{"DateTime":"2019-01-18T19:26:25.1297817+08:00","ID":"28642909","Artist":"Duca","Title":"marry me?","Duration":260000,"Raw_Title":"marry me ?","Raw_Artist":"Duca","Raw_Duration":259000}
+{"DateTime":"2019-01-28T21:00:54.2662235+08:00","ID":"26099342","Artist":"霜月はるか","Title":"想いのコンチェルト","Duration":357851,"Raw_Title":"想いのコンチェルト","Raw_Artist":"霜月はるか","Raw_Duration":357000}
+{"DateTime":"2019-01-28T21:00:54.577045+08:00","ID":"26099342","Artist":"霜月はるか","Title":"想いのコンチェルト","Duration":357851,"Raw_Title":"想いのコンチェルト","Raw_Artist":"霜月はるか","Raw_Duration":357000}
+{"DateTime":"2019-02-13T11:24:04.9751049+08:00","ID":"410446184","Artist":"yuiko","Title":"GLORIOUS DAYS","Duration":255653,"Raw_Title":"GLORIOUS DAYS","Raw_Artist":"yuiko","Raw_Duration":256000}
+{"DateTime":"2019-02-13T11:24:05.9715284+08:00","ID":"410446184","Artist":"yuiko","Title":"GLORIOUS DAYS","Duration":255653,"Raw_Title":"GLORIOUS DAYS","Raw_Artist":"yuiko","Raw_Duration":256000}
+{"DateTime":"2019-02-14T19:17:15.8848513+08:00","ID":"414586247","Artist":"Yunomi","Title":"大江戸コントローラー (feat. TORIENA)","Duration":256235,"Raw_Title":"大江戸コントローラー (feat. TORIENA)","Raw_Artist":"Yunomi","Raw_Duration":256000}
+{"DateTime":"2019-02-14T19:17:16.7873382+08:00","ID":"414586247","Artist":"Yunomi","Title":"大江戸コントローラー (feat. TORIENA)","Duration":256235,"Raw_Title":"大江戸コントローラー (feat. TORIENA)","Raw_Artist":"Yunomi","Raw_Duration":256000}
+{"DateTime":"2019-02-14T19:20:08.7277389+08:00","ID":"39324625","Artist":"Asterisk","Title":"World's End, Girl's Rondo (Asterisk DnB Remix)","Duration":348084,"Raw_Title":"World's End, Girl's Rondo (Asterisk DnB Remix)","Raw_Artist":"分島花音","Raw_Duration":348000}
+{"DateTime":"2019-02-14T19:20:09.1887786+08:00","ID":"39324625","Artist":"Asterisk","Title":"World's End, Girl's Rondo (Asterisk DnB Remix)","Duration":348084,"Raw_Title":"World's End, Girl's Rondo (Asterisk DnB Remix)","Raw_Artist":"分島花音","Raw_Duration":348000}
+{"DateTime":"2019-02-21T00:18:48.9958374+08:00","ID":"33728039","Artist":"μ's","Title":"Angelic Angel(Movie Edit)","Duration":126824,"Raw_Title":"Angelic Angel（Movie Edit）","Raw_Artist":"μ's","Raw_Duration":127000}
+{"DateTime":"2019-02-21T00:18:49.4993991+08:00","ID":"33728039","Artist":"μ's","Title":"Angelic Angel(Movie Edit)","Duration":126824,"Raw_Title":"Angelic Angel（Movie Edit）","Raw_Artist":"μ's","Raw_Duration":127000}
+{"DateTime":"2019-02-21T00:45:31.7021793+08:00","ID":"33941939","Artist":"luz","Title":"毒林檎とシンデレラ","Duration":234072,"Raw_Title":"毒林檎とシンデレラ","Raw_Artist":"luz","Raw_Duration":234000}
+{"DateTime":"2019-02-22T14:15:17.2842103+08:00","ID":"29715172","Artist":"霜月はるか","Title":"Startup","Duration":266370,"Raw_Title":"Startup","Raw_Artist":"霜月はるか","Raw_Duration":266000}
+{"DateTime":"2019-02-22T14:15:17.6512048+08:00","ID":"29715172","Artist":"霜月はるか","Title":"Startup","Duration":266370,"Raw_Title":"Startup","Raw_Artist":"霜月はるか","Raw_Duration":266000}
+{"DateTime":"2019-02-23T21:02:07.1802693+08:00","ID":"32405870","Artist":"やなぎなぎ","Title":"春擬き","Duration":270520,"Raw_Title":"春擬き","Raw_Artist":"やなぎなぎ","Raw_Duration":271000}
+{"DateTime":"2019-02-23T21:02:07.5202655+08:00","ID":"32405870","Artist":"やなぎなぎ","Title":"春擬き","Duration":270520,"Raw_Title":"春擬き","Raw_Artist":"やなぎなぎ","Raw_Duration":271000}
+{"DateTime":"2019-02-24T20:34:03.6213312+08:00","ID":"29712212","Artist":"33娘","Title":"视频不和谐","Duration":98000,"Raw_Title":"视频不和谐","Raw_Artist":"时空游客","Raw_Duration":98000}
+{"DateTime":"2019-02-24T21:13:22.3816062+08:00","ID":"41645473","Artist":"川田まみ","Title":"Contrail ～軌跡～","Duration":279146,"Raw_Title":"Contrail〜軌跡〜","Raw_Artist":"川田まみ","Raw_Duration":279000}
+{"DateTime":"2019-02-24T21:13:22.6446083+08:00","ID":"41645473","Artist":"川田まみ","Title":"Contrail ～軌跡～","Duration":279146,"Raw_Title":"Contrail〜軌跡〜","Raw_Artist":"川田まみ","Raw_Duration":279000}
+{"DateTime":"2019-02-26T19:20:39.2030382+08:00","ID":"479979914","Artist":"井口裕香","Title":"RE-ILLUSION","Duration":229706,"Raw_Title":"RE-ILLUSION","Raw_Artist":"井口裕香","Raw_Duration":230000}
+{"DateTime":"2019-02-26T19:20:39.4365387+08:00","ID":"479979914","Artist":"井口裕香","Title":"RE-ILLUSION","Duration":229706,"Raw_Title":"RE-ILLUSION","Raw_Artist":"井口裕香","Raw_Duration":230000}
+{"DateTime":"2019-02-26T19:56:51.1917213+08:00","ID":"494858440","Artist":"大島はるな","Title":"magic drive!","Duration":239830,"Raw_Title":"magic drive!","Raw_Artist":"solfa feat. 大島はるな","Raw_Duration":240000}
+{"DateTime":"2019-02-26T19:56:51.4497196+08:00","ID":"494858440","Artist":"大島はるな","Title":"magic drive!","Duration":239830,"Raw_Title":"magic drive!","Raw_Artist":"solfa feat. 大島はるな","Raw_Duration":240000}
+{"DateTime":"2019-03-01T19:41:19.1157612+08:00","ID":"467952011","Artist":"黒崎真音","Title":"Last Desire","Duration":250801,"Raw_Title":"Last Desire","Raw_Artist":"黒崎真音","Raw_Duration":250000}
+{"DateTime":"2019-03-01T19:41:19.3737646+08:00","ID":"467952011","Artist":"黒崎真音","Title":"Last Desire","Duration":250801,"Raw_Title":"Last Desire","Raw_Artist":"黒崎真音","Raw_Duration":250000}
+{"DateTime":"2019-03-01T19:42:30.2942067+08:00","ID":"691280","Artist":"arcane753.","Title":"蜘蛛の居る沼","Duration":323108,"Raw_Title":"蜘蛛の居る沼","Raw_Artist":"arcane753.","Raw_Duration":324000}
+{"DateTime":"2019-03-01T19:42:30.802264+08:00","ID":"691280","Artist":"arcane753.","Title":"蜘蛛の居る沼","Duration":323108,"Raw_Title":"蜘蛛の居る沼","Raw_Artist":"arcane753.","Raw_Duration":324000}
+{"DateTime":"2019-03-02T21:01:47.3350674+08:00","ID":"26115989","Artist":"佐藤直之","Title":"Rainbow after snow","Duration":263573,"Raw_Title":"Rainbow after snow","Raw_Artist":"猫叉Master feat. 林ももこ","Raw_Duration":264000}
+{"DateTime":"2019-03-05T19:48:05.3765667+08:00","ID":"412951821","Artist":"riya","Title":"Traveler's tale","Duration":245109,"Raw_Title":"Traveler's tale","Raw_Artist":"riya (eufonius)","Raw_Duration":245000}
+{"DateTime":"2019-03-05T19:48:05.7060657+08:00","ID":"412951821","Artist":"riya","Title":"Traveler's tale","Duration":245109,"Raw_Title":"Traveler's tale","Raw_Artist":"riya (eufonius)","Raw_Duration":245000}

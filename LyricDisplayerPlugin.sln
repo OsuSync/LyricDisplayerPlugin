@@ -9,6 +9,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LyricsFinder", "LyricsFinde
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QianQianMusicLyricsProvider", "QianQianMusicLyricsProvider\QianQianMusicLyricsProvider.csproj", "{C05AB144-77FC-4A9F-9A2F-7BC5C444F77E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LyricsFinder.Test", "LyricsFinder.Test\LyricsFinder.Test.csproj", "{4EA9BCAB-FF02-45A0-B8A5-08BB30729737}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{C05AB144-77FC-4A9F-9A2F-7BC5C444F77E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C05AB144-77FC-4A9F-9A2F-7BC5C444F77E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C05AB144-77FC-4A9F-9A2F-7BC5C444F77E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4EA9BCAB-FF02-45A0-B8A5-08BB30729737}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4EA9BCAB-FF02-45A0-B8A5-08BB30729737}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4EA9BCAB-FF02-45A0-B8A5-08BB30729737}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4EA9BCAB-FF02-45A0-B8A5-08BB30729737}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
