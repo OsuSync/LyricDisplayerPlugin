@@ -1,4 +1,5 @@
-﻿using System;
+﻿using LyricsFinder.SourcePrivoder;
+using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Text;
@@ -6,14 +7,14 @@ using System.Text.RegularExpressions;
 
 namespace LyricsFinder
 {
-    public static class LyricsParser
+    public class DefaultLyricsParser: LyricParserBase
     {
         const string TIMELINE_REGEX = @"\[(\d+\:)+\d+(\.\d+)?\]";
         private static Regex timeline_parse_regex = new Regex(@"\[(\d+\d*)\:(\d+)\.(\d*)?\]");
         private static Regex timeline_regex = new Regex(TIMELINE_REGEX);
         private static Regex lyric_regex = new Regex($"(({TIMELINE_REGEX})+)(.*)");
 
-        public static IEnumerable<Sentence> Parse(string lyrics_content)
+        public static IEnumerable<Sentence> ParseLyricsContent(string lyrics_content)
         {
             using (var reader=new StreamReader(new MemoryStream(Encoding.UTF8.GetBytes(lyrics_content))))
             {
@@ -42,6 +43,21 @@ namespace LyricsFinder
                         yield return sentence;
                     }
                 }
+            }
+        }
+
+        public override Lyrics Parse(string content)
+        {
+            try
+            {
+                var sentences = ParseLyricsContent(content);
+
+                return new Lyrics(sentences);
+            }
+            catch (Exception e)
+            {
+                Utils.Output($"Parse lyrics content failed!"+e.Message, ConsoleColor.Red);
+                return null;
             }
         }
     }
