@@ -1,4 +1,6 @@
-﻿using System;
+﻿using LyricsFinder.SourcePrivoder;
+using System;
+using System.Reflection;
 using System.Text;
 
 namespace LyricsFinder
@@ -130,5 +132,7 @@ namespace LyricsFinder
             }
             return decode;
         }
+
+        public static string GetProviderLoadName(SourceProviderBase source) => source.GetType().GetCustomAttribute<SourceProviderNameAttribute>().Name;
     }
 }

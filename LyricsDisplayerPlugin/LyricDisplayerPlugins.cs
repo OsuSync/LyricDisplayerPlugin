@@ -208,9 +208,7 @@ namespace LyricDisplayerPlugin
         private void OnCurrentPlayTimeChanged(int time)
         {
             if (current_lyrics==null)
-            {
                 return;
-            }
 
             time += Setting.GobalTimeOffset;
 

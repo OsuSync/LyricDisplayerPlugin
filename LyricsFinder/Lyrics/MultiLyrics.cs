@@ -7,7 +7,7 @@ namespace LyricsFinder
     public class MultiLyrics : Lyrics
     {
         private readonly IEnumerable<Lyrics> lyricses;
-
+        
         public MultiLyrics(params Lyrics[] lyricses)
         {
             this.lyricses=lyricses.OfType<Lyrics>();

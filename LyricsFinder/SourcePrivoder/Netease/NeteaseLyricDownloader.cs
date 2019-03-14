@@ -26,7 +26,7 @@ namespace LyricsFinder.SourcePrivoder.Netease
 
             JObject json = JObject.Parse(content);
 
-            return json[request_trans_lyrics ? "tlyric" : "lrc"]["lyric"].ToString();
+            return json[request_trans_lyrics ? "tlyric" : "lrc"]?["lyric"]?.ToString()??string.Empty;
         }
     }
 }

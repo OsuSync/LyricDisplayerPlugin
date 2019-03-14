@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 using System.Linq;
 using System.Reflection;
 using System.Threading.Tasks;
@@ -9,6 +10,8 @@ namespace LyricsFinder.SourcePrivoder.Auto
     public class AutoSourceProvider : SourceProviderBase
     {
         public SourceProviderBase[] search_engines;
+
+        private Dictionary<string, SourceProviderBase> cache_provider =new Dictionary<string, SourceProviderBase>();
 
         public AutoSourceProvider()
         {
@@ -22,27 +25,55 @@ namespace LyricsFinder.SourcePrivoder.Auto
 
         public override Lyrics ProvideLyric(string artist, string title, int time, bool request_trans_lyrics)
         {
-            Task<Lyrics>[] tasks = new Task<Lyrics>[search_engines.Length];
+            var id = artist+title+time;
 
-            System.Threading.CancellationTokenSource token = new System.Threading.CancellationTokenSource();
+            //保证同一谱面获取的翻译歌词和原歌词都是同一个歌词源，这样歌词合并的时候会好很多
+            if (cache_provider.TryGetValue(id,out var provider))
+                return GetLyricFromExcplictSource(provider, artist, title, time, request_trans_lyrics);
 
-            for (int i = 0; i<search_engines.Length; i++)
-                tasks[i]=Task.Factory.StartNew<Lyrics>((index) => search_engines[(int)index].ProvideLyric(artist, title, time, request_trans_lyrics), i, token.Token);
+            var lyrics = GetLyricFromAnySource(artist, title, time, request_trans_lyrics, out provider);
 
-            Lyrics lyrics = null;
+            if (lyrics!=null)
+                cache_provider[id]=provider;
 
-            for (int i = 0; i<search_engines.Length; i++)
+            return lyrics;
+        }
+
+        public Lyrics GetLyricFromAnySource(string artist, string title, int time, bool request_trans_lyrics,out SourceProviderBase provider)
+        {
+            var cancel_source = new System.Threading.CancellationTokenSource();
+
+            var tasks = search_engines.Select(l => Task.Run(() => (l.ProvideLyric(artist, title, time, request_trans_lyrics), l), cancel_source.Token));
+
+            provider=null;
+
+            foreach (var task in tasks)
             {
-                lyrics=tasks[i].Result;
+                var result = task.Result;
+                var lyrics = result.Item1;
 
-                //如果是刚好是要相同版本的歌词那可以直接返回了,否则就等一下其他源是不是还能拿到合适的版本
-                if (lyrics!=null)
+                if (lyrics==null)
+                    continue;
+
+                try
                 {
-                    token.Cancel();
-                    Utils.Debug($"Quick select lyric from {search_engines[i].GetType().Name}");
-                    break;
+                    cancel_source.Cancel();
                 }
+                catch { }
+
+                provider=result.l;
+
+                Utils.Debug($"Quick select lyric from {result.l.GetType().Name}");
+
+                return lyrics;
             }
+
+            return null;
+        }
+
+        public Lyrics GetLyricFromExcplictSource(SourceProviderBase provider, string artist, string title, int time, bool request_trans_lyrics)
+        {
+            var lyrics = provider.ProvideLyric(artist, title, time, request_trans_lyrics);
 
             return lyrics;
         }
