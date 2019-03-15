@@ -21,7 +21,7 @@ using Sync.Tools.ConfigurationAttribute;
 namespace LyricDisplayerPlugin
 {
     [SyncRequirePlugin(typeof(OsuRTDataProviderPlugin))]
-    [SyncPluginID("90e149dd-4184-4895-87e1-3691daff7890","0.8.5")]
+    [SyncPluginID("90e149dd-4184-4895-87e1-3691daff7890","0.9.5")]
     public class LyricDisplayerPlugins : Plugin,IConfigurable
     {
         [List]
