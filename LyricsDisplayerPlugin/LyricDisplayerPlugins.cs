@@ -231,9 +231,9 @@ namespace LyricDisplayerPlugin
             OutputLyricSentence(sentence);
         }
 
-        private void OnPlay()
+        private async void OnPlay()
         {
-            current_lyrics = GetLyric();
+            current_lyrics=await GetLyricAsync();
 
             if ((current_lyrics?.LyricSentencs?.Count??0)!=0)
                 Utils.Debug("选择的歌词是" + (Setting.BothLyrics?"混合歌词":current_lyrics.IsTranslatedLyrics?"翻译歌词":"原版歌词"));
@@ -377,12 +377,10 @@ namespace LyricDisplayerPlugin
             return true;
         }
 
-        private Lyrics GetLyric()
+        private Task<Lyrics> GetLyricAsync()
         {
-            if (string.IsNullOrWhiteSpace(current_beatmap.FilenameFull))
-            {
+            if (string.IsNullOrWhiteSpace(current_beatmap.FilenameFull) || !File.Exists(current_beatmap.FilenameFull))
                 return null;
-            }
 
             //获取基本数据
             string artist = _GetArtist();
@@ -392,35 +390,36 @@ namespace LyricDisplayerPlugin
             Utils.Debug($"artist:{artist} title:{title} time:{time}");
 
             if (time<0)
-            {
                 return null;
-            }
 
-            Lyrics lyrics = null;
-
-            if (Setting.BothLyrics)
+            return Task.Run(() =>
             {
-                var trans_lyrics = GetLyrics(title, artist, time, true);
-                var raw_lyrics = GetLyrics(title, artist, time, false);
+                Lyrics lyrics = null;
 
-                Utils.Output($"翻译歌词:{trans_lyrics != null} 原歌词:{raw_lyrics != null}",ConsoleColor.Green);
-
-                if (Setting.UseStaticLyricsCombine)
-                    lyrics=raw_lyrics+trans_lyrics;
-                else
-                    lyrics=new MultiLyrics(raw_lyrics, trans_lyrics);
-            }
-            else
-            {
-                lyrics = GetLyrics(title, artist, time, Setting.PreferTranslateLyrics);
-
-                if (Setting.PreferTranslateLyrics==true&&lyrics==null)
+                if (Setting.BothLyrics)
                 {
-                    lyrics= GetLyrics(title, artist, time, !Setting.PreferTranslateLyrics);
-                }
-            }
+                    var trans_lyrics = GetLyrics(title, artist, time, true);
+                    var raw_lyrics = GetLyrics(title, artist, time, false);
 
-            return lyrics;
+                    Utils.Output($"翻译歌词:{trans_lyrics!=null} 原歌词:{raw_lyrics!=null}", ConsoleColor.Green);
+
+                    if (Setting.UseStaticLyricsCombine)
+                        lyrics=raw_lyrics+trans_lyrics;
+                    else
+                        lyrics=new MultiLyrics(raw_lyrics, trans_lyrics);
+                }
+                else
+                {
+                    lyrics=GetLyrics(title, artist, time, Setting.PreferTranslateLyrics);
+
+                    if (Setting.PreferTranslateLyrics==true&&lyrics==null)
+                    {
+                        lyrics=GetLyrics(title, artist, time, !Setting.PreferTranslateLyrics);
+                    }
+                }
+
+                return lyrics;
+            });
 
             string _GetArtist() => string.IsNullOrWhiteSpace(current_beatmap.ArtistUnicode) ? current_beatmap.Artist : current_beatmap.ArtistUnicode;
             string _GetTitle() => string.IsNullOrWhiteSpace(current_beatmap.TitleUnicode) ? current_beatmap.Title : current_beatmap.TitleUnicode;
@@ -429,9 +428,7 @@ namespace LyricDisplayerPlugin
         public Lyrics GetLyrics(string title,string artist,int time,bool request_trans_lyrics)
         {
             if (TryGetLyricFromCacheFile(title, artist, time, request_trans_lyrics, out Lyrics lyrics))
-            {
                 return lyrics;
-            }
 
             var l = lyrics_provider?.ProvideLyric(artist, title, time, request_trans_lyrics);
 
