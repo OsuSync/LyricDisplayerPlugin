@@ -9,6 +9,10 @@
     <Company>OsuSync</Company>
   </PropertyGroup>
 
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
+    <OutputPath></OutputPath>
+  </PropertyGroup>
+
   <ItemGroup>
     <Reference Include="Newtonsoft.Json">
       <HintPath>..\..\Sync\Sync\bin\Debug\Newtonsoft.Json.dll</HintPath>

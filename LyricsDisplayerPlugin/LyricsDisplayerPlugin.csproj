@@ -12,6 +12,8 @@
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
     <Deterministic>true</Deterministic>
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <PlatformTarget>AnyCPU</PlatformTarget>
@@ -26,8 +28,9 @@
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <PlatformTarget>AnyCPU</PlatformTarget>
     <DebugType>pdbonly</DebugType>
+    <TrimUnusedDependencies>true</TrimUnusedDependencies>
     <Optimize>true</Optimize>
-    <OutputPath>bin\Release\</OutputPath>
+    <OutputPath>..\..\Sync\Release\Plugins\</OutputPath>
     <DefineConstants>TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
@@ -82,4 +85,11 @@
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <Import Project="..\..\Sync\OfficalPlugins\ExtraWorkspace\My_Sync_Plugin\packages\Microsoft.Packaging.Tools.Trimming.1.1.0-preview1-26619-01\build\Microsoft.Packaging.Tools.Trimming.targets" Condition="Exists('..\..\Sync\OfficalPlugins\ExtraWorkspace\My_Sync_Plugin\packages\Microsoft.Packaging.Tools.Trimming.1.1.0-preview1-26619-01\build\Microsoft.Packaging.Tools.Trimming.targets')" />
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>这台计算机上缺少此项目引用的 NuGet 程序包。使用“NuGet 程序包还原”可下载这些程序包。有关更多信息，请参见 http://go.microsoft.com/fwlink/?LinkID=322105。缺少的文件是 {0}。</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('..\..\Sync\OfficalPlugins\ExtraWorkspace\My_Sync_Plugin\packages\Microsoft.Packaging.Tools.Trimming.1.1.0-preview1-26619-01\build\Microsoft.Packaging.Tools.Trimming.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\..\Sync\OfficalPlugins\ExtraWorkspace\My_Sync_Plugin\packages\Microsoft.Packaging.Tools.Trimming.1.1.0-preview1-26619-01\build\Microsoft.Packaging.Tools.Trimming.targets'))" />
+  </Target>
 </Project>
