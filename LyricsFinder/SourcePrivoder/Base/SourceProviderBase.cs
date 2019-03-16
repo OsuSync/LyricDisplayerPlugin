@@ -133,21 +133,19 @@ namespace LyricsFinder
 
             string check_Str = $"{title.Trim()}".ToLower();
 
-            if (Setting.StrictMatch)
-            {
-                //删除标题看起来不匹配的(超过1/3内容不对就出局)，当然开头相同除外
-                float threhold_length = check_Str.Length*(1.0f/3);
-                search_result.RemoveAll((r) =>
-                {
-                    //XXXX和XXXXX(Full version)这种情况可以跳过
-                    if (r.Title.Trim().ToLower().StartsWith(check_Str))
-                        return false;//不用删除，通过
+            //删除标题看起来不匹配的(超过1/3内容不对就出局),严格模式就要全匹配(防止 https://puu.sh/D0FCB/53ac51f034.png )
+            float threhold_length = Setting.StrictMatch?0:check_Str.Length*(1.0f/3);
 
-                    var distance = _GetEditDistance(r);
-                    return distance>threhold_length;
-                }
-                );
+            search_result.RemoveAll((r) =>
+            {
+                //XXXXX和XXXXX(Full version)这种情况可以跳过
+                if (r.Title.Trim().ToLower().StartsWith(check_Str))
+                    return false;//不用删除，通过
+
+                var distance = _GetEditDistance(r);
+                return distance>threhold_length;
             }
+            );
 
             //search_result.Sort((a, b) => Math.Abs(a.Duration - time) - Math.Abs(b.Duration - time));
             search_result.Sort((a, b) => _GetEditDistance(a)-_GetEditDistance(b));
