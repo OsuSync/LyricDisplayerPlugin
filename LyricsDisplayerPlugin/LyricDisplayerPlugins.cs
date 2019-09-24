@@ -17,11 +17,12 @@ using Sync;
 using Sync.Plugins;
 using Sync.Tools;
 using Sync.Tools.ConfigurationAttribute;
+using Utils = LyricsFinder.Utils;
 
 namespace LyricDisplayerPlugin
 {
     [SyncRequirePlugin(typeof(OsuRTDataProviderPlugin))]
-    [SyncPluginID("90e149dd-4184-4895-87e1-3691daff7890","0.9.5")]
+    [SyncPluginID("90e149dd-4184-4895-87e1-3691daff7890","0.9.7")]
     public class LyricDisplayerPlugins : Plugin,IConfigurable
     {
         [List]
@@ -379,7 +380,7 @@ namespace LyricDisplayerPlugin
 
         private Task<Lyrics> GetLyricAsync()
         {
-            if (string.IsNullOrWhiteSpace(current_beatmap.FilenameFull) || !File.Exists(current_beatmap.FilenameFull))
+            if (current_beatmap==null || string.IsNullOrWhiteSpace(current_beatmap.FilenameFull) || !File.Exists(current_beatmap.FilenameFull))
                 return null;
 
             //获取基本数据

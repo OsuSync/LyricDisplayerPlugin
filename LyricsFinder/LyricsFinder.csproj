@@ -1,9 +1,9 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
     <LangVersion>7.1</LangVersion>
-    <Version>0.9.5</Version>
+    <Version>0.9.7</Version>
     <GeneratePackageOnBuild>false</GeneratePackageOnBuild>
     <Authors>OsuSync</Authors>
     <Company>OsuSync</Company>
